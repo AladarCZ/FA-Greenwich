@@ -38,6 +38,9 @@
 		"clothescategoryByType": {
 			"*": "armorbody",
 		},
+		"footStepSoundByType": {
+			"fa-greenwich-body-*": "game:wearable/plate*",
+		},
 		"defaultProtLoss": {
 			perTierRelativeProtectionLoss: [0.03, 0.15],
 			perTierFlatDamageReductionLoss: [0.1, 0.2],

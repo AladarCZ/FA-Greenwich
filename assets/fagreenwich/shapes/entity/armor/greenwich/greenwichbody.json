@@ -8,6 +8,8 @@
 	"textureWidth": 64,
 	"textureHeight": 64,
 	"textureSizes": {
+		"textile": [64,64],
+		"greenwichbody": [64,64]
 	},
 	"textures": {
 	},
