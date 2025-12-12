@@ -1,0 +1,106 @@
+{
+	"code": "fa-greenwich-head",
+	"class": "ItemWearable",
+	"heldTpIdleAnimation": "holdunderarm",
+	"variantgroups": [
+		{ "code": "style",  "states": ["armet"]},
+		{ "code": "metalhead",  "states": ["iron", "meteoriciron", "steel"]},
+		{ "code": "plume",  "states": ["red","green","black","blue","brown","white","purple","pink","orange","yellow","gray","plain","none"]},
+	],
+	"allowedVariants": [
+		"*"
+	],
+	"shapeByType": 
+	{
+		"fa-greenwich-head-armet-*": { "base": "entity/armor/greenwich/greenwicharmethead" }
+	},
+	"texturesByType": {
+		"fa-greenwich-head-armet-*": { 
+			"seraph": { "base": "game:block/transparent" },
+			"greenwichhead": { "base": "armor/entity/greenwich_{metalhead}" },
+			"plume": { "base": "block/plume/plume{plume}" }
+				}
+	},
+	"storageFlags": 128,
+	"maxstacksize": 4,
+	"attributes": {
+		"visibleDamageEffect": true,
+		"wearableAttachment": true,
+		"clothescategoryByType": {
+			"*": "armorhead",
+		},
+		"disableElementsByType": {
+			"*": ["hidehat", "Hood", "hoodupperover", "Hair tile upper part", "ponytailhigh", "ponytaillow", "Hair", "hair-uncovered", "hidefacialhair", "sidehigh", "sidelow", "bangs"]
+		},
+		"defaultProtLoss": {
+			perTierRelativeProtectionLoss: [0.03, 0.15],
+			perTierFlatDamageReductionLoss: [0.1, 0.2],
+		},
+		"protectionModifiersByType": {
+			"*-steel-*": {
+				relativeProtection: 0.98,
+				flatDamageReduction: 1.95,
+				highDamageTierResistant: true,
+				protectionTier: 4
+			},
+			"*-meteoriciron-*": {
+				relativeProtection: 0.97,
+				flatDamageReduction: 1.77,
+				highDamageTierResistant: true,
+				protectionTier: 3
+			},
+			"*-iron-*": {
+				relativeProtection: 0.965,
+				flatDamageReduction: 1.75,
+				highDamageTierResistant: true,
+				protectionTier: 3
+			},
+		},
+		"statModifiersByType": {
+			"*": {
+				rangedWeaponsAcc: -0.15,
+				rangedWeaponsSpeed: -0.25,
+				walkSpeed: -0.12,
+				healingeffectivness: -0.3334,
+				hungerrate: 0.24
+			}
+		}
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"], "forgottenarmorygreenwich": ["*"] },
+	"renderAlphaTest": 0.25,
+	"durabilityByType": {
+		"*": 6000,
+	},
+	"fpHandTransformByType": {
+		"*": {
+			translation: { x: 0.4, y: -1.9, z: -0.5 },
+			rotation: { x: 163, y: -111, z: -180 },
+			origin: { x: 0.5, y: 1.7, z: 0.5 },
+			scale: 2.15
+		},
+	},
+	"tpHandTransformByType": {
+		"*": {
+			translation: { x: -0.82, y: -2.2, z: -0.5 },
+			rotation: { x: 18, y: 169, z: 30 },
+			origin: { x: 0.5, y: 1.7, z: 0.5 },
+			scale: 0.64
+		}
+	},
+	"guiTransformByType": {
+		"*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -26, y: -46, z: -180 },
+			origin: { x: 0.6, y: 1.72, z: 0.5 },
+			scale: 2
+		},
+	},
+	"groundTransformByType": {
+		"*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.34, y: 1.71, z: 0.5 },
+			scale: 3.1
+		},
+	},
+}
