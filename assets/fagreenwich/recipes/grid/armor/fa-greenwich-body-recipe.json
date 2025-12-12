@@ -19,7 +19,7 @@
 					"white"
 				], quantity: 2
 			},
-			"B": { type: "item", code: "fa-greenwich-schematic"
+			"B": { type: "item", code: "fa-greenwich-schematic", returnedStack: { "type": "item", "code": "fa-greenwich-schematic" }
 			},
 			"D": { type: "item", code: "game:metalplate-blackbronze", quantity: 6
 			},
@@ -58,7 +58,7 @@
 					"white"
 				], quantity: 2
 			},
-			"B": { type: "item", code: "fa-greenwich-schematic"
+			"B": { type: "item", code: "fa-greenwich-schematic", returnedStack: { "type": "item", "code": "fa-greenwich-schematic" }
 			},
 			"D": { type: "item", code: "game:metalplate-silver", quantity: 6
 			},
@@ -97,7 +97,7 @@
 					"white"
 				], quantity: 2
 			},
-			"B": { type: "item", code: "fa-greenwich-schematic"
+			"B": { type: "item", code: "fa-greenwich-schematic", returnedStack: { "type": "item", "code": "fa-greenwich-schematic" }
 			},
 			"D": { type: "item", code: "game:metalplate-zinc", quantity: 6
 			},

@@ -9,7 +9,7 @@
 			},
 			"C": { type: "item", code: "game:metalplate-blackbronze", quantity: 2
 			},
-			"D": { type: "item", code: "fa-greenwich-schematic"
+			"D": { type: "item", code: "fa-greenwich-schematic", returnedStack: { "type": "item", "code": "fa-greenwich-schematic" }
 			},
 			"E": { type: "item", code: "game:metalnailsandstrips-gold", quantity: 2
 			},
@@ -34,7 +34,7 @@
 			},
 			"C": { type: "item", code: "game:metalplate-silver", quantity: 2
 			},
-			"D": { type: "item", code: "fa-greenwich-schematic"
+			"D": { type: "item", code: "fa-greenwich-schematic", returnedStack: { "type": "item", "code": "fa-greenwich-schematic" }
 			},
 			"E": { type: "item", code: "game:metalnailsandstrips-cupronickel", quantity: 2
 			},
@@ -59,7 +59,7 @@
 			},
 			"C": { type: "item", code: "game:metalplate-zinc", quantity: 2
 			},
-			"D": { type: "item", code: "fa-greenwich-schematic"
+			"D": { type: "item", code: "fa-greenwich-schematic", returnedStack: { "type": "item", "code": "fa-greenwich-schematic" }
 			},
 			"E": { type: "item", code: "game:metalnailsandstrips-blackbronze", quantity: 2
 			},
