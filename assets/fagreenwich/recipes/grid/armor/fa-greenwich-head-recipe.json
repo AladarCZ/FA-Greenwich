@@ -26,6 +26,29 @@
 		ingredientPattern: "B_B,DED,GHI",
 		recipeGroup: 1,
 		ingredients: {
+			"B": { type: "item", code: "game:metalnailsandstrips-gold", quantity: 2
+			},
+			"D": { type: "item", code: "game:metalplate-steel"
+			},
+			"E": { type: "item", code: "game:armor-head-plate-steel"
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"H": { type: "item", code: "fa-greenwich-schematic", returnedStack: { "type": "item", "code": "fa-greenwich-schematic" }
+			},
+			"I": { type: "item", code: "game:leather-sturdy-plain", quantity: 4
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "greenwich steel plate armet",
+		output: { type: "item", code: "fa-greenwich-head-armet-steelplain-none"
+		}
+	},
+	{
+		ingredientPattern: "B_B,DED,GHI",
+		recipeGroup: 1,
+		ingredients: {
 			"B": { type: "item", code: "game:metalnailsandstrips-cupronickel", quantity: 2
 			},
 			"D": { type: "item", code: "game:metalplate-silver"
@@ -68,9 +91,6 @@
 		output: { type: "item", code: "fa-greenwich-head-armet-iron-none"
 		}
 	},
-
-
-
 	{
 		ingredientPattern: "AAA,CEC,_G_",
 		recipeGroup: 1,
@@ -95,42 +115,15 @@
 			},
 			"C": { type: "item", code: "game:feather", quantity: 9
 			},
-			"E": { type: "item", code: "fa-greenwich-head-armet-steel-none"
-			},
-			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
-			},
-		},
-		width: 3,
-		height: 3,
-		name: "greenwich steel plate armet",
-		output: { type: "item", code: "fa-greenwich-head-armet-steel-{color}"
-		}
-	},
-	{
-		ingredientPattern: "AAA,CEC,_G_",
-		recipeGroup: 1,
-		ingredients: {
-			"A": { type: "item", 
-					code: "game:cloth-*", 
-					name: "color", 
+			"E": { type: "item", 
+					code: "fa-greenwich-head-armet-*-none",
+					name: "metal", 
 					allowedVariants: [
-					"plain",
-					"blue",
-					"red",
-					"yellow",
-					"green",
-					"purple",
-					"pink",
-					"orange",
-					"brown",
-					"gray",
-					"black",
-					"white"
-				], quantity: 2
-			},
-			"C": { type: "item", code: "game:feather", quantity: 9
-			},
-			"E": { type: "item", code: "fa-greenwich-head-armet-meteoriciron-none"
+					"iron",
+					"meteoriciron",
+					"steel",
+					"steelplain"
+				]
 			},
 			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
 			},
@@ -138,80 +131,7 @@
 		width: 3,
 		height: 3,
 		name: "greenwich steel plate armet",
-		output: { type: "item", code: "fa-greenwich-head-armet-meteoriciron-{color}"
-		}
-	},
-	{
-		ingredientPattern: "AAA,CEC,_G_",
-		recipeGroup: 1,
-		ingredients: {
-			"A": { type: "item", 
-					code: "game:cloth-*", 
-					name: "color", 
-					allowedVariants: [
-					"plain",
-					"blue",
-					"red",
-					"yellow",
-					"green",
-					"purple",
-					"pink",
-					"orange",
-					"brown",
-					"gray",
-					"black",
-					"white"
-				], quantity: 2
-			},
-			"C": { type: "item", code: "game:feather", quantity: 9
-			},
-			"E": { type: "item", code: "fa-greenwich-head-armet-iron-none"
-			},
-			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
-			},
-		},
-		width: 3,
-		height: 3,
-		name: "greenwich steel plate armet",
-		output: { type: "item", code: "fa-greenwich-head-armet-iron-{color}"
-		}
-	},
-
-
-
-	{
-		ingredientPattern: "ACA,AEA,CGC",
-		recipeGroup: 1,
-		ingredients: {
-			"A": { type: "item", 
-					code: "game:cloth-*", 
-					name: "color", 
-					allowedVariants: [
-					"plain",
-					"blue",
-					"red",
-					"yellow",
-					"green",
-					"purple",
-					"pink",
-					"orange",
-					"brown",
-					"gray",
-					"black",
-					"white"
-				], quantity: 2
-			},
-			"C": { type: "item", code: "game:feather", quantity: 6
-			},
-			"E": { type: "item", code: "fa-greenwich-head-armet-steel-none"
-			},
-			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
-			},
-		},
-		width: 3,
-		height: 3,
-		name: "greenwich steel plate armet",
-		output: { type: "item", code: "fa-greenwich-head-armetwing-steel-{color}"
+		output: { type: "item", code: "fa-greenwich-head-armet-{metal}-{color}"
 		}
 	},
 	{
@@ -238,91 +158,23 @@
 			},
 			"C": { type: "item", code: "game:feather", quantity: 6
 			},
-			"E": { type: "item", code: "fa-greenwich-head-armet-meteoriciron-none"
-			},
-			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
-			},
-		},
-		width: 3,
-		height: 3,
-		name: "greenwich steel plate armet",
-		output: { type: "item", code: "fa-greenwich-head-armetwing-meteoriciron-{color}"
-		}
-	},
-	{
-		ingredientPattern: "ACA,AEA,CGC",
-		recipeGroup: 1,
-		ingredients: {
-			"A": { type: "item", 
-					code: "game:cloth-*", 
-					name: "color", 
+			"E": { type: "item", 
+					code: "fa-greenwich-head-armet-*-none",
+					name: "metal", 
 					allowedVariants: [
-					"plain",
-					"blue",
-					"red",
-					"yellow",
-					"green",
-					"purple",
-					"pink",
-					"orange",
-					"brown",
-					"gray",
-					"black",
-					"white"
-				], quantity: 2
-			},
-			"C": { type: "item", code: "game:feather", quantity: 6
-			},
-			"E": { type: "item", code: "fa-greenwich-head-armet-iron-none"
+					"iron",
+					"meteoriciron",
+					"steel",
+					"steelplain"
+				]
 			},
 			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
-			},
+			}
 		},
 		width: 3,
 		height: 3,
 		name: "greenwich steel plate armet",
-		output: { type: "item", code: "fa-greenwich-head-armetwing-iron-{color}"
-		}
-	},
-
-
-
-
-
-
-		{
-		ingredientPattern: "_A_,_C_,GE_",
-		recipeGroup: 1,
-		ingredients: {
-			"A": { type: "item", 
-					code: "game:cloth-*", 
-					name: "color", 
-					allowedVariants: [
-					"plain",
-					"blue",
-					"red",
-					"yellow",
-					"green",
-					"purple",
-					"pink",
-					"orange",
-					"brown",
-					"gray",
-					"black",
-					"white"
-				], quantity: 6
-			},
-			"C": { type: "item", code: "game:feather", quantity: 6
-			},
-			"E": { type: "item", code: "fa-greenwich-head-armet-steel-none"
-			},
-			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
-			},
-		},
-		width: 3,
-		height: 3,
-		name: "greenwich steel plate armet",
-		output: { type: "item", code: "fa-greenwich-head-armetcrista-steel-{color}"
+		output: { type: "item", code: "fa-greenwich-head-armetwing-{metal}-{color}"
 		}
 	},
 	{
@@ -349,50 +201,23 @@
 			},
 			"C": { type: "item", code: "game:feather", quantity: 6
 			},
-			"E": { type: "item", code: "fa-greenwich-head-armet-meteoriciron-none"
-			},
-			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
-			},
-		},
-		width: 3,
-		height: 3,
-		name: "greenwich steel plate armet",
-		output: { type: "item", code: "fa-greenwich-head-armetcrista-meteoriciron-{color}"
-		}
-	},
-	{
-		ingredientPattern: "_A_,_C_,GE_",
-		recipeGroup: 1,
-		ingredients: {
-			"A": { type: "item", 
-					code: "game:cloth-*", 
-					name: "color", 
+			"E": { type: "item", 
+					code: "fa-greenwich-head-armet-*-none",
+					name: "metal", 
 					allowedVariants: [
-					"plain",
-					"blue",
-					"red",
-					"yellow",
-					"green",
-					"purple",
-					"pink",
-					"orange",
-					"brown",
-					"gray",
-					"black",
-					"white"
-				], quantity: 6
-			},
-			"C": { type: "item", code: "game:feather", quantity: 6
-			},
-			"E": { type: "item", code: "fa-greenwich-head-armet-iron-none"
+					"iron",
+					"meteoriciron",
+					"steel",
+					"steelplain"
+				]
 			},
 			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
-			},
+			}
 		},
 		width: 3,
 		height: 3,
 		name: "greenwich steel plate armet",
-		output: { type: "item", code: "fa-greenwich-head-armetcrista-iron-{color}"
+		output: { type: "item", code: "fa-greenwich-head-armetcrista-{metal}-{color}"
 		}
 	},
 	{
@@ -412,6 +237,25 @@
 		height: 2,
 		name: "greenwich steel plate armet deplume",
 		output: { type: "item", code: "fa-greenwich-head-armet-steel-none"
+		}
+	},
+	{
+		ingredientPattern: "BCD,_A_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-greenwich-head-armet*-steelplain-*"
+			},
+			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100
+			},
+			"C": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 100
+			},
+			"D": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 2,
+		name: "greenwich steel plate armet deplume",
+		output: { type: "item", code: "fa-greenwich-head-armet-steelplain-none"
 		}
 	},
 	{
@@ -452,4 +296,38 @@
 		output: { type: "item", code: "fa-greenwich-head-armet-iron-none"
 		}
 	},
+	{
+		ingredientPattern: "AE,BG",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", 
+					code: "game:armor-head-hide-bear-*",
+					name: "bear",
+					allowedVariants: [
+					"black",
+					"brown",
+					"polar"
+				]
+			},
+			"E": { type: "item", 
+					code: "fa-greenwich-head-armet-*-none",
+					name: "metal",
+					allowedVariants: [
+					"iron",
+					"meteoriciron",
+					"steel",
+					"steelplain"
+				]
+			},
+			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+			"B": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			}
+		},
+		width: 2,
+		height: 2,
+		name: "gothi plate sallet",
+		output: { type: "item", code: "fa-greenwich-head-armet-{metal}-bear-{bear}"
+		}
+	}
 ]

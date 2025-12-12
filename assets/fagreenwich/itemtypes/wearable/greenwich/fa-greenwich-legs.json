@@ -3,56 +3,77 @@
 	"class": "ItemWearable",
 	"heldTpIdleAnimation": "holdunderarm",
 	"variantgroups": [
-		{ "code": "metallegs",  "states": ["iron", "meteoriciron", "steel"]},
-		{ "code": "line",  "states": ["red","green","black","blue","brown","white","purple","pink","orange","yellow","gray","plain"]},
+		{ "code": "metallegs",  "states": ["iron", "meteoriciron", "steel", "steelplain"]},
+		{ "code": "line",  "states": ["red","green","black","blue","brown","white","purple","pink","orange","yellow","gray","plain","none","bear-black","bear-brown","bear-polar"]}
 	],
 	"allowedVariants": [
-		"fa-greenwich-legs-*-plain"
+		"*"
 	],
 	"shapeByType": 
 	{
+		"fa-greenwich-legs-*bear*": { "base": "entity/armor/greenwich/greenwichbearlegs" },
 		"fa-greenwich-legs-*": { "base": "entity/armor/greenwich/greenwichlegs" }
 	},
 	"texturesByType": {
+		"fa-greenwich-legs-*bear*": { 
+			"seraph": { "base": "game:block/transparent" },
+			"greenwichlegs": { "base": "armor/entity/greenwich_{metallegs}" },
+			"line": { "base": "game:entity/humanoid/serapharmor/hide/bear/{line}" }
+				},
 		"fa-greenwich-legs-*": { 
 			"seraph": { "base": "game:block/transparent" },
 			"greenwichlegs": { "base": "armor/entity/greenwich_{metallegs}" },
-			"line": { "base": "game:block/cloth/linen/{line}" }
+			"line": { "base": "block/lines/line{line}" }
 				}
 	},
 	"storageFlags": 128,
 	"maxstacksize": 4,
 	"attributes": {
+		"handbook": { 
+			"groupBy":["fa-greenwich-legs-{metallegs}-*"]
+		},
 		"visibleDamageEffect": true,
 		"wearableAttachment": true,
 		"clothescategoryByType": {
-			"*": "armorlegs",
+			"*": "armorlegs"
+		},
+		"warmthByType": {
+			"*-bear-black": 1,
+			"*-bear-brown": 1,
+			"*-bear-polar": 1.5
 		},
 		"defaultProtLoss": {
 			perTierRelativeProtectionLoss: [0.03, 0.15],
 			perTierFlatDamageReductionLoss: [0.1, 0.2],
 		},
 		"protectionModifiersByType": {
-			"*-steel-*": {
+			"*-steel*-*": {
 				relativeProtection: 0.98,
-				flatDamageReduction: 1.95,
+				flatDamageReduction: 3.5,
 				highDamageTierResistant: true,
 				protectionTier: 4
 			},
 			"*-meteoriciron-*": {
 				relativeProtection: 0.97,
-				flatDamageReduction: 1.77,
+				flatDamageReduction: 2.8,
 				highDamageTierResistant: true,
 				protectionTier: 3
 			},
 			"*-iron-*": {
 				relativeProtection: 0.965,
-				flatDamageReduction: 1.75,
+				flatDamageReduction: 2.7,
 				highDamageTierResistant: true,
 				protectionTier: 3
-			},
+			}
 		},
 		"statModifiersByType": {
+			"*bear*": {
+				rangedWeaponsAcc: -0.15,
+				rangedWeaponsSpeed: -0.25,
+				walkSpeed: -0.14,
+				healingeffectivness: -0.3334,
+				hungerrate: 0.24
+			},
 			"*": {
 				rangedWeaponsAcc: -0.15,
 				rangedWeaponsSpeed: -0.25,
@@ -65,9 +86,9 @@
 	"creativeinventory": { "general": ["*"], "items": ["*"], "forgottenarmorygreenwich": ["*"] },
 	"renderAlphaTest": 0.25,
 	"durabilityByType": {
-		"*-iron-*": 2700,
-		"*-meteoriciron-*": 3300,
-		"*-steel-*": 6000,
+		"*-iron-*": 3700,
+		"*-meteoriciron-*": 4300,
+		"*-steel-*": 7000
 	},
 	"fpHandTransformByType": {
 		"*": {

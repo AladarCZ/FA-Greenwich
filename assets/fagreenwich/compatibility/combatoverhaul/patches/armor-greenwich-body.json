@@ -8,38 +8,72 @@
       {
         "name": "CombatOverhaul:Armor",
         "propertiesByType": {
-          "fa-greenwich-body-steel-*": {
+          "fa-greenwich-body-steel*-*bear*": {
             "Layers": ["Outer"],
             "Zones": ["Torso", "Arms", "Hands"],
             "Resists": {
-              "PiercingAttack": 8,
+              "PiercingAttack": 10,
               "SlashingAttack": 8,
+              "BluntAttack": 8
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.06,
+              "manipulationSpeed": -0.25,
+              "steadyAim": -0.35,
+              "healingeffectivness": -0.09,
+              "hungerrate": 0.12
+            }
+          },
+          "fa-greenwich-body-steel*-*": {
+            "Layers": ["Outer"],
+            "Zones": ["Torso", "Arms", "Hands"],
+            "Resists": {
+              "PiercingAttack": 10,
+              "SlashingAttack": 8,
+              "BluntAttack": 8
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.04,
+              "manipulationSpeed": -0.25,
+              "steadyAim": -0.35,
+              "healingeffectivness": -0.09,
+              "hungerrate": 0.12
+            }
+          },
+          "fa-greenwich-body-*iron-*bear*": {
+            "Layers": ["Outer"],
+            "Zones": ["Torso", "Arms", "Hands"],
+            "Resists": {
+              "PiercingAttack": 9,
+              "SlashingAttack": 7,
               "BluntAttack": 7
             },
             "FlatReduction": {},
             "PlayerStats": {
-              "walkspeed": -0.02,
-              "manipulationSpeed": -0.18,
-              "steadyAim": -0.23,
+              "walkspeed": -0.06,
+              "manipulationSpeed": -0.25,
+              "steadyAim": -0.35,
               "healingeffectivness": -0.09,
-              "hungerrate": 0.15
+              "hungerrate": 0.12
             }
           },
           "fa-greenwich-body-*iron-*": {
             "Layers": ["Outer"],
             "Zones": ["Torso", "Arms", "Hands"],
             "Resists": {
-              "PiercingAttack": 7,
+              "PiercingAttack": 9,
               "SlashingAttack": 7,
-              "BluntAttack": 6
+              "BluntAttack": 7
             },
             "FlatReduction": {},
             "PlayerStats": {
-              "walkspeed": -0.02,
-              "manipulationSpeed": -0.18,
-              "steadyAim": -0.23,
+              "walkspeed": -0.04,
+              "manipulationSpeed": -0.25,
+              "steadyAim": -0.35,
               "healingeffectivness": -0.09,
-              "hungerrate": 0.15
+              "hungerrate": 0.12
             }
           }
         }
@@ -52,7 +86,7 @@
     "path": "/durabilityByType",
     "dependsOn": [{ "modId": "combatoverhaul" }],
     "value": {
-        "fa-greenwich-body-steel-*": 35000,
+        "fa-greenwich-body-steel*-*": 35000,
         "fa-greenwich-body-meteoriciron-*": 18000,
         "fa-greenwich-body-iron-*": 15000
     }

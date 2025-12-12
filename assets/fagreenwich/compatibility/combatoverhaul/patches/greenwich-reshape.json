@@ -4,7 +4,8 @@
 		"op": "replace",
 		"path": "/shapeByType",
 		"value": {
-		"*": { "base": "fagreenwich:entity/armor/greenwich_co/greenwichbody_co" },
+		"*bear*": { "base": "entity/armor/greenwich_co/greenwichbearbody_co" },
+		"*": { "base": "entity/armor/greenwich_co/greenwichbody_co" }
 				}
 	},
 	{
@@ -12,7 +13,8 @@
 		"op": "replace",
 		"path": "/shapeByType",
 		"value": {
-		"*": { "base": "fagreenwich:entity/armor/greenwich_co/greenwichlegs_co" },
+		"fa-greenwich-legs-*bear*": { "base": "entity/armor/greenwich_co/greenwichbearlegs_co" },
+		"fa-greenwich-legs-*": { "base": "entity/armor/greenwich_co/greenwichlegs_co" }
 				}
 	}
 ]

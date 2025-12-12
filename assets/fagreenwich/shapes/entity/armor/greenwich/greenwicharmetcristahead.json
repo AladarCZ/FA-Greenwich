@@ -1,7 +1,7 @@
 {
 	"editor": {
 		"backDropShape": "D:/Hry/Vintagestory121/assets/game/shapes/entity/humanoid/seraph-hairless",
-		"collapsedPaths": "Root/SideDecorationCrown/CrownFront,Root/ArmorHelmet/PlumeP3/Plume22,Root/ArmorHelmet/SideDecorationCrown/CrownBack,Root/ArmorHelmet/TopDecorationLion/leg2/legdown2,Root/ArmorHelmet/TopDecorationLion/hand2,Root/ArmorHelmet/TopDecorationLion/hand1,Root/ArmorHelmet/SideDecorationCrown/CrownRight,Root/SideDecorationCrown,Root/ArmorHelmet/Plume/Plume12,Root/ArmorHelmet/ArmorNose,Root/ArmorHelmet/TopDecorationLion/hand1/forearm1,Root/ArmorHelmet/lining,Root/TopDecorationLion/hand1,Root/ArmorHelmet/TopDecorationLion/Tail,Root/ArmorHelmet/SideDecorationCrown/CrownLeft,Root/ArmorHelmet/HeadDecCrownBase,Root/TopDecorationLion/hand2,Root/TopDecorationLion/Head,Root/ArmorHelmet/Plume/Plume4,Root/ArmorHelmet/Plume/Plume3,Root/ArmorHelmet/HeadDecCrownBase/CrownBack,Root/ArmorHelmet/TopDecorationLion/leg2,Root/ArmorHelmet/TopDecorationLion/leg1,Root/ArmorHelmet/Plume/Plume21,Root/TopDecorationLion/leg2,Root/ArmorHelmet/TopDecorationLion/hand2/forearm2,Root/ArmorHelmet/TopDecorationLion/Head,Root/ArmorHelmet/SideDecorationCrown/CrownFront,Root/ArmorHelmet/PlumeP2,Root/ArmorHelmet/TopDecorationLion/Bottomtop,Root/ArmorHelmet/Plume/Plume3/Plume4,Root/TopDecorationLion,Root/ArmorHelmet/TopDecorationLion/Head/Nose,Root/ArmorHelmet/HeadDecCrownBase/CrownFront3,Root/SideDecorationCrown/CrownRight,Root/ArmorHelmet/Plume/Plume21/Plume22,Root/ArmorHelmet/HeadDecCrownBase/CrownFront4,Root/ArmorHelmet/PlumeP1/Plume4,Root/ArmorHelmet/TopDecorationLion/leg1/legdown1,Root/ArmorHelmet/HeadDecCrownBase/CrownLeft,Root/ArmorHelmet/HeadDecCrownBase/CrownFront2,Root/ArmorHelmet/Fin,Root/ArmorHelmet/Hinge1,Root/ArmorHelmet/HeadDecCrownBase/CrownFront,Root/ArmorHelmet/Hinge4,Root/SideDecorationCrown/CrownLeft,Root/ArmorHelmet/HeadDecCrownBase/CrownRight,Root/ArmorHelmet/HeadDecCrownBase/CrownRight2,Root/ArmorHelmet/PlumeBase,Root/SideDecorationCrown/CrownFront4,Root/SideDecorationCrown/CrownFront3,Root/SideDecorationCrown/CrownFront2",
+		"collapsedPaths": "Root/SideDecorationCrown/CrownFront,Root/ArmorHelmet/PlumeP3/Plume22,Root/ArmorHelmet/SideDecorationCrown/CrownBack,Root/ArmorHelmet/TopDecorationLion/leg2/legdown2,Root/ArmorHelmet/TopDecorationLion/hand2,Root/ArmorHelmet/TopDecorationLion/hand1,Root/ArmorHelmet/SideDecorationCrown/CrownRight,Root/SideDecorationCrown,Root/ArmorHelmet/Plume/Plume12,Root/ArmorHelmet/ArmorNose,Root/ArmorHelmet/TopDecorationLion/hand1/forearm1,Root/ArmorHelmet/lining,Root/TopDecorationLion/hand1,Root/ArmorHelmet/TopDecorationLion/Tail,Root/ArmorHelmet/SideDecorationCrown/CrownLeft,Root/ArmorHelmet/HeadDecCrownBase,Root/TopDecorationLion/hand2,Root/TopDecorationLion/Head,Root/ArmorHelmet/Plume/Plume4,Root/ArmorHelmet/Plume/Plume3,Root/ArmorHelmet/HeadDecCrownBase/CrownBack,Root/ArmorHelmet/TopDecorationLion/leg2,Root/ArmorHelmet/TopDecorationLion/leg1,Root/ArmorHelmet/Plume/Plume21,Root/TopDecorationLion/leg2,Root/ArmorHelmet/TopDecorationLion/hand2/forearm2,Root/ArmorHelmet/TopDecorationLion/Head,Root/ArmorHelmet/SideDecorationCrown/CrownFront,Root/ArmorHelmet/PlumeP2,Root/ArmorHelmet/TopDecorationLion/Bottomtop,Root/ArmorHelmet/Plume/Plume3/Plume4,Root/TopDecorationLion,Root/ArmorHelmet/TopDecorationLion/Head/Nose,Root/ArmorHelmet/HeadDecCrownBase/CrownFront3,Root/SideDecorationCrown/CrownRight,Root/ArmorHelmet/Plume/Plume21/Plume22,Root/ArmorHelmet/HeadDecCrownBase/CrownFront4,Root/ArmorHelmet/PlumeP1/Plume4,Root/ArmorHelmet/TopDecorationLion/leg1/legdown1,Root/ArmorHelmet/HeadDecCrownBase/CrownLeft,Root/ArmorHelmet/HeadDecCrownBase/CrownFront2,Root/ArmorHelmet/Fin,Root/ArmorHelmet/Hinge1,Root/ArmorHelmet/HeadDecCrownBase/CrownFront,Root/ArmorHelmet/Hinge4,Root/SideDecorationCrown/CrownLeft,Root/ArmorHelmet/HeadDecCrownBase/CrownRight,Root/ArmorHelmet/HeadDecCrownBase/CrownRight2,Root/SideDecorationCrown/CrownFront4,Root/SideDecorationCrown/CrownFront3,Root/SideDecorationCrown/CrownFront2",
 		"allAngles": true,
 		"entityTextureMode": true
 	},
@@ -71,7 +71,7 @@
 					"rotationY": 23.5,
 					"rotationZ": -45.0,
 					"faces": {
-						"north": { "texture": "#greenwichhead", "uv": [ 41.5, 27.5, 45.5, 31.5 ] },
+						"north": { "texture": "#greenwichhead", "uv": [ 42.5, 27.5, 46.5, 31.5 ] },
 						"south": { "texture": "#greenwichhead", "uv": [ 34.0, 27.5, 38.0, 31.5 ] },
 						"west": { "texture": "#greenwichhead", "uv": [ 43.0, 30.0, 47.0, 33.0 ], "rotation": 270 },
 						"down": { "texture": "#greenwichhead", "uv": [ 39.0, 30.0, 43.0, 33.0 ] }
@@ -104,7 +104,7 @@
 							"rotationY": -9.09,
 							"rotationZ": 90.78,
 							"faces": {
-								"north": { "texture": "#greenwichhead", "uv": [ 43.0, 27.0, 46.0, 30.0 ] },
+								"north": { "texture": "#greenwichhead", "uv": [ 43.0, 30.0, 46.0, 33.0 ] },
 								"west": { "texture": "#greenwichhead", "uv": [ 39.5, 28.5, 43.0, 30.0 ], "rotation": 270, "autoUv": false },
 								"up": { "texture": "#greenwichhead", "uv": [ 43.0, 28.5, 46.5, 30.0 ], "autoUv": false }
 							}
@@ -336,12 +336,11 @@
 				},
 				{
 					"name": "PlumeBase",
-					"from": [ 2.5, 6.4, 2.9 ],
+					"from": [ 2.5, 6.4, 2.8 ],
 					"to": [ 3.5, 7.4, 3.4 ],
 					"autoUnwrap": false,
 					"uv": [ 19.0, 7.0 ],
-					"rotationOrigin": [ 2.5035, 6.3999, 2.9 ],
-					"rotationZ": 0.0,
+					"rotationOrigin": [ 2.5035, 6.3999, 2.8 ],
 					"faces": {
 						"north": { "texture": "#plume", "uv": [ 0.0, 8.0, 1.0, 9.0 ] },
 						"east": { "texture": "#plume", "uv": [ 0.5, 9.0, 1.0, 10.0 ] },
@@ -354,7 +353,7 @@
 						{
 							"name": "PlumeSubBase1",
 							"from": [ 0.0, 1.0, -0.1 ],
-							"to": [ 2.0, 1.5, 0.6 ],
+							"to": [ 2.0, 1.5, 0.7 ],
 							"autoUnwrap": false,
 							"uv": [ 19.0, 7.5 ],
 							"rotationOrigin": [ 0.0, 1.0, -0.1 ],
@@ -853,20 +852,5 @@
 					]
 				}
 			]
-		},
-		{
-			"name": "ArmorNeck",
-			"stepParentName": "Neck",
-			"from": [ -0.3, 0.6, -0.3 ],
-			"to": [ 3.3, 2.4, 3.3 ],
-			"unwrapMode": 4,
-			"uv": [ 12.0, 5.5 ],
-			"rotationOrigin": [ -0.3, 2.6, -0.3 ],
-			"faces": {
-				"north": { "texture": "#greenwichhead", "uv": [ 12.0, 5.5, 15.5, 7.0 ] },
-				"east": { "texture": "#greenwichhead", "uv": [ 22.5, 5.5, 26.0, 7.0 ] },
-				"south": { "texture": "#greenwichhead", "uv": [ 19.0, 5.5, 22.5, 7.0 ] },
-				"west": { "texture": "#greenwichhead", "uv": [ 15.5, 5.5, 19.0, 7.0 ] }
-			}
 		}
 	]}
