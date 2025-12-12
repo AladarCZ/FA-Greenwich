@@ -8,9 +8,10 @@
 	"textureWidth": 64,
 	"textureHeight": 64,
 	"textureSizes": {
-		"plume": [64,64]
 	},
 	"textures": {
+			"greenwichhead": "armor/entity/greenwich_steel",
+			"plume": "block/plume/plumered" 
 	},
 	"elements": [
 		{

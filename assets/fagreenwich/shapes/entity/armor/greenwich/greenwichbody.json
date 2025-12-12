@@ -12,6 +12,8 @@
 		"greenwichbody": [64,64]
 	},
 	"textures": {
+			"greenwichbody": "armor/entity/greenwich_steel",
+			"textile": "block/textiles/textilered"
 	},
 	"elements": [
 		{

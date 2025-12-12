@@ -9,6 +9,8 @@
 	"textureSizes": {
 	},
 	"textures": {
+			"greenwichlegs": "armor/entity/greenwich_steel",
+			"line": "game:block/cloth/linen/plain"
 	},
 	"elements": [
 		{
