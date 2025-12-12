@@ -54,14 +54,14 @@
 				protectionTier: 4
 			},
 			"*-meteoriciron-*": {
-				relativeProtection: 0.97,
-				flatDamageReduction: 2.8,
+				relativeProtection: 0.975,
+				flatDamageReduction: 3.2,
 				highDamageTierResistant: true,
 				protectionTier: 3
 			},
 			"*-iron-*": {
-				relativeProtection: 0.965,
-				flatDamageReduction: 2.7,
+				relativeProtection: 0.97,
+				flatDamageReduction: 3,
 				highDamageTierResistant: true,
 				protectionTier: 3
 			}
@@ -88,7 +88,7 @@
 	"durabilityByType": {
 		"*-iron-*": 3700,
 		"*-meteoriciron-*": 4300,
-		"*-steel-*": 7000
+		"*-steel*-*": 7000
 	},
 	"fpHandTransformByType": {
 		"*": {
