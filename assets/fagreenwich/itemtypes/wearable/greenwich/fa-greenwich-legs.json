@@ -65,7 +65,9 @@
 	"creativeinventory": { "general": ["*"], "items": ["*"], "forgottenarmorygreenwich": ["*"] },
 	"renderAlphaTest": 0.25,
 	"durabilityByType": {
-		"*": 6000,
+		"*-iron-*": 2700,
+		"*-meteoriciron-*": 3300,
+		"*-steel-*": 6000,
 	},
 	"fpHandTransformByType": {
 		"*": {

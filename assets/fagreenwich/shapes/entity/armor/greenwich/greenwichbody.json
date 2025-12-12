@@ -8,11 +8,8 @@
 	"textureWidth": 64,
 	"textureHeight": 64,
 	"textureSizes": {
-		"textile": [64,64],
-		"greenwichbody": [64,64]
 	},
 	"textures": {
-		"greenwichbody": "D:/Hry/Vintagestory120/Mods/Forgotten Armory_Greenwich v1.2.0 WIP/assets/fagreenwich/textures/armor/entity/greenwichbody"
 	},
 	"elements": [
 		{
