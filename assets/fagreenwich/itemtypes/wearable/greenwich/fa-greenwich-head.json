@@ -3,17 +3,22 @@
 	"class": "ItemWearable",
 	"heldTpIdleAnimation": "holdunderarm",
 	"variantgroups": [
-		{ "code": "style",  "states": ["armet", "armetwing"]},
+		{ "code": "style",  "states": ["armet", "armetwing", "armetcrista"]},
 		{ "code": "metalhead",  "states": ["iron", "meteoriciron", "steel"]},
 		{ "code": "plume",  "states": ["red","green","black","blue","brown","white","purple","pink","orange","yellow","gray","plain","none"]},
 	],
 	"allowedVariants": [
 		"*"
 	],
+	"skipVariants": [
+		"*crista*none",
+		"*wing*none"
+	],
 	"shapeByType": 
 	{
 		"fa-greenwich-head-armet-*": { "base": "entity/armor/greenwich/greenwicharmethead" },
 		"fa-greenwich-head-armetwing-*": { "base": "entity/armor/greenwich/greenwicharmetwinghead" },
+		"fa-greenwich-head-armetcrista-*": { "base": "entity/armor/greenwich/greenwicharmetcristahead" },
 	},
 	"texturesByType": {
 		"fa-greenwich-head-armet*-*": { 
