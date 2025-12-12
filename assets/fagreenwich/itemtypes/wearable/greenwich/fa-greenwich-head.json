@@ -3,7 +3,7 @@
 	"class": "ItemWearable",
 	"heldTpIdleAnimation": "holdunderarm",
 	"variantgroups": [
-		{ "code": "style",  "states": ["armet"]},
+		{ "code": "style",  "states": ["armet", "armetwing"]},
 		{ "code": "metalhead",  "states": ["iron", "meteoriciron", "steel"]},
 		{ "code": "plume",  "states": ["red","green","black","blue","brown","white","purple","pink","orange","yellow","gray","plain","none"]},
 	],
@@ -12,10 +12,11 @@
 	],
 	"shapeByType": 
 	{
-		"fa-greenwich-head-armet-*": { "base": "entity/armor/greenwich/greenwicharmethead" }
+		"fa-greenwich-head-armet-*": { "base": "entity/armor/greenwich/greenwicharmethead" },
+		"fa-greenwich-head-armetwing-*": { "base": "entity/armor/greenwich/greenwicharmetwinghead" },
 	},
 	"texturesByType": {
-		"fa-greenwich-head-armet-*": { 
+		"fa-greenwich-head-armet*-*": { 
 			"seraph": { "base": "game:block/transparent" },
 			"greenwichhead": { "base": "armor/entity/greenwich_{metalhead}" },
 			"plume": { "base": "block/plume/plume{plume}" }

@@ -1,0 +1,77 @@
+[
+	{
+		ingredientPattern: "ABF,CDC,EGE",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "game:cloth-plain", quantity: 4
+			},
+			"B": { type: "item", code: "game:armor-legs-plate-steel"
+			},
+			"C": { type: "item", code: "game:metalplate-blackbronze", quantity: 2
+			},
+			"D": { type: "item", code: "fa-greenwich-schematic"
+			},
+			"E": { type: "item", code: "game:metalnailsandstrips-gold", quantity: 2
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"F": { type: "item", code: "game:leather-sturdy-plain", quantity: 4
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "greenwich steel plate legs",
+		output: { type: "item", code: "fa-greenwich-legs-steel-plain"
+		}
+	},
+	{
+		ingredientPattern: "ABF,CDC,EGE",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "game:cloth-plain", quantity: 4
+			},
+			"B": { type: "item", code: "game:armor-legs-plate-meteoriciron"
+			},
+			"C": { type: "item", code: "game:metalplate-silver", quantity: 2
+			},
+			"D": { type: "item", code: "fa-greenwich-schematic"
+			},
+			"E": { type: "item", code: "game:metalnailsandstrips-cupronickel", quantity: 2
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"F": { type: "item", code: "game:leather-normal-plain", quantity: 4
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "greenwich steel meteoric iron legs",
+		output: { type: "item", code: "fa-greenwich-legs-meteoriciron-plain"
+		}
+	},
+	{
+		ingredientPattern: "ABF,CDC,EGE",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "game:cloth-plain", quantity: 4
+			},
+			"B": { type: "item", code: "game:armor-legs-plate-iron"
+			},
+			"C": { type: "item", code: "game:metalplate-zinc", quantity: 2
+			},
+			"D": { type: "item", code: "fa-greenwich-schematic"
+			},
+			"E": { type: "item", code: "game:metalnailsandstrips-blackbronze", quantity: 2
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"F": { type: "item", code: "game:leather-normal-plain", quantity: 4
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "greenwich iron plate legs",
+		output: { type: "item", code: "fa-greenwich-legs-iron-plain"
+		}
+	},
+]

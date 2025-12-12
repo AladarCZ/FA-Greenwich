@@ -1,0 +1,119 @@
+[
+	{
+		ingredientPattern: "ABA,DEF,GAI",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "game:cloth-*", name: "color", 
+					allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white"
+				], quantity: 2
+			},
+			"B": { type: "item", code: "fa-greenwich-schematic"
+			},
+			"D": { type: "item", code: "game:metalplate-blackbronze", quantity: 6
+			},
+			"E": { type: "item", code: "game:armor-body-plate-steel"
+			},
+			"F": { type: "item", code: "game:metalnailsandstrips-gold", quantity: 12
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"I": { type: "item", code: "game:leather-sturdy-plain", quantity: 12
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "greenwich steel plate body",
+		output: { type: "item", code: "fa-greenwich-body-steel-{color}"
+		}
+	},
+	{
+		ingredientPattern: "ABA,DEF,GAI",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "game:cloth-*", name: "color", 
+					allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white"
+				], quantity: 2
+			},
+			"B": { type: "item", code: "fa-greenwich-schematic"
+			},
+			"D": { type: "item", code: "game:metalplate-silver", quantity: 6
+			},
+			"E": { type: "item", code: "game:armor-body-plate-meteoriciron"
+			},
+			"F": { type: "item", code: "game:metalnailsandstrips-cupronickel", quantity: 12
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"I": { type: "item", code: "game:leather-normal-plain", quantity: 12
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "greenwich meteoric iron plate body",
+		output: { type: "item", code: "fa-greenwich-body-meteoriciron-{color}"
+		}
+	},
+	{
+		ingredientPattern: "ABA,DEF,GAI",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "game:cloth-*", name: "color", 
+					allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white"
+				], quantity: 2
+			},
+			"B": { type: "item", code: "fa-greenwich-schematic"
+			},
+			"D": { type: "item", code: "game:metalplate-zinc", quantity: 6
+			},
+			"E": { type: "item", code: "game:armor-body-plate-iron"
+			},
+			"F": { type: "item", code: "game:metalnailsandstrips-blackbronze", quantity: 12
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"I": { type: "item", code: "game:leather-normal-plain", quantity: 12
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "greenwich iron plate body",
+		output: { type: "item", code: "fa-greenwich-body-iron-{color}"
+		}
+	},
+]

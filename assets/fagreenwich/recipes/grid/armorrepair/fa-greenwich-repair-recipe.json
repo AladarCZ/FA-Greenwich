@@ -5,21 +5,25 @@
 		ingredients: {
 			"B": { type: "item", code: "fa-greenwich-head-armet-steel-*",  
 						name: "color", allowedVariants: [
-						"plain",
-						"blue", 
-						"red", 
-						"yellow", 
-						"green", 
-						"purple", 
-						"pink", 
-						"orange", 
-						"brown", 
-						"gray", 
-						"black", 
-						"white",
-						"none"] },
-			"P": { type: "item", code: "game:metalplate-steel" },
-			"L": { type: "item", code: "game:leather-normal-plain" }
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white",
+					"none"
+				]
+			},
+			"P": { type: "item", code: "game:metalplate-steel"
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
 		},
 		width: 2,
 		height: 2,
@@ -27,29 +31,34 @@
 		copyAttributesFrom: 'B',
 		averageDurability: false,
 		name: "greenwich steel plate armet repair",
-		output: { type: "item", code: "fa-greenwich-head-armet-steel-{color}"  }
+		output: { type: "item", code: "fa-greenwich-head-armet-steel-{color}"
+		}
 	},
-		{
+	{
 		ingredientPattern: "BL,P_",
 		recipeGroup: 2,
 		ingredients: {
 			"B": { type: "item", code: "fa-greenwich-head-armet-meteoriciron-*",  
 						name: "color", allowedVariants: [
-						"plain",
-						"blue", 
-						"red", 
-						"yellow", 
-						"green", 
-						"purple", 
-						"pink", 
-						"orange", 
-						"brown", 
-						"gray", 
-						"black", 
-						"white",
-						"none"] },
-			"P": { type: "item", code: "game:metalplate-meteoriciron" },
-			"L": { type: "item", code: "game:leather-normal-plain" }
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white",
+					"none"
+				]
+			},
+			"P": { type: "item", code: "game:metalplate-meteoriciron"
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
 		},
 		width: 2,
 		height: 2,
@@ -57,7 +66,8 @@
 		copyAttributesFrom: 'B',
 		averageDurability: false,
 		name: "greenwich meteoric iron plate armet repair",
-		output: { type: "item", code: "fa-greenwich-head-armet-meteoriciron-{color}"  }
+		output: { type: "item", code: "fa-greenwich-head-armet-meteoriciron-{color}"
+		}
 	},
 	{
 		ingredientPattern: "BL,P_",
@@ -65,21 +75,25 @@
 		ingredients: {
 			"B": { type: "item", code: "fa-greenwich-head-armet-iron-*",  
 						name: "color", allowedVariants: [
-						"plain",
-						"blue", 
-						"red", 
-						"yellow", 
-						"green", 
-						"purple", 
-						"pink", 
-						"orange", 
-						"brown", 
-						"gray", 
-						"black", 
-						"white",
-						"none"] },
-			"P": { type: "item", code: "game:metalplate-iron" },
-			"L": { type: "item", code: "game:leather-normal-plain" }
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white",
+					"none"
+				]
+			},
+			"P": { type: "item", code: "game:metalplate-iron"
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
 		},
 		width: 2,
 		height: 2,
@@ -87,32 +101,138 @@
 		copyAttributesFrom: 'B',
 		averageDurability: false,
 		name: "greenwich iron plate armet repair",
-		output: { type: "item", code: "fa-greenwich-head-armet-iron-{color}"  }
+		output: { type: "item", code: "fa-greenwich-head-armet-iron-{color}"
+		}
 	},
-
-
-
-
-		{
+	{
+		ingredientPattern: "BL,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "fa-greenwich-head-armetwing-steel-*",  
+						name: "color", allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white",
+					"none"
+				]
+			},
+			"P": { type: "item", code: "game:metalplate-steel"
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "greenwich steel plate armet repair",
+		output: { type: "item", code: "fa-greenwich-head-armetwing-steel-{color}"
+		}
+	},
+	{
+		ingredientPattern: "BL,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "fa-greenwich-head-armetwing-meteoriciron-*",  
+						name: "color", allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white",
+					"none"
+				]
+			},
+			"P": { type: "item", code: "game:metalplate-meteoriciron"
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "greenwich meteoric iron plate armet repair",
+		output: { type: "item", code: "fa-greenwich-head-armetwing-meteoriciron-{color}"
+		}
+	},
+	{
+		ingredientPattern: "BL,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "fa-greenwich-head-armetwing-iron-*",  
+						name: "color", allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white",
+					"none"
+				]
+			},
+			"P": { type: "item", code: "game:metalplate-iron"
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "greenwich iron plate armet repair",
+		output: { type: "item", code: "fa-greenwich-head-armetwing-iron-{color}"
+		}
+	},
+	{
 		ingredientPattern: "BL,P_",
 		recipeGroup: 2,
 		ingredients: {
 			"B": { type: "item", code: "fa-greenwich-body-steel-*",  
 						name: "color", allowedVariants: [
-						"plain",
-						"blue", 
-						"red", 
-						"yellow", 
-						"green", 
-						"purple", 
-						"pink", 
-						"orange", 
-						"brown", 
-						"gray", 
-						"black", 
-						"white"] },
-			"P": { type: "item", code: "game:metalplate-steel" },
-			"L": { type: "item", code: "game:leather-normal-plain" }
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white"
+				]
+			},
+			"P": { type: "item", code: "game:metalplate-steel"
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
 		},
 		width: 2,
 		height: 2,
@@ -120,28 +240,33 @@
 		copyAttributesFrom: 'B',
 		averageDurability: false,
 		name: "greenwich steel plate body repair",
-		output: { type: "item", code: "fa-greenwich-body-steel-{color}"  }
+		output: { type: "item", code: "fa-greenwich-body-steel-{color}"
+		}
 	},
-		{
+	{
 		ingredientPattern: "BL,P_",
 		recipeGroup: 2,
 		ingredients: {
 			"B": { type: "item", code: "fa-greenwich-body-meteoriciron-*",  
 						name: "color", allowedVariants: [
-						"plain",
-						"blue", 
-						"red", 
-						"yellow", 
-						"green", 
-						"purple", 
-						"pink", 
-						"orange", 
-						"brown", 
-						"gray", 
-						"black", 
-						"white"] },
-			"P": { type: "item", code: "game:metalplate-meteoriciron" },
-			"L": { type: "item", code: "game:leather-normal-plain" }
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white"
+				]
+			},
+			"P": { type: "item", code: "game:metalplate-meteoriciron"
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
 		},
 		width: 2,
 		height: 2,
@@ -149,28 +274,33 @@
 		copyAttributesFrom: 'B',
 		averageDurability: false,
 		name: "greenwich meteoric iron plate body repair",
-		output: { type: "item", code: "fa-greenwich-body-meteoriciron-{color}"  }
+		output: { type: "item", code: "fa-greenwich-body-meteoriciron-{color}"
+		}
 	},
-		{
+	{
 		ingredientPattern: "BL,P_",
 		recipeGroup: 2,
 		ingredients: {
 			"B": { type: "item", code: "fa-greenwich-body-iron-*",  
 						name: "color", allowedVariants: [
-						"plain",
-						"blue", 
-						"red", 
-						"yellow", 
-						"green", 
-						"purple", 
-						"pink", 
-						"orange", 
-						"brown", 
-						"gray", 
-						"black", 
-						"white"] },
-			"P": { type: "item", code: "game:metalplate-iron" },
-			"L": { type: "item", code: "game:leather-normal-plain" }
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white"
+				]
+			},
+			"P": { type: "item", code: "game:metalplate-iron"
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
 		},
 		width: 2,
 		height: 2,
@@ -178,23 +308,29 @@
 		copyAttributesFrom: 'B',
 		averageDurability: false,
 		name: "greenwich iron plate body repair",
-		output: { type: "item", code: "fa-greenwich-body-iron-{color}"  }
+		output: { type: "item", code: "fa-greenwich-body-iron-{color}"
+		}
 	},
-		{
+	{
 		ingredientPattern: "BL,P_",
 		recipeGroup: 2,
 		ingredients: {
 			"B": { type: "item", code: "fa-greenwich-legs-*-plain",  
 						name: "metal", allowedVariants: [
-						"iron",
-						"meteoriciron", 
-						"steel"] },
+					"iron",
+					"meteoriciron",
+					"steel"
+				]
+			},
 			"P": { type: "item", code: "game:metalplate-*",  
 						name: "metal", allowedVariants: [
-						"iron",
-						"meteoriciron", 
-						"steel"] },
-			"L": { type: "item", code: "game:leather-normal-plain" }
+					"iron",
+					"meteoriciron",
+					"steel"
+				]
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
 		},
 		width: 2,
 		height: 2,
@@ -202,6 +338,7 @@
 		copyAttributesFrom: 'B',
 		averageDurability: false,
 		name: "greenwich plate legs repair",
-		output: { type: "item", code: "fa-greenwich-legs-{metal}-plain"  }
+		output: { type: "item", code: "fa-greenwich-legs-{metal}-plain"
+		}
 	},
 ]
