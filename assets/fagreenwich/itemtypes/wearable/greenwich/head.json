@@ -18,22 +18,23 @@
             "name": "AttributeRenderingLibrary.GenerateCreativeStacks",
             "properties": {
                 "variantgroups": [
-                    { "code": "FormHead", "states": ["armet"] },
-                    { "code": "BaseHead", "states": ["iron", "meteoriciron", "steel"] },
-                    { "code": "CoverHead", "states": ["none", "blackbronze"] },
-                    { "code": "StripHead", "states": ["none", "gold"] },
-                    { "code": "DecorationHead", "states": ["none", "wing", "crista", "bear"] },
-                    { "code": "ColorHead", "states": ["none", "red", "green", "black", "blue", "brown", "white", "purple", "pink", "orange", "yellow", "gray", "plain"] }
+                    { "code": "FormHead", "states": ["Armet"] },
+                    { "code": "BaseHead", "states": ["Iron", "MeteoricIron", "Steel"] },
+                    { "code": "CoverHead", "states": ["None", "BlackBronze"] },
+                    { "code": "StripHead", "states": ["None", "Gold"] },
+                    { "code": "DecorationHead", "states": ["None", "Wing", "Crista", "Bear"] },
+                    { "code": "ColorHead", "states": ["None", "Red", "Green", "Black", "Blue", "Brown", "White", "Purple", "Pink", "Orange", "Yellow", "Gray", "Plain"] }
                 ],
                 "creativeinventory": {
                     "general": ["*"],
                     "fagreenwich": ["*"]
                 },
                 "skipvariants": [
-                    "DecorationHead-crista::@ColorHead-bear-(.*)",
-                    "DecorationHead-crista::ColorHead-none",
-                    "DecorationHead-wing::@ColorHead-bear-(.*)",
-                    "DecorationHead-wing::ColorHead-none"
+                    "DecorationHead-Bear::@ColorHead-(None|red|green|blue|purple|pink|orange|yellow|gray|plain)",
+                    "DecorationHead-None::@ColorHead-(.*)",
+                    "DecorationHead-wing::ColorHead-None",
+                    "DecorationHead-crista::ColorHead-None",
+                    "@BaseHead-(iron|meteoriciron)::CoverHead-blackbronze::StripHead-Gold"
                 ]
             }
         },
@@ -41,22 +42,27 @@
             "name": "AttributeRenderingLibrary.Wearable",
             "properties": {
                 "textures": {
-                    "headshape-armet::@plume-(bear-black|bear-brown|bear-polar)": {
-                        "seraph": { "base": "game:block/transparent" },
-                        "greenwichhead": { "base": "fagreenwich:armor/entity/greenwich_{head}" },
-                        "plume": { "base": "game:entity/humanoid/serapharmor/hide/bear/{plume}" }
+                    "FormHead-armet::DecorationHead-Bear": {
+                        "Seraph": { "base": "game:block/transparent" },
+                        "BaseHead": { "base": "fagreenwich:armor/entity/greenwich_{BaseHead}" },
+                        "ColorHead": { "base": "game:entity/humanoid/serapharmor/hide/Bear/Bear-{ColorHead}" }
+                    },
+                    "FormHead-armet::DecorationHead-Bear::ColorHead-White": {
+                        "Seraph": { "base": "game:block/transparent" },
+                        "BaseHead": { "base": "fagreenwich:armor/entity/greenwich_{BaseHead}" },
+                        "ColorHead": { "base": "game:entity/humanoid/serapharmor/hide/Bear/Bear-Polar" }
                     },
                     "*": {
-                        "seraph": { "base": "game:block/transparent" },
-                        "greenwichhead": { "base": "fagreenwich:armor/entity/greenwich_{head}" },
-                        "plume": { "base": "fagreenwich:block/plume/plume{plume}" }
+                        "Seraph": { "base": "game:block/transparent" },
+                        "BaseHead": { "base": "fagreenwich:armor/entity/greenwich_{BaseHead}" },
+                        "ColorHead": { "base": "fagreenwich:block/plume/plume{ColorHead}" }
                     }
                 },
                 "shape": {
-                    "headshape-armet::@plume-(bear-black|bear-brown|bear-polar)": { "base": "fagreenwich:entity/armor/greenwich/greenwicharmetbearhead" },
-                    "headshape-armet": { "base": "fagreenwich:entity/armor/greenwich/greenwich{headshape}head" },
-                    "headshape-armetwing": { "base": "fagreenwich:entity/armor/greenwich/greenwich{headshape}head" },
-                    "headshape-armetcrista": { "base": "fagreenwich:entity/armor/greenwich/greenwich{headshape}head" }
+                    "FormHead-armet::DecorationHead-Bear": { "base": "fagreenwich:entity/armor/greenwich/greenwicharmetBearhead" },
+                    "DecorationHead-None": { "base": "fagreenwich:entity/armor/greenwich/greenwich{FormHead}head" },
+                    "DecorationHead-Wing": { "base": "fagreenwich:entity/armor/greenwich/greenwich{FormHead}{DecorationHead}head" },
+                    "DecorationHead-Crista": { "base": "fagreenwich:entity/armor/greenwich/greenwich{FormHead}{DecorationHead}head" }
                 },
                 "storageFlags": {
                     "*": 128
@@ -65,17 +71,16 @@
                     "*": ["hidehat", "Hood", "hoodupperover", "Hair tile upper part", "ponytailhigh", "ponytaillow", "Hair", "hair-uncovered", "hidefacialhair", "sidehigh", "sidelow", "bangs"]
                 },
                 "durability": {
-                    "head-iron": 3700,
-                    "head-meteoriciron": 4300,
-                    "@head-(steel|steelplain)": 7000
+                    "BaseHead-iron": 3700,
+                    "BaseHead-meteoriciron": 4300,
+                    "@BaseHead-steel": 7000
                 },
                 "visibleDamageEffect": {
                     "*": true
                 },
                 "warmth": {
-                    "*-bear-black": 1,
-                    "*-bear-brown": 1,
-                    "*-bear-polar": 1.5
+                    "DecorationHead-bear::@ColorHead-(black|brown)": 1,
+                    "DecorationHead-bear::@ColorHead-white": 1.5
                 },
                 "clothesCategory": {
                     "*": "ArmorHead"
@@ -87,19 +92,19 @@
                     }
                 },
                 "protectionModifiers": {
-                    "@head-(steel|steelplain)": {
+                    "BaseHead-steel": {
                         "relativeProtection": 0.98,
                         "flatDamageReduction": 3.5,
                         "highDamageTierResistant": true,
                         "protectionTier": 4
                     },
-                    "head-meteoriciron": {
+                    "BaseHead-meteoriciron": {
                         "relativeProtection": 0.975,
                         "flatDamageReduction": 3.2,
                         "highDamageTierResistant": true,
                         "protectionTier": 3
                     },
-                    "head-iron": {
+                    "BaseHead-iron": {
                         "relativeProtection": 0.97,
                         "flatDamageReduction": 3,
                         "highDamageTierResistant": true,
@@ -107,7 +112,7 @@
                     }
                 },
                 "statModifiers": {
-                    "plume-bear*": {
+                    "DecorationHead-Bear": {
                         "rangedWeaponsAcc": -0.15,
                         "rangedWeaponsSpeed": -0.25,
                         "walkSpeed": -0.14,
