@@ -1,7 +1,7 @@
 {
 	"editor": {
 		"backDropShape": "D:/Hry/Vintagestory121/assets/game/shapes/entity/humanoid/seraph-hairless",
-		"collapsedPaths": "Root/ArmorLowerArmL,Root/ArmorUpperTorso,Root/ArmorCoatL,Root/ArmorLowerLegL,Root/TextileL5,Root/ArmorUpperUpperTorso,Root/ArmorLowerLegR,Root/ArmorUpperArmR,Root/ArmorLowerArmR,Root/ArmorUpperArmL,Root/ArmorCoatR",
+		"collapsedPaths": "Root/ArmorLowerLegR",
 		"allAngles": true,
 		"entityTextureMode": true
 	},
@@ -10,18 +10,18 @@
 	"textureSizes": {
 	},
 	"textures": {
-			"greenwichlegs": "armor/entity/greenwich_steel",
-			"line": "block/lines/linered"
+			"greenwichlegs": "fagreenwich:armor/entity/greenwich_steel",
+			"line": "game:block/cloth/linen/plain"
 	},
 	"elements": [
 		{
 			"name": "ArmorUpperLegR",
 			"stepParentName": "UpperFootR",
-			"from": [ -0.19, -0.5, -0.1 ],
+			"from": [ -0.49, -0.5, -0.1 ],
 			"to": [ 4.41, 9.5, 3.7 ],
 			"autoUnwrap": false,
 			"uv": [ 17.5, 40.5 ],
-			"rotationOrigin": [ -0.2, -0.5, -0.1 ],
+			"rotationOrigin": [ -0.5, -0.5, -0.1 ],
 			"faces": {
 				"north": { "texture": "#greenwichlegs", "uv": [ 16.0, 40.0, 20.5, 50.0 ] },
 				"east": { "texture": "#greenwichlegs", "uv": [ 20.5, 40.0, 24.0, 50.0 ] },
@@ -33,10 +33,11 @@
 			"children": [
 				{
 					"name": "LineR1",
-					"from": [ 5.1, -0.6, -0.3 ],
-					"to": [ 5.7, 7.4, 3.5 ],
+					"from": [ 5.4, -0.6, -0.3 ],
+					"to": [ 6.0, 7.4, 3.5 ],
 					"uv": [ 20.0, 43.0 ],
-					"rotationOrigin": [ 5.09, -0.6, -0.3 ],
+					"rotationOrigin": [ 5.39, -0.6, -0.3 ],
+					"rotationX": 0.0,
 					"rotationY": 6.0,
 					"rotationZ": 8.0,
 					"faces": {
@@ -53,11 +54,11 @@
 		{
 			"name": "ArmorUpperLegL",
 			"stepParentName": "UpperFootL",
-			"from": [ -0.19, -0.5, -0.5 ],
+			"from": [ -0.49, -0.5, -0.5 ],
 			"to": [ 4.41, 9.5, 3.3 ],
 			"autoUnwrap": false,
 			"uv": [ 0.0, 40.0 ],
-			"rotationOrigin": [ -0.2, -0.5, -0.5 ],
+			"rotationOrigin": [ -0.5, -0.5, -0.5 ],
 			"faces": {
 				"north": { "texture": "#greenwichlegs", "uv": [ 0.0, 40.0, 4.5, 50.0 ] },
 				"east": { "texture": "#greenwichlegs", "uv": [ 4.5, 40.0, 8.0, 50.0 ] },
@@ -69,10 +70,11 @@
 			"children": [
 				{
 					"name": "LineL1",
-					"from": [ 5.1, -0.6, 0.3 ],
-					"to": [ 5.7, 7.4, 4.1 ],
+					"from": [ 5.4, -0.6, 0.3 ],
+					"to": [ 6.0, 7.4, 4.1 ],
 					"uv": [ 20.0, 43.0 ],
-					"rotationOrigin": [ 5.1, -0.6, 4.1 ],
+					"rotationOrigin": [ 5.4, -0.6, 4.1 ],
+					"rotationX": 0.0,
 					"rotationY": -6.0,
 					"rotationZ": 8.0,
 					"faces": {
@@ -89,10 +91,10 @@
 		{
 			"name": "ArmorLowerLegR",
 			"stepParentName": "LowerFootR",
-			"from": [ -0.25, -0.2, -0.25 ],
+			"from": [ -0.55, -0.2, -0.25 ],
 			"to": [ 4.25, 9.3, 3.25 ],
 			"uv": [ 16.0, 51.0 ],
-			"rotationOrigin": [ -0.25, -0.2, -0.25 ],
+			"rotationOrigin": [ -0.55, -0.2, -0.25 ],
 			"faces": {
 				"north": { "texture": "#greenwichlegs", "uv": [ 16.0, 54.5, 20.5, 64.0 ] },
 				"east": { "texture": "#greenwichlegs", "uv": [ 20.5, 54.5, 24.0, 64.0 ] },
@@ -104,11 +106,11 @@
 			"children": [
 				{
 					"name": "ArmorKneeR",
-					"from": [ -0.3, 8.5, -0.3 ],
-					"to": [ 1.7, 11.8, 3.7 ],
+					"from": [ -0.4, 8.5, -0.3 ],
+					"to": [ 1.6, 11.8, 3.7 ],
 					"unwrapMode": 4,
 					"uv": [ 44.0, 57.0 ],
-					"rotationOrigin": [ -0.3, 8.5, -0.3 ],
+					"rotationOrigin": [ -0.4, 8.5, -0.3 ],
 					"faces": {
 						"north": { "texture": "#greenwichlegs", "uv": [ 44.0, 59.0, 46.0, 62.0 ] },
 						"east": { "texture": "#greenwichlegs", "uv": [ 52.0, 59.0, 56.0, 62.0 ] },
@@ -140,7 +142,7 @@
 				{
 					"name": "ArmorBootR",
 					"from": [ -0.3, 4.0, -0.2 ],
-					"to": [ 4.8, 5.0, 3.7 ],
+					"to": [ 5.1, 5.0, 3.7 ],
 					"autoUnwrap": false,
 					"uv": [ 36.5, 10.5 ],
 					"rotationOrigin": [ -0.3, 4.0, -0.2 ],
@@ -156,7 +158,7 @@
 				{
 					"name": "ArmorBootR2",
 					"from": [ -1.1, 0.0, -0.2 ],
-					"to": [ 5.0, 1.7, 3.7 ],
+					"to": [ 5.2, 1.7, 3.7 ],
 					"autoUnwrap": false,
 					"uv": [ 39.5, 13.5 ],
 					"rotationOrigin": [ -1.1, 0.0, -0.2 ],
@@ -171,10 +173,11 @@
 				},
 				{
 					"name": "LineR2",
-					"from": [ 5.2, 6.1, -0.3 ],
-					"to": [ 5.8, 8.1, 3.5 ],
+					"from": [ 5.5, 6.1, -0.3 ],
+					"to": [ 6.1, 8.1, 3.5 ],
 					"uv": [ 20.0, 49.0 ],
-					"rotationOrigin": [ 5.2, 6.1, -0.3 ],
+					"rotationOrigin": [ 5.5, 6.1, -0.3 ],
+					"rotationX": 0.0,
 					"rotationY": 6.0,
 					"rotationZ": 8.0,
 					"faces": {
@@ -210,9 +213,6 @@
 							"to": [ 0.621, 0.0784, 3.8413 ],
 							"uv": [ 20.0, 51.5 ],
 							"rotationOrigin": [ 0.021, -1.9216, 2.0413 ],
-							"rotationX": 0.0,
-							"rotationY": 0.0,
-							"rotationZ": 0.0,
 							"faces": {
 								"north": { "texture": "#line", "uv": [ 20.0, 53.0, 20.5, 55.0 ] },
 								"east": { "texture": "#line", "uv": [ 20.5, 53.0, 22.0, 55.0 ] },
@@ -229,10 +229,10 @@
 		{
 			"name": "ArmorLowerLegL",
 			"stepParentName": "LowerFootL",
-			"from": [ -0.25, -0.2, -0.25 ],
-			"to": [ 4.25, 9.3, 3.25 ],
+			"from": [ -0.55, -0.2, -0.25 ],
+			"to": [ 4.35, 9.3, 3.25 ],
 			"uv": [ 0.0, 51.0 ],
-			"rotationOrigin": [ -0.25, -0.2, -0.25 ],
+			"rotationOrigin": [ -0.55, -0.2, -0.25 ],
 			"faces": {
 				"north": { "texture": "#greenwichlegs", "uv": [ 0.0, 54.5, 4.5, 64.0 ] },
 				"east": { "texture": "#greenwichlegs", "uv": [ 4.5, 54.5, 8.0, 64.0 ] },
@@ -244,11 +244,11 @@
 			"children": [
 				{
 					"name": "ArmorKneeL",
-					"from": [ -0.3, 8.5, -0.3 ],
-					"to": [ 1.7, 11.8, 3.7 ],
+					"from": [ -0.4, 8.5, -0.3 ],
+					"to": [ 1.6, 11.8, 3.7 ],
 					"unwrapMode": 4,
 					"uv": [ 32.0, 57.0 ],
-					"rotationOrigin": [ -0.3, 8.5, -0.3 ],
+					"rotationOrigin": [ -0.4, 8.5, -0.3 ],
 					"faces": {
 						"north": { "texture": "#greenwichlegs", "uv": [ 32.0, 59.0, 34.0, 62.0 ] },
 						"east": { "texture": "#greenwichlegs", "uv": [ 40.0, 59.0, 44.0, 62.0 ] },
@@ -280,23 +280,23 @@
 				{
 					"name": "ArmorBootL",
 					"from": [ -0.3, 4.0, -0.2 ],
-					"to": [ 4.8, 5.0, 3.7 ],
+					"to": [ 5.2, 5.0, 3.7 ],
 					"autoUnwrap": false,
 					"uv": [ 39.0, 15.5 ],
 					"rotationOrigin": [ -0.3, 4.0, -0.2 ],
 					"faces": {
-						"north": { "texture": "#greenwichlegs", "uv": [ 52.0, 29.0, 57.0, 30.0 ] },
+						"north": { "texture": "#greenwichlegs", "uv": [ 52.0, 29.0, 57.5, 30.0 ] },
 						"east": { "texture": "#greenwichlegs", "uv": [ 57.0, 29.0, 60.5, 30.0 ] },
-						"south": { "texture": "#greenwichlegs", "uv": [ 52.0, 27.5, 57.0, 28.5 ] },
+						"south": { "texture": "#greenwichlegs", "uv": [ 52.0, 27.5, 57.5, 28.5 ] },
 						"west": { "texture": "#greenwichlegs", "uv": [ 57.5, 27.5, 61.0, 28.5 ] },
-						"up": { "texture": "#greenwichlegs", "uv": [ 53.0, 49.5, 58.0, 53.0 ] },
-						"down": { "texture": "#greenwichlegs", "uv": [ 53.0, 49.5, 58.0, 53.0 ] }
+						"up": { "texture": "#greenwichlegs", "uv": [ 53.0, 49.5, 58.5, 53.0 ] },
+						"down": { "texture": "#greenwichlegs", "uv": [ 53.0, 49.5, 58.5, 53.0 ] }
 					}
 				},
 				{
 					"name": "ArmorBootL2",
 					"from": [ -1.1, 0.0, -0.2 ],
-					"to": [ 5.0, 1.7, 3.7 ],
+					"to": [ 5.3, 1.7, 3.7 ],
 					"autoUnwrap": false,
 					"uv": [ 21.5, 8.0 ],
 					"rotationOrigin": [ -1.1, 0.0, -0.2 ],
@@ -311,10 +311,11 @@
 				},
 				{
 					"name": "LineL2",
-					"from": [ 5.2, 6.1, 0.0 ],
-					"to": [ 5.8, 8.1, 3.8 ],
+					"from": [ 5.5, 6.1, 0.0 ],
+					"to": [ 6.1, 8.1, 3.8 ],
 					"uv": [ 20.0, 49.0 ],
-					"rotationOrigin": [ 5.2, 6.1, 3.8 ],
+					"rotationOrigin": [ 5.5, 6.1, 3.8 ],
+					"rotationX": 0.0,
 					"rotationY": -6.0,
 					"rotationZ": 8.0,
 					"faces": {
@@ -332,9 +333,6 @@
 							"to": [ 0.6313, 0.0769, 1.8581 ],
 							"uv": [ 22.0, 51.5 ],
 							"rotationOrigin": [ 0.0313, -1.9231, 1.8581 ],
-							"rotationX": 0.0,
-							"rotationY": 0.0,
-							"rotationZ": 0.0,
 							"faces": {
 								"north": { "texture": "#line", "uv": [ 22.0, 53.0, 22.5, 55.0 ] },
 								"east": { "texture": "#line", "uv": [ 22.5, 53.0, 24.0, 55.0 ] },

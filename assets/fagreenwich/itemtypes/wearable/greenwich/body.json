@@ -1,9 +1,15 @@
 {
-    "code": "body",
+    "code": "Body",
     "maxstacksize": 1,
     "attributes": {
         "handbook": {
             "groupBy": ["*"]
+        },
+        "groundStorageTransform": {
+            "translation": { "x": -2.1, "y": 0.9, "z": 3.9 },
+            "rotation": { "x": -91, "y": 40, "z": -10 },
+            "origin": { "x": 0, "y": 0, "z": 0 },
+            "scale": 2.45
         }
     },
     "behaviors": [
@@ -11,19 +17,22 @@
             "name": "AttributeRenderingLibrary.GenerateCreativeStacks",
             "properties": {
                 "variantgroups": [
-                    { "code": "bodyshape", "states": ["armet", "armetwing", "armetcrista"] },
-                    { "code": "body", "states": ["iron", "meteoriciron", "steel", "steelplain"] },
-                    { "code": "plume", "states": ["red", "green", "black", "blue", "brown", "white", "purple", "pink", "orange", "yellow", "gray", "plain", "none", "bear-black", "bear-brown", "bear-polar"] }
+                    { "code": "FormBody", "states": ["Chestplate"] },
+                    { "code": "BaseBody", "states": ["Iron", "MeteoricIron", "Steel"] },
+                    { "code": "CoverBody", "states": ["None", "BlackBronze"] },
+                    { "code": "StripBody", "states": ["None", "Gold"] },
+                    { "code": "DecorationBody", "states": ["None", "Badges", "Bear"] },
+                    { "code": "ColorBody", "states": ["None", "Red", "Green", "Black", "Blue", "Brown", "White", "Purple", "Pink", "Orange", "Yellow", "Gray", "Plain"] }
                 ],
                 "creativeinventory": {
                     "general": ["*"],
                     "fagreenwich": ["*"]
                 },
                 "skipvariants": [
-                    "bodyshape-armetcrista::@plume-bear-(.*)",
-                    "bodyshape-armetcrista::plume-none",
-                    "bodyshape-armetwing::@plume-bear-(.*)",
-                    "bodyshape-armetwing::plume-none"
+                    "DecorationBody-Bear::@ColorBody-(None|red|green|blue|purple|pink|orange|yellow|gray|plain)",
+                    "DecorationBody-None::@ColorBody-(.*)",
+                    "DecorationBody-Badges::ColorBody-None",
+                    "@BaseBody-(iron|meteoriciron)::CoverBody-blackbronze::StripBody-Gold"
                 ]
             }
         },
@@ -31,22 +40,24 @@
             "name": "AttributeRenderingLibrary.Wearable",
             "properties": {
                 "textures": {
-                    "bodyshape-armet::@plume-(bear-black|bear-brown|bear-polar)": {
-                        "seraph": { "base": "game:block/transparent" },
-                        "greenwichbody": { "base": "fagreenwich:armor/entity/greenwich_{body}" },
-                        "plume": { "base": "game:entity/humanoid/serapharmor/hide/bear/{plume}" }
+                    "FormBody-Chestplate::DecorationBody-Bear": {
+                        "Seraph": { "base": "game:block/transparent" },
+                        "BaseBody": { "base": "fagreenwich:armor/entity/greenwich/{BaseBody}" },
+                        "ColorBody": { "base": "game:entity/humanoid/serapharmor/hide/Bear/Bear-{ColorBody}" }
+                    },
+                    "FormBody-Chestplate::DecorationBody-Bear::ColorBody-White": {
+                        "Seraph": { "base": "game:block/transparent" },
+                        "BaseBody": { "base": "fagreenwich:armor/entity/greenwich/{BaseBody}" },
+                        "ColorBody": { "base": "game:entity/humanoid/serapharmor/hide/Bear/Bear-Polar" }
                     },
                     "*": {
-                        "seraph": { "base": "game:block/transparent" },
-                        "greenwichbody": { "base": "fagreenwich:armor/entity/greenwich_{body}" },
-                        "plume": { "base": "fagreenwich:block/plume/plume{plume}" }
+                        "Seraph": { "base": "game:block/transparent" },
+                        "BaseBody": { "base": "fagreenwich:armor/entity/greenwich/{BaseBody}" },
+                        "ColorBody": { "base": "fagreenwich:block/textile/{ColorBody}" }
                     }
                 },
                 "shape": {
-                    "bodyshape-armet::@plume-(bear-black|bear-brown|bear-polar)": { "base": "fagreenwich:entity/armor/greenwich/greenwicharmetbearbody" },
-                    "bodyshape-armet": { "base": "fagreenwich:entity/armor/greenwich/greenwich{bodyshape}body" },
-                    "bodyshape-armetwing": { "base": "fagreenwich:entity/armor/greenwich/greenwich{bodyshape}body" },
-                    "bodyshape-armetcrista": { "base": "fagreenwich:entity/armor/greenwich/greenwich{bodyshape}body" }
+                    "DecorationBody-*": { "base": "fagreenwich:entity/armor/greenwich/{FormBody}/{DecorationBody}Body" }
                 },
                 "storageFlags": {
                     "*": 128
@@ -55,20 +66,19 @@
                     "*": ["hidehat", "Hood", "hoodupperover", "Hair tile upper part", "ponytailhigh", "ponytaillow", "Hair", "hair-uncovered", "hidefacialhair", "sidehigh", "sidelow", "bangs"]
                 },
                 "durability": {
-                    "body-iron": 3700,
-                    "body-meteoriciron": 4300,
-                    "@body-(steel|steelplain)": 7000
+                    "BaseBody-iron": 3700,
+                    "BaseBody-meteoriciron": 4300,
+                    "@BaseBody-steel": 7000
                 },
                 "visibleDamageEffect": {
                     "*": true
                 },
                 "warmth": {
-                    "*-bear-black": 1,
-                    "*-bear-brown": 1,
-                    "*-bear-polar": 1.5
+                    "DecorationBody-bear::@ColorBody-(black|brown)": 1,
+                    "DecorationBody-bear::@ColorBody-white": 1.5
                 },
                 "clothesCategory": {
-                    "*": "Armorbody"
+                    "*": "ArmorBody"
                 },
                 "defaultProtLoss": {
                     "*": {
@@ -77,19 +87,19 @@
                     }
                 },
                 "protectionModifiers": {
-                    "@body-(steel|steelplain)": {
+                    "BaseBody-steel": {
                         "relativeProtection": 0.98,
                         "flatDamageReduction": 3.5,
                         "highDamageTierResistant": true,
                         "protectionTier": 4
                     },
-                    "body-meteoriciron": {
+                    "BaseBody-meteoriciron": {
                         "relativeProtection": 0.975,
                         "flatDamageReduction": 3.2,
                         "highDamageTierResistant": true,
                         "protectionTier": 3
                     },
-                    "body-iron": {
+                    "BaseBody-iron": {
                         "relativeProtection": 0.97,
                         "flatDamageReduction": 3,
                         "highDamageTierResistant": true,
@@ -97,7 +107,7 @@
                     }
                 },
                 "statModifiers": {
-                    "plume-bear*": {
+                    "DecorationBody-Bear": {
                         "rangedWeaponsAcc": -0.15,
                         "rangedWeaponsSpeed": -0.25,
                         "walkSpeed": -0.14,
@@ -113,11 +123,18 @@
                     }
                 },
                 "description": {
-                    "*": ["-----------------------------", "<br>", ["Metal: {0}", "{body}"], "<br>", ["Plume: {0}", "{plume}"], "<br>", "-----------------------------", "<br>"]
+                    "*": ["-----------------------------", "<br>",
+                         ["Type: {0}", "{FormBody}"], "<br>", 
+                         ["Material: {0}", "{BaseBody}"], "<br>", 
+                         ["Design: {0}", "{DecorationBody}"], "<br>", 
+                         ["Decoration: {0}", "{ColorBody}"], "<br>", 
+                         ["Coating: {0}", "{CoverBody}"], "<br>", 
+                         ["Trim: {0}", "{StripBody}"], "<br>", 
+                         "-----------------------------", "<br>"]
                 },
                 "STFA_attachableToEntity": {
                     "categoryCode": {
-                        "*": "armorbody"
+                        "*": "armorBody"
                     }
                 }
             }

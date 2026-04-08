@@ -1,5 +1,5 @@
 {
-    "code": "head",
+    "code": "Head",
     "maxstacksize": 1,
     "attributes": {
         "handbook": {
@@ -44,25 +44,22 @@
                 "textures": {
                     "FormHead-armet::DecorationHead-Bear": {
                         "Seraph": { "base": "game:block/transparent" },
-                        "BaseHead": { "base": "fagreenwich:armor/entity/greenwich_{BaseHead}" },
+                        "BaseHead": { "base": "fagreenwich:armor/entity/greenwich/{BaseHead}" },
                         "ColorHead": { "base": "game:entity/humanoid/serapharmor/hide/Bear/Bear-{ColorHead}" }
                     },
                     "FormHead-armet::DecorationHead-Bear::ColorHead-White": {
                         "Seraph": { "base": "game:block/transparent" },
-                        "BaseHead": { "base": "fagreenwich:armor/entity/greenwich_{BaseHead}" },
+                        "BaseHead": { "base": "fagreenwich:armor/entity/greenwich/{BaseHead}" },
                         "ColorHead": { "base": "game:entity/humanoid/serapharmor/hide/Bear/Bear-Polar" }
                     },
                     "*": {
                         "Seraph": { "base": "game:block/transparent" },
-                        "BaseHead": { "base": "fagreenwich:armor/entity/greenwich_{BaseHead}" },
+                        "BaseHead": { "base": "fagreenwich:armor/entity/greenwich/{BaseHead}" },
                         "ColorHead": { "base": "fagreenwich:block/plume/plume{ColorHead}" }
                     }
                 },
                 "shape": {
-                    "FormHead-armet::DecorationHead-Bear": { "base": "fagreenwich:entity/armor/greenwich/greenwicharmetBearhead" },
-                    "DecorationHead-None": { "base": "fagreenwich:entity/armor/greenwich/greenwich{FormHead}head" },
-                    "DecorationHead-Wing": { "base": "fagreenwich:entity/armor/greenwich/greenwich{FormHead}{DecorationHead}head" },
-                    "DecorationHead-Crista": { "base": "fagreenwich:entity/armor/greenwich/greenwich{FormHead}{DecorationHead}head" }
+                    "DecorationHead-*": { "base": "fagreenwich:entity/armor/greenwich/{FormHead}/{DecorationHead}Head" }
                 },
                 "storageFlags": {
                     "*": 128
@@ -128,11 +125,18 @@
                     }
                 },
                 "description": {
-                    "*": ["-----------------------------", "<br>", ["Metal: {0}", "{head}"], "<br>", ["Plume: {0}", "{plume}"], "<br>", "-----------------------------", "<br>"]
+                    "*": ["-----------------------------", "<br>",
+                         ["Type: {0}", "{FormHead}"], "<br>", 
+                         ["Material: {0}", "{BaseHead}"], "<br>", 
+                         ["Design: {0}", "{DecorationHead}"], "<br>", 
+                         ["Decoration: {0}", "{ColorHead}"], "<br>", 
+                         ["Coating: {0}", "{CoverHead}"], "<br>", 
+                         ["Trim: {0}", "{StripHead}"], "<br>", 
+                         "-----------------------------", "<br>"]
                 },
                 "STFA_attachableToEntity": {
                     "categoryCode": {
-                        "*": "armorhead"
+                        "*": "armorHead"
                     },
                     "disableElements": {
                         "*": ["hidehat", "Hood", "hoodupperover", "Hair tile upper part", "ponytailhigh", "ponytaillow", "Hair", "hair-uncovered", "hidefacialhair", "sidehigh", "sidelow", "bangs"]
