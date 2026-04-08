@@ -34,7 +34,7 @@
             "name": "AttributeRenderingLibrary.Wearable",
             "properties": {
                 "textures": {
-                    "FormLegs-Legplate::DecorationLegs-Bear": {
+                    "FormLegs-Legplate:BaseLegs-Legplate::DecorationLegs-Bear": {
                         "Seraph": { "base": "game:block/transparent" },
                         "BaseLegs": { "base": "fagreenwich:armor/entity/greenwich/{BaseLegs}" },
                         "ColorLegs": { "base": "game:entity/humanoid/serapharmor/hide/Bear/Bear-{ColorLegs}" }
