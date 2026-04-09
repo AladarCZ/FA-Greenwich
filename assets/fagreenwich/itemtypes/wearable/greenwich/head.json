@@ -30,7 +30,10 @@
                     "fagreenwich": ["*"]
                 },
                 "skipvariants": [
-                    "formhead-armet::basehead-iron::coverhead-blackbronze::striphead-gold::decorationhead-none::colorhead-none"
+                    "basehead-iron::coverhead-blackbronze::striphead-gold",
+                    "basehead-meteoriciron::coverhead-blackbronze::striphead-gold",
+                    "decorationhead-bear::@colorhead-(none|red|green|blue|purple|pink|orange|yellow|gray|plain|)",
+                    "decorationhead-(wing|crista)::colorhead-none"
                 ]
             }
         },
@@ -38,20 +41,29 @@
             "name": "AttributeRenderingLibrary.Wearable",
             "properties": {
                 "textures": {
-                    "formhead-armet::decorationhead-bear": {
+                    "coverhead-none::decorationhead-bear": {
                         "seraph": { "base": "game:block/transparent" },
-                        "basehead": { "base": "fagreenwich:armor/entity/greenwich/{basehead}" },
-                        "colorhead": { "base": "game:entity/humanoid/serapharmor/hide/bear/bear-{colorhead}" }
+                        "basehead": { "base": "fagreenwich:armor/entity/greenwich/base/{basehead}" },
+                        "striphead": { "base": "facore:armor/entity/trim/{striphead}" },
+                        "colorhead": { "base": "facore:armor/entity/bear/{colorhead}" }
                     },
-                    "formhead-armet::decorationhead-bear::colorhead-white": {
+                    "coverhead-*::decorationhead-bear": {
                         "seraph": { "base": "game:block/transparent" },
-                        "basehead": { "base": "fagreenwich:armor/entity/greenwich/{basehead}" },
-                        "colorhead": { "base": "game:entity/humanoid/serapharmor/hide/bear/bear-polar" }
+                        "basehead": { "base": "fagreenwich:armor/entity/greenwich/cover/{coverhead}" },
+                        "striphead": { "base": "facore:armor/entity/trim/{striphead}" },
+                        "colorhead": { "base": "facore:armor/entity/bear/{colorhead}" }
                     },
-                    "*": {
+                    "coverhead-none": {
                         "seraph": { "base": "game:block/transparent" },
                         "basehead": { "base": "fagreenwich:armor/entity/greenwich/{basehead}" },
-                        "colorhead": { "base": "fagreenwich:block/plume/{colorhead}" }
+                        "striphead": { "base": "facore:armor/entity/trim/{striphead}" },
+                        "colorhead": { "base": "facore:block/decoration/head/{colorhead}" }
+                    },
+                    "coverhead-*": {
+                        "seraph": { "base": "game:block/transparent" },
+                        "basehead": { "base": "fagreenwich:armor/entity/greenwich/cover/{coverhead}" },
+                        "striphead": { "base": "facore:armor/entity/trim/{striphead}" },
+                        "colorhead": { "base": "facore:block/decoration/head/{colorhead}" }
                     }
                 },
                 "shape": {
