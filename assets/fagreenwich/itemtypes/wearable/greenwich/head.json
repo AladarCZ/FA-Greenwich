@@ -1,5 +1,5 @@
 {
-    "code": "Head",
+    "code": "head",
     "maxstacksize": 1,
     "attributes": {
         "handbook": {
@@ -18,23 +18,19 @@
             "name": "AttributeRenderingLibrary.GenerateCreativeStacks",
             "properties": {
                 "variantgroups": [
-                    { "code": "FormHead", "states": ["Armet"] },
-                    { "code": "BaseHead", "states": ["Iron", "MeteoricIron", "Steel"] },
-                    { "code": "CoverHead", "states": ["None", "BlackBronze"] },
-                    { "code": "StripHead", "states": ["None", "Gold"] },
-                    { "code": "DecorationHead", "states": ["None", "Wing", "Crista", "Bear"] },
-                    { "code": "ColorHead", "states": ["None", "Red", "Green", "Black", "Blue", "Brown", "White", "Purple", "Pink", "Orange", "Yellow", "Gray", "Plain"] }
+                    { "code": "formhead", "states": ["armet"] },
+                    { "code": "basehead", "states": ["iron", "meteoriciron", "steel"] },
+                    { "code": "coverhead", "states": ["none", "blackbronze"] },
+                    { "code": "striphead", "states": ["none", "gold"] },
+                    { "code": "decorationhead", "states": ["none", "wing", "crista", "bear"] },
+                    { "code": "colorhead", "states": ["none", "red", "green", "black", "blue", "brown", "white", "purple", "pink", "orange", "yellow", "gray", "plain"] }
                 ],
                 "creativeinventory": {
                     "general": ["*"],
                     "fagreenwich": ["*"]
                 },
                 "skipvariants": [
-                    "DecorationHead-Bear::@ColorHead-(None|red|green|blue|purple|pink|orange|yellow|gray|plain)",
-                    "DecorationHead-None::@ColorHead-(.*)",
-                    "DecorationHead-wing::ColorHead-None",
-                    "DecorationHead-crista::ColorHead-None",
-                    "@BaseHead-(iron|meteoriciron)::CoverHead-blackbronze::StripHead-Gold"
+                    "formhead-armet::basehead-iron::coverhead-blackbronze::striphead-gold::decorationhead-none::colorhead-none"
                 ]
             }
         },
@@ -42,24 +38,24 @@
             "name": "AttributeRenderingLibrary.Wearable",
             "properties": {
                 "textures": {
-                    "FormHead-armet::DecorationHead-Bear": {
-                        "Seraph": { "base": "game:block/transparent" },
-                        "BaseHead": { "base": "fagreenwich:armor/entity/greenwich/{BaseHead}" },
-                        "ColorHead": { "base": "game:entity/humanoid/serapharmor/hide/Bear/Bear-{ColorHead}" }
+                    "formhead-armet::decorationhead-bear": {
+                        "seraph": { "base": "game:block/transparent" },
+                        "basehead": { "base": "fagreenwich:armor/entity/greenwich/{basehead}" },
+                        "colorhead": { "base": "game:entity/humanoid/serapharmor/hide/bear/bear-{colorhead}" }
                     },
-                    "FormHead-armet::DecorationHead-Bear::ColorHead-White": {
-                        "Seraph": { "base": "game:block/transparent" },
-                        "BaseHead": { "base": "fagreenwich:armor/entity/greenwich/{BaseHead}" },
-                        "ColorHead": { "base": "game:entity/humanoid/serapharmor/hide/Bear/Bear-Polar" }
+                    "formhead-armet::decorationhead-bear::colorhead-white": {
+                        "seraph": { "base": "game:block/transparent" },
+                        "basehead": { "base": "fagreenwich:armor/entity/greenwich/{basehead}" },
+                        "colorhead": { "base": "game:entity/humanoid/serapharmor/hide/bear/bear-polar" }
                     },
                     "*": {
-                        "Seraph": { "base": "game:block/transparent" },
-                        "BaseHead": { "base": "fagreenwich:armor/entity/greenwich/{BaseHead}" },
-                        "ColorHead": { "base": "fagreenwich:block/plume/plume{ColorHead}" }
+                        "seraph": { "base": "game:block/transparent" },
+                        "basehead": { "base": "fagreenwich:armor/entity/greenwich/{basehead}" },
+                        "colorhead": { "base": "fagreenwich:block/plume/{colorhead}" }
                     }
                 },
                 "shape": {
-                    "DecorationHead-*": { "base": "fagreenwich:entity/armor/greenwich/{FormHead}/{DecorationHead}Head" }
+                    "*": { "base": "fagreenwich:entity/armor/greenwich/{formhead}/{decorationhead}head" }
                 },
                 "storageFlags": {
                     "*": 128
@@ -68,16 +64,16 @@
                     "*": ["hidehat", "Hood", "hoodupperover", "Hair tile upper part", "ponytailhigh", "ponytaillow", "Hair", "hair-uncovered", "hidefacialhair", "sidehigh", "sidelow", "bangs"]
                 },
                 "durability": {
-                    "BaseHead-iron": 3700,
-                    "BaseHead-meteoriciron": 4300,
-                    "@BaseHead-steel": 7000
+                    "basehead-iron": 3700,
+                    "basehead-meteoriciron": 4300,
+                    "@basehead-steel": 7000
                 },
                 "visibleDamageEffect": {
                     "*": true
                 },
                 "warmth": {
-                    "DecorationHead-bear::@ColorHead-(black|brown)": 1,
-                    "DecorationHead-bear::@ColorHead-white": 1.5
+                    "decorationhead-bear::@colorhead-(black|brown)": 1,
+                    "decorationhead-bear::@colorhead-white": 1.5
                 },
                 "clothesCategory": {
                     "*": "ArmorHead"
@@ -85,31 +81,31 @@
                 "defaultProtLoss": {
                     "*": {
                         "perTierRelativeProtectionLoss": [0.03, 0.15],
-                        "perTierFlatDamageReductionLoss": [0.1, 0.2]
+                        "perTierFlatDamagereductionLoss": [0.1, 0.2]
                     }
                 },
                 "protectionModifiers": {
-                    "BaseHead-steel": {
+                    "basehead-steel": {
                         "relativeProtection": 0.98,
-                        "flatDamageReduction": 3.5,
+                        "flatDamagereduction": 3.5,
                         "highDamageTierResistant": true,
                         "protectionTier": 4
                     },
-                    "BaseHead-meteoriciron": {
+                    "basehead-meteoriciron": {
                         "relativeProtection": 0.975,
-                        "flatDamageReduction": 3.2,
+                        "flatDamagereduction": 3.2,
                         "highDamageTierResistant": true,
                         "protectionTier": 3
                     },
-                    "BaseHead-iron": {
+                    "basehead-iron": {
                         "relativeProtection": 0.97,
-                        "flatDamageReduction": 3,
+                        "flatDamagereduction": 3,
                         "highDamageTierResistant": true,
                         "protectionTier": 3
                     }
                 },
                 "statModifiers": {
-                    "DecorationHead-Bear": {
+                    "decorationhead-bear": {
                         "rangedWeaponsAcc": -0.15,
                         "rangedWeaponsSpeed": -0.25,
                         "walkSpeed": -0.14,
@@ -126,12 +122,12 @@
                 },
                 "description": {
                     "*": ["-----------------------------", "<br>",
-                         ["Type: {0}", "{FormHead}"], "<br>", 
-                         ["Material: {0}", "{BaseHead}"], "<br>", 
-                         ["Design: {0}", "{DecorationHead}"], "<br>", 
-                         ["Decoration: {0}", "{ColorHead}"], "<br>", 
-                         ["Coating: {0}", "{CoverHead}"], "<br>", 
-                         ["Trim: {0}", "{StripHead}"], "<br>", 
+                         ["Type: {0}", "{formhead}"], "<br>", 
+                         ["Material: {0}", "{basehead}"], "<br>", 
+                         ["Design: {0}", "{decorationhead}"], "<br>", 
+                         ["Decoration: {0}", "{colorhead}"], "<br>", 
+                         ["Coating: {0}", "{coverhead}"], "<br>", 
+                         ["Trim: {0}", "{striphead}"], "<br>", 
                          "-----------------------------", "<br>"]
                 },
                 "STFA_attachableToEntity": {
