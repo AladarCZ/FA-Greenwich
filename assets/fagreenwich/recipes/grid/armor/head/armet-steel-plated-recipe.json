@@ -1,0 +1,654 @@
+[
+	// Blackbronze variant
+	// Blackbronze plated Armet with stripes and plume
+	{
+    	"ingredientPattern": "B_C,_AE,___",
+        "recipeGroup": 1,
+        "ingredients": {
+			"A": {	"type": "item", 
+    				"code":"fagreenwich:head", 
+				   	"attributes": {
+  					"types": {
+    					"formhead" : "armet",
+    					"basehead" : "steel",
+    					"coverhead" : "blackbronze",
+    					"striphead" : "none",
+    					"decorationhead" : "none",
+    					"colorhead" : "none"}
+  					} 
+			},    
+			"B": {  "type": "item", 
+        			"code": "game:cloth-*", 
+        			"name": "color", 
+        			"allowedVariants": [
+        				"plain",
+    					"blue",
+    					"red",
+        				"yellow",
+        				"green",
+        				"purple",
+        				"pink",                           
+						"orange",
+    					"brown",
+    					"gray",
+        				"black",
+        				"white"
+        			], 
+        			"quantity": 2
+    		},
+			"C": {  "type": "item", 
+    				"code": "facore:plumebase-*", 
+        			"name": "plume", 
+        			"allowedVariants": [
+        				"crista",
+        				"wings",
+    					"crown"
+    				]
+    		},
+			"E": {  "type": "item", 
+    				"code": "game:metalnailsandtrips-*", 
+        			"name": "metalstrip", 
+        			"allowedVariants": [
+        				"blackbronze",
+        				"tinbronze",
+    					"silver"
+    				]
+    		}
+		},
+		"copyAttributesFrom": "A",
+		"width": 3,
+		"height": 3,
+		"name": "Armet Decorating01",
+		"output": {
+ 			"type": "item",
+  			"code": "fagreenwich:head",
+  			"attributes": {
+  				"types": {
+    				"formhead" : "armet",
+    				"basehead" : "steel",
+    				"coverhead" : "blackbronze",
+    				"striphead" : "{metalstrip}",
+    				"decorationhead" : "{plume}",
+    				"colorhead" : "{color}"
+				}
+            }
+        }
+    },
+
+	// Blackbronze plated Armet with just plume
+	{
+    	"ingredientPattern": "B_C,_A_,___",
+        "recipeGroup": 1,
+        "ingredients": {
+			"A": {	"type": "item", 
+    				"code":"fagreenwich:head", 
+				   	"attributes": {
+  					"types": {
+    					"formhead" : "armet",
+    					"basehead" : "steel",
+    					"coverhead" : "blackbronze",
+    					"striphead" : "none",
+    					"decorationhead" : "none",
+    					"colorhead" : "none"}
+  					} 
+			},    
+			"B": {  "type": "item", 
+        			"code": "game:cloth-*", 
+        			"name": "color", 
+        			"allowedVariants": [
+        				"plain",
+    					"blue",
+    					"red",
+        				"yellow",
+        				"green",
+        				"purple",
+        				"pink",                           
+						"orange",
+    					"brown",
+    					"gray",
+        				"black",
+        				"white"
+        			], 
+        			"quantity": 2
+    		},
+			"C": {  "type": "item", 
+    				"code": "facore:plumebase-*", 
+        			"name": "plume", 
+        			"allowedVariants": [
+        				"crista",
+        				"wings",
+    					"crown"
+    				]
+    		}
+		},
+		"copyAttributesFrom": "A",
+		"width": 3,
+		"height": 3,
+		"name": "Armet Decorating01",
+		"output": {
+ 			"type": "item",
+  			"code": "fagreenwich:head",
+  			"attributes": {
+  				"types": {
+    				"formhead" : "armet",
+    				"basehead" : "steel",
+    				"coverhead" : "blackbronze",
+    				"striphead" : "none",
+    				"decorationhead" : "{plume}",
+    				"colorhead" : "{color}"
+				}
+            }
+        }
+    },
+
+	// Blackbronze plated Armet with stripes
+	{
+    	"ingredientPattern": "B_C,_AE,___",
+        "recipeGroup": 1,
+        "ingredients": {
+			"A": {	"type": "item", 
+    				"code":"fagreenwich:head", 
+				   	"attributes": {
+  					"types": {
+    					"formhead" : "armet",
+    					"basehead" : "steel",
+    					"coverhead" : "blackbronze",
+    					"striphead" : "none",
+    					"decorationhead" : "none",
+    					"colorhead" : "none"}
+  					} 
+			},    
+			"B": {  "type": "item", 
+        			"code": "game:cloth-*", 
+        			"name": "color", 
+        			"allowedVariants": [
+        				"plain",
+    					"blue",
+    					"red",
+        				"yellow",
+        				"green",
+        				"purple",
+        				"pink",                           
+						"orange",
+    					"brown",
+    					"gray",
+        				"black",
+        				"white"
+        			], 
+        			"quantity": 2
+    		},
+			"C": {  "type": "item", 
+    				"code": "facore:plumebase-*", 
+        			"name": "plume", 
+        			"allowedVariants": [
+        				"crista",
+        				"wings",
+    					"crown"
+    				]
+    		},
+			"E": {  "type": "item", 
+    				"code": "game:metalnailsandtrips-*", 
+        			"name": "metalstrip", 
+        			"allowedVariants": [
+        				"blackbronze",
+        				"tinbronze",
+    					"silver"
+    				]
+    		}
+		},
+		"copyAttributesFrom": "A",
+		"width": 3,
+		"height": 3,
+		"name": "Armet Decorating01",
+		"output": {
+ 			"type": "item",
+  			"code": "fagreenwich:head",
+  			"attributes": {
+  				"types": {
+    				"formhead" : "armet",
+    				"basehead" : "steel",
+    				"coverhead" : "blackbronze",
+    				"striphead" : "{metalstrip}",
+    				"decorationhead" : "none",
+    				"colorhead" : "none"
+				}
+            }
+        }
+    },
+
+
+	// Tinbronze variant
+	// Tinbronze plated Armet with stripes and plume
+	{
+    	"ingredientPattern": "B_C,_AE,___",
+        "recipeGroup": 1,
+        "ingredients": {
+			"A": {	"type": "item", 
+    				"code":"fagreenwich:head", 
+				   	"attributes": {
+  					"types": {
+    					"formhead" : "armet",
+    					"basehead" : "steel",
+    					"coverhead" : "tinbronze",
+    					"striphead" : "none",
+    					"decorationhead" : "none",
+    					"colorhead" : "none"}
+  					} 
+			},    
+			"B": {  "type": "item", 
+        			"code": "game:cloth-*", 
+        			"name": "color", 
+        			"allowedVariants": [
+        				"plain",
+    					"blue",
+    					"red",
+        				"yellow",
+        				"green",
+        				"purple",
+        				"pink",                           
+						"orange",
+    					"brown",
+    					"gray",
+        				"black",
+        				"white"
+        			], 
+        			"quantity": 2
+    		},
+			"C": {  "type": "item", 
+    				"code": "facore:plumebase-*", 
+        			"name": "plume", 
+        			"allowedVariants": [
+        				"crista",
+        				"wings",
+    					"crown"
+    				]
+    		},
+			"E": {  "type": "item", 
+    				"code": "game:metalnailsandtrips-*", 
+        			"name": "metalstrip", 
+        			"allowedVariants": [
+        				"blackbronze",
+        				"tinbronze",
+    					"silver"
+    				]
+    		}
+		},
+		"copyAttributesFrom": "A",
+		"width": 3,
+		"height": 3,
+		"name": "Armet Decorating01",
+		"output": {
+ 			"type": "item",
+  			"code": "fagreenwich:head",
+  			"attributes": {
+  				"types": {
+    				"formhead" : "armet",
+    				"basehead" : "steel",
+    				"coverhead" : "tinbronze",
+    				"striphead" : "{metalstrip}",
+    				"decorationhead" : "{plume}",
+    				"colorhead" : "{color}"
+				}
+            }
+        }
+    },
+
+	// Tinbronze plated Armet with just plume
+	{
+    	"ingredientPattern": "B_C,_A_,___",
+        "recipeGroup": 1,
+        "ingredients": {
+			"A": {	"type": "item", 
+    				"code":"fagreenwich:head", 
+				   	"attributes": {
+  					"types": {
+    					"formhead" : "armet",
+    					"basehead" : "steel",
+    					"coverhead" : "tinbronze",
+    					"striphead" : "none",
+    					"decorationhead" : "none",
+    					"colorhead" : "none"}
+  					} 
+			},    
+			"B": {  "type": "item", 
+        			"code": "game:cloth-*", 
+        			"name": "color", 
+        			"allowedVariants": [
+        				"plain",
+    					"blue",
+    					"red",
+        				"yellow",
+        				"green",
+        				"purple",
+        				"pink",                           
+						"orange",
+    					"brown",
+    					"gray",
+        				"black",
+        				"white"
+        			], 
+        			"quantity": 2
+    		},
+			"C": {  "type": "item", 
+    				"code": "facore:plumebase-*", 
+        			"name": "plume", 
+        			"allowedVariants": [
+        				"crista",
+        				"wings",
+    					"crown"
+    				]
+    		}
+		},
+		"copyAttributesFrom": "A",
+		"width": 3,
+		"height": 3,
+		"name": "Armet Decorating01",
+		"output": {
+ 			"type": "item",
+  			"code": "fagreenwich:head",
+  			"attributes": {
+  				"types": {
+    				"formhead" : "armet",
+    				"basehead" : "steel",
+    				"coverhead" : "tinbronze",
+    				"striphead" : "none",
+    				"decorationhead" : "{plume}",
+    				"colorhead" : "{color}"
+				}
+            }
+        }
+    },
+
+	// Tinbronze plated Armet with stripes
+	{
+    	"ingredientPattern": "B_C,_AE,___",
+        "recipeGroup": 1,
+        "ingredients": {
+			"A": {	"type": "item", 
+    				"code":"fagreenwich:head", 
+				   	"attributes": {
+  					"types": {
+    					"formhead" : "armet",
+    					"basehead" : "steel",
+    					"coverhead" : "tinbronze",
+    					"striphead" : "none",
+    					"decorationhead" : "none",
+    					"colorhead" : "none"}
+  					} 
+			},    
+			"B": {  "type": "item", 
+        			"code": "game:cloth-*", 
+        			"name": "color", 
+        			"allowedVariants": [
+        				"plain",
+    					"blue",
+    					"red",
+        				"yellow",
+        				"green",
+        				"purple",
+        				"pink",                           
+						"orange",
+    					"brown",
+    					"gray",
+        				"black",
+        				"white"
+        			], 
+        			"quantity": 2
+    		},
+			"C": {  "type": "item", 
+    				"code": "facore:plumebase-*", 
+        			"name": "plume", 
+        			"allowedVariants": [
+        				"crista",
+        				"wings",
+    					"crown"
+    				]
+    		},
+			"E": {  "type": "item", 
+    				"code": "game:metalnailsandtrips-*", 
+        			"name": "metalstrip", 
+        			"allowedVariants": [
+        				"blackbronze",
+        				"tinbronze",
+    					"silver"
+    				]
+    		}
+		},
+		"copyAttributesFrom": "A",
+		"width": 3,
+		"height": 3,
+		"name": "Armet Decorating01",
+		"output": {
+ 			"type": "item",
+  			"code": "fagreenwich:head",
+  			"attributes": {
+  				"types": {
+    				"formhead" : "armet",
+    				"basehead" : "steel",
+    				"coverhead" : "tinbronze",
+    				"striphead" : "{metalstrip}",
+    				"decorationhead" : "none",
+    				"colorhead" : "none"
+				}
+            }
+        }
+    },
+
+
+	// Silver variant
+	// Silver plated Armet with stripes and plume
+	{
+    	"ingredientPattern": "B_C,_AE,___",
+        "recipeGroup": 1,
+        "ingredients": {
+			"A": {	"type": "item", 
+    				"code":"fagreenwich:head", 
+				   	"attributes": {
+  					"types": {
+    					"formhead" : "armet",
+    					"basehead" : "steel",
+    					"coverhead" : "silver",
+    					"striphead" : "none",
+    					"decorationhead" : "none",
+    					"colorhead" : "none"}
+  					} 
+			},    
+			"B": {  "type": "item", 
+        			"code": "game:cloth-*", 
+        			"name": "color", 
+        			"allowedVariants": [
+        				"plain",
+    					"blue",
+    					"red",
+        				"yellow",
+        				"green",
+        				"purple",
+        				"pink",                           
+						"orange",
+    					"brown",
+    					"gray",
+        				"black",
+        				"white"
+        			], 
+        			"quantity": 2
+    		},
+			"C": {  "type": "item", 
+    				"code": "facore:plumebase-*", 
+        			"name": "plume", 
+        			"allowedVariants": [
+        				"crista",
+        				"wings",
+    					"crown"
+    				]
+    		},
+			"E": {  "type": "item", 
+    				"code": "game:metalnailsandtrips-*", 
+        			"name": "metalstrip", 
+        			"allowedVariants": [
+        				"blackbronze",
+        				"tinbronze",
+    					"silver"
+    				]
+    		}
+		},
+		"copyAttributesFrom": "A",
+		"width": 3,
+		"height": 3,
+		"name": "Armet Decorating01",
+		"output": {
+ 			"type": "item",
+  			"code": "fagreenwich:head",
+  			"attributes": {
+  				"types": {
+    				"formhead" : "armet",
+    				"basehead" : "steel",
+    				"coverhead" : "silver",
+    				"striphead" : "{metalstrip}",
+    				"decorationhead" : "{plume}",
+    				"colorhead" : "{color}"
+				}
+            }
+        }
+    },
+
+	// Silver plated Armet with just plume
+	{
+    	"ingredientPattern": "B_C,_A_,___",
+        "recipeGroup": 1,
+        "ingredients": {
+			"A": {	"type": "item", 
+    				"code":"fagreenwich:head", 
+				   	"attributes": {
+  					"types": {
+    					"formhead" : "armet",
+    					"basehead" : "steel",
+    					"coverhead" : "silver",
+    					"striphead" : "none",
+    					"decorationhead" : "none",
+    					"colorhead" : "none"}
+  					} 
+			},    
+			"B": {  "type": "item", 
+        			"code": "game:cloth-*", 
+        			"name": "color", 
+        			"allowedVariants": [
+        				"plain",
+    					"blue",
+    					"red",
+        				"yellow",
+        				"green",
+        				"purple",
+        				"pink",                           
+						"orange",
+    					"brown",
+    					"gray",
+        				"black",
+        				"white"
+        			], 
+        			"quantity": 2
+    		},
+			"C": {  "type": "item", 
+    				"code": "facore:plumebase-*", 
+        			"name": "plume", 
+        			"allowedVariants": [
+        				"crista",
+        				"wings",
+    					"crown"
+    				]
+    		}
+		},
+		"copyAttributesFrom": "A",
+		"width": 3,
+		"height": 3,
+		"name": "Armet Decorating01",
+		"output": {
+ 			"type": "item",
+  			"code": "fagreenwich:head",
+  			"attributes": {
+  				"types": {
+    				"formhead" : "armet",
+    				"basehead" : "steel",
+    				"coverhead" : "silver",
+    				"striphead" : "none",
+    				"decorationhead" : "{plume}",
+    				"colorhead" : "{color}"
+				}
+            }
+        }
+    },
+
+	// Silver plated Armet with stripes
+	{
+    	"ingredientPattern": "B_C,_AE,___",
+        "recipeGroup": 1,
+        "ingredients": {
+			"A": {	"type": "item", 
+    				"code":"fagreenwich:head", 
+				   	"attributes": {
+  					"types": {
+    					"formhead" : "armet",
+    					"basehead" : "steel",
+    					"coverhead" : "silver",
+    					"striphead" : "none",
+    					"decorationhead" : "none",
+    					"colorhead" : "none"}
+  					} 
+			},    
+			"B": {  "type": "item", 
+        			"code": "game:cloth-*", 
+        			"name": "color", 
+        			"allowedVariants": [
+        				"plain",
+    					"blue",
+    					"red",
+        				"yellow",
+        				"green",
+        				"purple",
+        				"pink",                           
+						"orange",
+    					"brown",
+    					"gray",
+        				"black",
+        				"white"
+        			], 
+        			"quantity": 2
+    		},
+			"C": {  "type": "item", 
+    				"code": "facore:plumebase-*", 
+        			"name": "plume", 
+        			"allowedVariants": [
+        				"crista",
+        				"wings",
+    					"crown"
+    				]
+    		},
+			"E": {  "type": "item", 
+    				"code": "game:metalnailsandtrips-*", 
+        			"name": "metalstrip", 
+        			"allowedVariants": [
+        				"blackbronze",
+        				"tinbronze",
+    					"silver"
+    				]
+    		}
+		},
+		"copyAttributesFrom": "A",
+		"width": 3,
+		"height": 3,
+		"name": "Armet Decorating01",
+		"output": {
+ 			"type": "item",
+  			"code": "fagreenwich:head",
+  			"attributes": {
+  				"types": {
+    				"formhead" : "armet",
+    				"basehead" : "steel",
+    				"coverhead" : "silver",
+    				"striphead" : "{metalstrip}",
+    				"decorationhead" : "none",
+    				"colorhead" : "none"
+				}
+            }
+        }
+    }
+]
