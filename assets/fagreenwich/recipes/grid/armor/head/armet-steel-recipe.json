@@ -36,12 +36,11 @@
         			"quantity": 2
     		},
 			"C": {  "type": "item", 
-    				"code": "facore:plumebase-*", 
+    				"code": "facore:ornaments-*", 
         			"name": "plume", 
         			"allowedVariants": [
         				"crista",
-        				"wings",
-    					"crown"
+        				"wings"
     				]
     		},
 			"D": {  "type": "item", 
@@ -49,16 +48,16 @@
         			"name": "metalcover", 
         			"allowedVariants": [
         				"blackbronze",
-        				"tinbronze",
+        				"bismuthbronze",
     					"silver"
     				]
     		},
 			"E": {  "type": "item", 
-    				"code": "game:metalnailsandtrips-*", 
+    				"code": "game:metalnailsandstrips-*", 
         			"name": "metalstrip", 
         			"allowedVariants": [
         				"blackbronze",
-        				"tinbronze",
+        				"gold",
     					"silver"
     				]
     		}
@@ -105,16 +104,16 @@
         			"name": "metalcover", 
         			"allowedVariants": [
         				"blackbronze",
-        				"tinbronze",
+        				"bismuthbronze",
     					"silver"
     				]
     		},
 			"E": {  "type": "item", 
-    				"code": "game:metalnailsandtrips-*", 
+    				"code": "game:metalnailsandstrips-*", 
         			"name": "metalstrip", 
         			"allowedVariants": [
         				"blackbronze",
-        				"tinbronze",
+        				"gold",
     					"silver"
     				]
     		}
@@ -157,11 +156,11 @@
   					} 
 			},    
 			"E": {  "type": "item", 
-    				"code": "game:metalnailsandtrips-*", 
+    				"code": "game:metalnailsandstrips-*", 
         			"name": "metalstrip", 
         			"allowedVariants": [
         				"blackbronze",
-        				"tinbronze",
+        				"gold",
     					"silver"
     				]
     		}
@@ -208,7 +207,7 @@
         			"name": "metalcover", 
         			"allowedVariants": [
         				"blackbronze",
-        				"tinbronze",
+        				"bismuthbronze",
     					"silver"
     				]
     		}
@@ -270,12 +269,11 @@
         			"quantity": 2
     		},
 			"C": {  "type": "item", 
-    				"code": "facore:plumebase-*", 
+    				"code": "facore:ornaments-*", 
         			"name": "plume", 
         			"allowedVariants": [
         				"crista",
-        				"wings",
-    					"crown"
+        				"wings"
     				]
     		}
 		},
@@ -336,12 +334,11 @@
         			"quantity": 2
     		},
 			"C": {  "type": "item", 
-    				"code": "facore:plumebase-*", 
+    				"code": "facore:ornaments-*", 
         			"name": "plume", 
         			"allowedVariants": [
         				"crista",
-        				"wings",
-    					"crown"
+        				"wings"
     				]
     		},
 			"D": {  "type": "item", 
@@ -349,7 +346,7 @@
         			"name": "metalcover", 
         			"allowedVariants": [
         				"blackbronze",
-        				"tinbronze",
+        				"bismuthbronze",
     					"silver"
     				]
     		}
@@ -411,12 +408,11 @@
         			"quantity": 2
     		},
 			"C": {  "type": "item", 
-    				"code": "facore:plumebase-*", 
+    				"code": "facore:ornaments-*", 
         			"name": "plume", 
         			"allowedVariants": [
         				"crista",
-        				"wings",
-    					"crown"
+        				"wings"
     				]
     		},
 			"D": {  "type": "item", 
@@ -424,16 +420,16 @@
         			"name": "metalcover", 
         			"allowedVariants": [
         				"blackbronze",
-        				"tinbronze",
+        				"bismuthbronze",
     					"silver"
     				]
     		},
 			"E": {  "type": "item", 
-    				"code": "game:metalnailsandtrips-*", 
+    				"code": "game:metalnailsandstrips-*", 
         			"name": "metalstrip", 
         			"allowedVariants": [
         				"blackbronze",
-        				"tinbronze",
+        				"gold",
     					"silver"
     				]
     		}

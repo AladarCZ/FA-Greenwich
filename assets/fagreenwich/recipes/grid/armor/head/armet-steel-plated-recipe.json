@@ -37,20 +37,19 @@
         			"quantity": 2
     		},
 			"C": {  "type": "item", 
-    				"code": "facore:plumebase-*", 
+    				"code": "facore:ornaments-*", 
         			"name": "plume", 
         			"allowedVariants": [
         				"crista",
-        				"wings",
-    					"crown"
+        				"wings"
     				]
     		},
 			"E": {  "type": "item", 
-    				"code": "game:metalnailsandtrips-*", 
+    				"code": "game:metalnailsandstrips-*", 
         			"name": "metalstrip", 
         			"allowedVariants": [
         				"blackbronze",
-        				"tinbronze",
+        				"gold",
     					"silver"
     				]
     		}
@@ -75,7 +74,7 @@
         }
     },
 
-	// Blackbronze plated Armet with just plume
+
 	{
     	"ingredientPattern": "B_C,_A_,___",
         "recipeGroup": 1,
@@ -112,12 +111,11 @@
         			"quantity": 2
     		},
 			"C": {  "type": "item", 
-    				"code": "facore:plumebase-*", 
+    				"code": "facore:ornaments-*", 
         			"name": "plume", 
         			"allowedVariants": [
         				"crista",
-        				"wings",
-    					"crown"
+        				"wings"
     				]
     		}
 		},
@@ -178,20 +176,19 @@
         			"quantity": 2
     		},
 			"C": {  "type": "item", 
-    				"code": "facore:plumebase-*", 
+    				"code": "facore:ornaments-*", 
         			"name": "plume", 
         			"allowedVariants": [
         				"crista",
-        				"wings",
-    					"crown"
+        				"wings"
     				]
     		},
 			"E": {  "type": "item", 
-    				"code": "game:metalnailsandtrips-*", 
+    				"code": "game:metalnailsandstrips-*", 
         			"name": "metalstrip", 
         			"allowedVariants": [
         				"blackbronze",
-        				"tinbronze",
+        				"gold",
     					"silver"
     				]
     		}
@@ -217,8 +214,8 @@
     },
 
 
-	// Tinbronze variant
-	// Tinbronze plated Armet with stripes and plume
+	// bismuthbronze variant
+	// bismuthbronze plated Armet with stripes and plume
 	{
     	"ingredientPattern": "B_C,_AE,___",
         "recipeGroup": 1,
@@ -229,7 +226,7 @@
   					"types": {
     					"formhead" : "armet",
     					"basehead" : "steel",
-    					"coverhead" : "tinbronze",
+    					"coverhead" : "bismuthbronze",
     					"striphead" : "none",
     					"decorationhead" : "none",
     					"colorhead" : "none"}
@@ -255,20 +252,19 @@
         			"quantity": 2
     		},
 			"C": {  "type": "item", 
-    				"code": "facore:plumebase-*", 
+    				"code": "facore:ornaments-*", 
         			"name": "plume", 
         			"allowedVariants": [
         				"crista",
-        				"wings",
-    					"crown"
+        				"wings"
     				]
     		},
 			"E": {  "type": "item", 
-    				"code": "game:metalnailsandtrips-*", 
+    				"code": "game:metalnailsandstrips-*", 
         			"name": "metalstrip", 
         			"allowedVariants": [
         				"blackbronze",
-        				"tinbronze",
+        				"gold",
     					"silver"
     				]
     		}
@@ -284,7 +280,7 @@
   				"types": {
     				"formhead" : "armet",
     				"basehead" : "steel",
-    				"coverhead" : "tinbronze",
+    				"coverhead" : "bismuthbronze",
     				"striphead" : "{metalstrip}",
     				"decorationhead" : "{plume}",
     				"colorhead" : "{color}"
@@ -293,7 +289,7 @@
         }
     },
 
-	// Tinbronze plated Armet with just plume
+	// bismuthbronze plated Armet with just plume
 	{
     	"ingredientPattern": "B_C,_A_,___",
         "recipeGroup": 1,
@@ -304,7 +300,7 @@
   					"types": {
     					"formhead" : "armet",
     					"basehead" : "steel",
-    					"coverhead" : "tinbronze",
+    					"coverhead" : "bismuthbronze",
     					"striphead" : "none",
     					"decorationhead" : "none",
     					"colorhead" : "none"}
@@ -330,12 +326,11 @@
         			"quantity": 2
     		},
 			"C": {  "type": "item", 
-    				"code": "facore:plumebase-*", 
+    				"code": "facore:ornaments-*", 
         			"name": "plume", 
         			"allowedVariants": [
         				"crista",
-        				"wings",
-    					"crown"
+        				"wings"
     				]
     		}
 		},
@@ -350,7 +345,7 @@
   				"types": {
     				"formhead" : "armet",
     				"basehead" : "steel",
-    				"coverhead" : "tinbronze",
+    				"coverhead" : "bismuthbronze",
     				"striphead" : "none",
     				"decorationhead" : "{plume}",
     				"colorhead" : "{color}"
@@ -359,7 +354,7 @@
         }
     },
 
-	// Tinbronze plated Armet with stripes
+	// bismuthbronze plated Armet with stripes
 	{
     	"ingredientPattern": "B_C,_AE,___",
         "recipeGroup": 1,
@@ -370,7 +365,7 @@
   					"types": {
     					"formhead" : "armet",
     					"basehead" : "steel",
-    					"coverhead" : "tinbronze",
+    					"coverhead" : "bismuthbronze",
     					"striphead" : "none",
     					"decorationhead" : "none",
     					"colorhead" : "none"}
@@ -396,20 +391,19 @@
         			"quantity": 2
     		},
 			"C": {  "type": "item", 
-    				"code": "facore:plumebase-*", 
+    				"code": "facore:ornaments-*", 
         			"name": "plume", 
         			"allowedVariants": [
         				"crista",
-        				"wings",
-    					"crown"
+        				"wings"
     				]
     		},
 			"E": {  "type": "item", 
-    				"code": "game:metalnailsandtrips-*", 
+    				"code": "game:metalnailsandstrips-*", 
         			"name": "metalstrip", 
         			"allowedVariants": [
         				"blackbronze",
-        				"tinbronze",
+        				"gold",
     					"silver"
     				]
     		}
@@ -425,7 +419,7 @@
   				"types": {
     				"formhead" : "armet",
     				"basehead" : "steel",
-    				"coverhead" : "tinbronze",
+    				"coverhead" : "bismuthbronze",
     				"striphead" : "{metalstrip}",
     				"decorationhead" : "none",
     				"colorhead" : "none"
@@ -473,20 +467,19 @@
         			"quantity": 2
     		},
 			"C": {  "type": "item", 
-    				"code": "facore:plumebase-*", 
+    				"code": "facore:ornaments-*", 
         			"name": "plume", 
         			"allowedVariants": [
         				"crista",
-        				"wings",
-    					"crown"
+        				"wings"
     				]
     		},
 			"E": {  "type": "item", 
-    				"code": "game:metalnailsandtrips-*", 
+    				"code": "game:metalnailsandstrips-*", 
         			"name": "metalstrip", 
         			"allowedVariants": [
         				"blackbronze",
-        				"tinbronze",
+        				"gold",
     					"silver"
     				]
     		}
@@ -548,12 +541,11 @@
         			"quantity": 2
     		},
 			"C": {  "type": "item", 
-    				"code": "facore:plumebase-*", 
+    				"code": "facore:ornaments-*", 
         			"name": "plume", 
         			"allowedVariants": [
         				"crista",
-        				"wings",
-    					"crown"
+        				"wings"
     				]
     		}
 		},
@@ -614,20 +606,19 @@
         			"quantity": 2
     		},
 			"C": {  "type": "item", 
-    				"code": "facore:plumebase-*", 
+    				"code": "facore:ornaments-*", 
         			"name": "plume", 
         			"allowedVariants": [
         				"crista",
-        				"wings",
-    					"crown"
+        				"wings"
     				]
     		},
 			"E": {  "type": "item", 
-    				"code": "game:metalnailsandtrips-*", 
+    				"code": "game:metalnailsandstrips-*", 
         			"name": "metalstrip", 
         			"allowedVariants": [
         				"blackbronze",
-        				"tinbronze",
+        				"gold",
     					"silver"
     				]
     		}
