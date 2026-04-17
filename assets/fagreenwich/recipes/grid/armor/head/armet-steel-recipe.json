@@ -1,5 +1,5 @@
 [
-	// Armet with Everything
+	// Armet with Everything, base colors
 	{
     	"ingredientPattern": "B_C,DAE,___",
         "recipeGroup": 1,
@@ -17,7 +17,7 @@
   					} 
 			},    
 			"B": {  "type": "item", 
-        			"code": "game:cloth-*", 
+        			"code": "facore:decorationkit-vanilla-", 
         			"name": "color", 
         			"allowedVariants": [
         				"plain",
@@ -39,7 +39,7 @@
     				"code": "facore:ornaments-*", 
         			"name": "plume", 
         			"allowedVariants": [
-        				"crista",
+        				"communis-crista",
         				"wings"
     				]
     		},

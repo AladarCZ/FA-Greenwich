@@ -3,7 +3,7 @@
     "maxstacksize": 1,
     "attributes": {
         "handbook": {
-            "groupBy": ["*"]
+            "exclude": true
         },
         "groundStorageTransform": {
             "translation": { "x": -2.1, "y": 0.9, "z": 3.9 },
@@ -20,10 +20,10 @@
                 "variantgroups": [
                     { "code": "formhead", "states": ["armet"] },
                     { "code": "basehead", "states": ["iron", "meteoriciron", "steel"] },
-                    { "code": "coverhead", "states": ["none", "blackbronze", "silver", "bismuthbronze"] },
-                    { "code": "striphead", "states": ["none", "gold", "silver", "blackbronze"] },
-                    { "code": "decorationhead", "states": ["none", "wing", "crista", "bear"] },
-                    { "code": "colorhead", "states": ["none", "red", "green", "black", "blue", "brown", "white", "purple", "pink", "orange", "yellow", "gray", "plain"] }
+                    { "code": "coverhead", "states": ["none", "copper", "cupronikel", "brass", "zinc", "blackbronze", "lead", "silver", "gold", "electrum"] },
+                    { "code": "striphead", "states": ["none", "copper", "cupronikel", "brass", "zinc", "blackbronze", "lead", "silver", "gold", "electrum"] },
+                    { "code": "decorationhead", "states": ["none", "pennae", "pluma", "crista", "bear"] },
+                    { "code": "colorhead", "states": ["none", "red", "rose", "green", "pine", "black", "blue", "navy", "brown", "white", "purple", "pink", "burghundy", "orange", "yellow", "gray", "plain"] }
                 ],
                 "tags":
                 {
@@ -33,61 +33,39 @@
                     "general": ["*"],
                     "fagreenwich": ["*"]
                 },
-                "skipvariants": [
-                    "basehead-iron::coverhead-blackbronze::striphead-gold",
-                    "basehead-iron::coverhead-blackbronze::striphead-silver",
-                    "basehead-iron::coverhead-blackbronze::striphead-blackbronze",
-                    "basehead-iron::coverhead-blackbronze::striphead-none",
-                    "basehead-iron::coverhead-bismuthbronze::striphead-gold",
-                    "basehead-iron::coverhead-bismuthbronze::striphead-silver",
-                    "basehead-iron::coverhead-bismuthbronze::striphead-blackbronze",
-                    "basehead-iron::coverhead-bismuthbronze::striphead-none",
-                    "basehead-iron::coverhead-silver::striphead-gold",
-                    "basehead-iron::coverhead-silver::striphead-silver",
-                    "basehead-iron::coverhead-silver::striphead-blackbronze",
-                    "basehead-iron::coverhead-silver::striphead-none",
-                    "basehead-iron::coverhead-none::striphead-gold",
-                    "basehead-iron::coverhead-none::striphead-silver",
-                    "basehead-iron::coverhead-none::striphead-blackbronze",
-                    "basehead-meteoriciron::coverhead-blackbronze::striphead-gold",
-                    "basehead-meteoriciron::coverhead-blackbronze::striphead-silver",
-                    "basehead-meteoriciron::coverhead-blackbronze::striphead-blackbronze",
-                    "basehead-meteoriciron::coverhead-blackbronze::striphead-none",
-                    "basehead-meteoriciron::coverhead-bismuthbronze::striphead-gold",
-                    "basehead-meteoriciron::coverhead-bismuthbronze::striphead-silver",
-                    "basehead-meteoriciron::coverhead-bismuthbronze::striphead-blackbronze",
-                    "basehead-meteoriciron::coverhead-bismuthbronze::striphead-none",
-                    "basehead-meteoriciron::coverhead-silver::striphead-gold",
-                    "basehead-meteoriciron::coverhead-silver::striphead-silver",
-                    "basehead-meteoriciron::coverhead-silver::striphead-blackbronze",
-                    "basehead-meteoriciron::coverhead-silver::striphead-none",
-                    "basehead-meteoriciron::coverhead-none::striphead-gold",
-                    "basehead-meteoriciron::coverhead-none::striphead-silver",
+                "allowedvariants": [
+                    //Allow steel variants
+                    "basehead-steel",
+
+                    //Allow iron plain head and zinc-striped variant
+                    "basehead-iron::coverhead-none::striphead-zinc",
+                    "basehead-iron::coverhead-none::striphead-none",
+
+                    //Allow meteoriciron plain head and cupronikel-striped variant
+                    "basehead-meteoriciron::coverhead-none::striphead-cupronikel",                    
+                    "basehead-meteoriciron::coverhead-none::striphead-brass",
                     "basehead-meteoriciron::coverhead-none::striphead-blackbronze",
-                    "decorationhead-bear::colorhead-none",
-                    "decorationhead-bear::colorhead-red",
-                    "decorationhead-bear::colorhead-green",
-                    "decorationhead-bear::colorhead-blue",
-                    "decorationhead-bear::colorhead-purple",
-                    "decorationhead-bear::colorhead-pink",
-                    "decorationhead-bear::colorhead-orange",
-                    "decorationhead-bear::colorhead-yellow",
-                    "decorationhead-bear::colorhead-gray",
-                    "decorationhead-bear::colorhead-plain",
-                    "decorationhead-wing::colorhead-none",
+                    "basehead-meteoriciron::coverhead-none::striphead-none",
+                    
+                    //Allow properly colored bear variants
+                    "decorationhead-bear::colorhead-brown",
+                    "decorationhead-bear::colorhead-black",
+                    "decorationhead-bear::colorhead-white",
+                    
+                    //Allow decorations
+                    "decorationhead-pennae",
+                    "decorationhead-crista",
+                    "decorationhead-pluma",
+                    
+                    //Allow just a single undecorated variant
+                    "decorationhead-none::colorhead-none"
+                    
+                ],
+                "skipvariants": [
+                    //Block decorated "none" duplicates
+                    "decorationhead-pennae::colorhead-none",
                     "decorationhead-crista::colorhead-none",
-                    "decorationhead-none::colorhead-red",
-                    "decorationhead-none::colorhead-green",
-                    "decorationhead-none::colorhead-black",
-                    "decorationhead-none::colorhead-blue",
-                    "decorationhead-none::colorhead-brown",
-                    "decorationhead-none::colorhead-white",
-                    "decorationhead-none::colorhead-purple",
-                    "decorationhead-none::colorhead-pink",
-                    "decorationhead-none::colorhead-orange",
-                    "decorationhead-none::colorhead-yellow",
-                    "decorationhead-none::colorhead-gray",
-                    "decorationhead-none::colorhead-plain"
+                    "decorationhead-pluma::colorhead-none"
                 ]
             }
         },
@@ -132,7 +110,7 @@
                 "durability": {
                     "basehead-iron": 3700,
                     "basehead-meteoriciron": 4300,
-                    "@basehead-steel": 7000
+                    "basehead-steel": 7000
                 },
                 "visibleDamageEffect": {
                     "*": true
@@ -188,17 +166,17 @@
                 },
                 "description": {
                     "*": ["-----------------------------", "<br>",
-                         ["Type: {0}", "{formhead}"], "<br>", 
-                         ["Material: {0}", "{basehead}"], "<br>", 
-                         ["Design: {0}", "{decorationhead}"], "<br>", 
-                         ["Decoration: {0}", "{colorhead}"], "<br>", 
-                         ["Coating: {0}", "{coverhead}"], "<br>", 
-                         ["Trim: {0}", "{striphead}"], "<br>", 
+                         ["Type: {0}", "formhead-{formhead}"], "<br>", 
+                         ["Material: {0}", "basehead-{basehead}"], "<br>", 
+                         ["Design: {0}", "decorationhead-{decorationhead}"], "<br>", 
+                         ["Decoration: {0}", "colorhead-{colorhead}"], "<br>", 
+                         ["Coating: {0}", "coverhead-{coverhead}"], "<br>", 
+                         ["Trim: {0}", "striphead-{striphead}"], "<br>", 
                          "-----------------------------", "<br>"]
                 },
                 "STFA_attachableToEntity": {
                     "categoryCode": {
-                        "*": "armorHead"
+                        "*": "armorhead"
                     },
                     "disableElements": {
                         "*": ["hidehat", "Hood", "hoodupperover", "Hair tile upper part", "ponytailhigh", "ponytaillow", "Hair", "hair-uncovered", "hidefacialhair", "sidehigh", "sidelow", "bangs"]
