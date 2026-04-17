@@ -20,8 +20,8 @@
                 "variantgroups": [
                     { "code": "formhead", "states": ["armet"] },
                     { "code": "basehead", "states": ["iron", "meteoriciron", "steel"] },
-                    { "code": "coverhead", "states": ["none", "copper", "cupronikel", "brass", "zinc", "blackbronze", "lead", "silver", "gold", "electrum"] },
-                    { "code": "striphead", "states": ["none", "copper", "cupronikel", "brass", "zinc", "blackbronze", "lead", "silver", "gold", "electrum"] },
+                    { "code": "coverhead", "states": ["none", "copper", "cupronikel", "brass", "zinc", "blackbronze", "lead", "silver", "meteoriciron", "gold", "electrum"] },
+                    { "code": "striphead", "states": ["none", "copper", "cupronikel", "brass", "zinc", "blackbronze", "lead", "silver", "meteoriciron", "gold", "electrum"] },
                     { "code": "decorationhead", "states": ["none", "pennae", "pluma", "crista", "bear"] },
                     { "code": "colorhead", "states": ["none", "red", "rose", "green", "pine", "black", "blue", "navy", "brown", "white", "purple", "pink", "burghundy", "orange", "yellow", "gray", "plain"] }
                 ],
