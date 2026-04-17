@@ -2,7 +2,7 @@
 	// copper variant
 	// copper plated Armet with stripes and plume
 	{
-    	"ingredientPattern": "B_C,_AE,___",
+    	"ingredientPattern": "B_C,DA_,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -11,8 +11,8 @@
   					"types": {
     					"formhead" : "armet",
     					"basehead" : "steel",
-    					"coverhead" : "copper",
-    					"striphead" : "none",
+    					"coverhead" : "none",
+    					"striphead" : "copper",
     					"decorationhead" : "none",
     					"colorhead" : "none"}
   					} 
@@ -48,9 +48,9 @@
 						"pluma"
     				]
     		},
-			"E": {  "type": "item", 
-    				"code": "facore:rimsandrivets-*", 
-        			"name": "metalrivet", 
+			"D": {  "type": "item", 
+    				"code": "game:metalplate-*", 
+        			"name": "metalcover", 
           			"allowedVariants": [
 						"copper",
 						"cupronikel",
@@ -76,7 +76,7 @@
     				"formhead" : "armet",
     				"basehead" : "steel",
     				"coverhead" : "copper",
-    				"striphead" : "{metalrivet}",
+    				"striphead" : "{metalcover}",
     				"decorationhead" : "{plume}",
     				"colorhead" : "{color}"
 				}
@@ -86,7 +86,7 @@
 	
 	// copper plated Armet with stripes
 	{
-    	"ingredientPattern": "__,_AE,___",
+    	"ingredientPattern": "__,DA_,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -95,15 +95,15 @@
   					"types": {
     					"formhead" : "armet",
     					"basehead" : "steel",
-    					"coverhead" : "copper",
-    					"striphead" : "none",
+    					"coverhead" : "none",
+    					"striphead" : "copper",
     					"decorationhead" : "none",
     					"colorhead" : "none"}
   					} 
 			},    
-			"E": {  "type": "item", 
-    				"code": "facore:rimsandrivets-*", 
-        			"name": "metalrivet", 
+			"D": {  "type": "item", 
+    				"code": "game:metalplate-*", 
+        			"name": "metalcover", 
           			"allowedVariants": [
 						"copper",
 						"cupronikel",
@@ -129,7 +129,7 @@
     				"formhead" : "armet",
     				"basehead" : "steel",
     				"coverhead" : "copper",
-    				"striphead" : "{metalrivet}",
+    				"striphead" : "{metalcover}",
     				"decorationhead" : "none",
     				"colorhead" : "none"
 				}
@@ -139,7 +139,7 @@
 
 	// copper plated Armet with plume
 	{
-    	"ingredientPattern": "B_C,_AE,___",
+    	"ingredientPattern": "B_C,DA_,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -148,8 +148,8 @@
   					"types": {
     					"formhead" : "armet",
     					"basehead" : "steel",
-    					"coverhead" : "copper",
-    					"striphead" : "none",
+    					"coverhead" : "none",
+    					"striphead" : "copper",
     					"decorationhead" : "none",
     					"colorhead" : "none"}
   					} 
@@ -197,8 +197,8 @@
   				"types": {
     				"formhead" : "armet",
     				"basehead" : "steel",
-    				"coverhead" : "copper",
-    				"striphead" : "none",
+    				"coverhead" : "none",
+    				"striphead" : "copper",
     				"decorationhead" : "{plume}",
     				"colorhead" : "{color}"
 				}
@@ -211,7 +211,7 @@
 	// cupronikel variant
 	// cupronikel plated Armet with stripes and plume
 	{
-    	"ingredientPattern": "B_C,_AE,___",
+    	"ingredientPattern": "B_C,DA_,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -220,8 +220,8 @@
   					"types": {
     					"formhead" : "armet",
     					"basehead" : "steel",
-    					"coverhead" : "cupronikel",
-    					"striphead" : "none",
+    					"coverhead" : "none",
+    					"striphead" : "cupronikel",
     					"decorationhead" : "none",
     					"colorhead" : "none"}
   					} 
@@ -257,11 +257,11 @@
 						"pluma"
     				]
     		},
-			"E": {  "type": "item", 
-    				"code": "facore:rimsandrivets-*", 
-        			"name": "metalrivet", 
+			"D": {  "type": "item", 
+    				"code": "game:metalplate-*", 
+        			"name": "metalcover", 
           			"allowedVariants": [
-						"cupronikel",
+						"copper",
 						"cupronikel",
 						"brass",
 						"zinc",
@@ -285,7 +285,7 @@
     				"formhead" : "armet",
     				"basehead" : "steel",
     				"coverhead" : "cupronikel",
-    				"striphead" : "{metalrivet}",
+    				"striphead" : "{metalcover}",
     				"decorationhead" : "{plume}",
     				"colorhead" : "{color}"
 				}
@@ -295,7 +295,7 @@
 	
 	// cupronikel plated Armet with stripes
 	{
-    	"ingredientPattern": "__,_AE,___",
+    	"ingredientPattern": "__,DA_,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -304,17 +304,17 @@
   					"types": {
     					"formhead" : "armet",
     					"basehead" : "steel",
-    					"coverhead" : "cupronikel",
-    					"striphead" : "none",
+    					"coverhead" : "none",
+    					"striphead" : "cupronikel",
     					"decorationhead" : "none",
     					"colorhead" : "none"}
   					} 
 			},    
-			"E": {  "type": "item", 
-    				"code": "facore:rimsandrivets-*", 
-        			"name": "metalrivet", 
+			"D": {  "type": "item", 
+    				"code": "game:metalplate-*", 
+        			"name": "metalcover", 
           			"allowedVariants": [
-						"cupronikel",
+						"copper",
 						"cupronikel",
 						"brass",
 						"zinc",
@@ -338,7 +338,7 @@
     				"formhead" : "armet",
     				"basehead" : "steel",
     				"coverhead" : "cupronikel",
-    				"striphead" : "{metalrivet}",
+    				"striphead" : "{metalcover}",
     				"decorationhead" : "none",
     				"colorhead" : "none"
 				}
@@ -348,7 +348,7 @@
 
 	// cupronikel plated Armet with plume
 	{
-    	"ingredientPattern": "B_C,_AE,___",
+    	"ingredientPattern": "B_C,DA_,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -357,8 +357,8 @@
   					"types": {
     					"formhead" : "armet",
     					"basehead" : "steel",
-    					"coverhead" : "cupronikel",
-    					"striphead" : "none",
+    					"coverhead" : "none",
+    					"striphead" : "cupronikel",
     					"decorationhead" : "none",
     					"colorhead" : "none"}
   					} 
@@ -406,8 +406,8 @@
   				"types": {
     				"formhead" : "armet",
     				"basehead" : "steel",
-    				"coverhead" : "cupronikel",
-    				"striphead" : "none",
+    				"coverhead" : "none",
+    				"striphead" : "cupronikel",
     				"decorationhead" : "{plume}",
     				"colorhead" : "{color}"
 				}
@@ -420,7 +420,7 @@
 	// brass variant
 	// brass plated Armet with stripes and plume
 	{
-    	"ingredientPattern": "B_C,_AE,___",
+    	"ingredientPattern": "B_C,DA_,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -429,8 +429,8 @@
   					"types": {
     					"formhead" : "armet",
     					"basehead" : "steel",
-    					"coverhead" : "brass",
-    					"striphead" : "none",
+    					"coverhead" : "none",
+    					"striphead" : "brass",
     					"decorationhead" : "none",
     					"colorhead" : "none"}
   					} 
@@ -466,12 +466,12 @@
 						"pluma"
     				]
     		},
-			"E": {  "type": "item", 
-    				"code": "facore:rimsandrivets-*", 
-        			"name": "metalrivet", 
+			"D": {  "type": "item", 
+    				"code": "game:metalplate-*", 
+        			"name": "metalcover", 
           			"allowedVariants": [
-						"brass",
-						"brass",
+						"copper",
+						"cupronikel",
 						"brass",
 						"zinc",
         				"blackbronze",
@@ -494,7 +494,7 @@
     				"formhead" : "armet",
     				"basehead" : "steel",
     				"coverhead" : "brass",
-    				"striphead" : "{metalrivet}",
+    				"striphead" : "{metalcover}",
     				"decorationhead" : "{plume}",
     				"colorhead" : "{color}"
 				}
@@ -504,7 +504,7 @@
 	
 	// brass plated Armet with stripes
 	{
-    	"ingredientPattern": "__,_AE,___",
+    	"ingredientPattern": "__,DA_,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -513,18 +513,18 @@
   					"types": {
     					"formhead" : "armet",
     					"basehead" : "steel",
-    					"coverhead" : "brass",
-    					"striphead" : "none",
+    					"coverhead" : "none",
+    					"striphead" : "brass",
     					"decorationhead" : "none",
     					"colorhead" : "none"}
   					} 
 			},    
-			"E": {  "type": "item", 
-    				"code": "facore:rimsandrivets-*", 
-        			"name": "metalrivet", 
+			"D": {  "type": "item", 
+    				"code": "game:metalplate-*", 
+        			"name": "metalcover", 
           			"allowedVariants": [
-						"brass",
-						"brass",
+						"copper",
+						"cupronikel",
 						"brass",
 						"zinc",
         				"blackbronze",
@@ -547,7 +547,7 @@
     				"formhead" : "armet",
     				"basehead" : "steel",
     				"coverhead" : "brass",
-    				"striphead" : "{metalrivet}",
+    				"striphead" : "{metalcover}",
     				"decorationhead" : "none",
     				"colorhead" : "none"
 				}
@@ -557,7 +557,7 @@
 
 	// brass plated Armet with plume
 	{
-    	"ingredientPattern": "B_C,_AE,___",
+    	"ingredientPattern": "B_C,DA_,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -566,8 +566,8 @@
   					"types": {
     					"formhead" : "armet",
     					"basehead" : "steel",
-    					"coverhead" : "brass",
-    					"striphead" : "none",
+    					"coverhead" : "none",
+    					"striphead" : "brass",
     					"decorationhead" : "none",
     					"colorhead" : "none"}
   					} 
@@ -629,7 +629,7 @@
 	// zinc variant
 	// zinc plated Armet with stripes and plume
 	{
-    	"ingredientPattern": "B_C,_AE,___",
+    	"ingredientPattern": "B_C,DA_,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -638,8 +638,8 @@
   					"types": {
     					"formhead" : "armet",
     					"basehead" : "steel",
-    					"coverhead" : "zinc",
-    					"striphead" : "none",
+    					"coverhead" : "none",
+    					"striphead" : "zinc",
     					"decorationhead" : "none",
     					"colorhead" : "none"}
   					} 
@@ -675,13 +675,13 @@
 						"pluma"
     				]
     		},
-			"E": {  "type": "item", 
-    				"code": "facore:rimsandrivets-*", 
-        			"name": "metalrivet", 
+			"D": {  "type": "item", 
+    				"code": "game:metalplate-*", 
+        			"name": "metalcover", 
           			"allowedVariants": [
-						"zinc",
-						"zinc",
-						"zinc",
+						"copper",
+						"cupronikel",
+						"brass",
 						"zinc",
         				"blackbronze",
 						"lead",
@@ -703,7 +703,7 @@
     				"formhead" : "armet",
     				"basehead" : "steel",
     				"coverhead" : "zinc",
-    				"striphead" : "{metalrivet}",
+    				"striphead" : "{metalcover}",
     				"decorationhead" : "{plume}",
     				"colorhead" : "{color}"
 				}
@@ -713,7 +713,7 @@
 	
 	// zinc plated Armet with stripes
 	{
-    	"ingredientPattern": "__,_AE,___",
+    	"ingredientPattern": "__,DA_,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -722,19 +722,19 @@
   					"types": {
     					"formhead" : "armet",
     					"basehead" : "steel",
-    					"coverhead" : "zinc",
-    					"striphead" : "none",
+    					"coverhead" : "none",
+    					"striphead" : "zinc",
     					"decorationhead" : "none",
     					"colorhead" : "none"}
   					} 
 			},    
-			"E": {  "type": "item", 
-    				"code": "facore:rimsandrivets-*", 
-        			"name": "metalrivet", 
+			"D": {  "type": "item", 
+    				"code": "game:metalplate-*", 
+        			"name": "metalcover", 
           			"allowedVariants": [
-						"zinc",
-						"zinc",
-						"zinc",
+						"copper",
+						"cupronikel",
+						"brass",
 						"zinc",
         				"blackbronze",
 						"lead",
@@ -756,7 +756,7 @@
     				"formhead" : "armet",
     				"basehead" : "steel",
     				"coverhead" : "zinc",
-    				"striphead" : "{metalrivet}",
+    				"striphead" : "{metalcover}",
     				"decorationhead" : "none",
     				"colorhead" : "none"
 				}
@@ -766,7 +766,7 @@
 
 	// zinc plated Armet with plume
 	{
-    	"ingredientPattern": "B_C,_AE,___",
+    	"ingredientPattern": "B_C,DA_,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -775,8 +775,8 @@
   					"types": {
     					"formhead" : "armet",
     					"basehead" : "steel",
-    					"coverhead" : "zinc",
-    					"striphead" : "none",
+    					"coverhead" : "none",
+    					"striphead" : "zinc",
     					"decorationhead" : "none",
     					"colorhead" : "none"}
   					} 
@@ -824,8 +824,8 @@
   				"types": {
     				"formhead" : "armet",
     				"basehead" : "steel",
-    				"coverhead" : "zinc",
-    				"striphead" : "none",
+    				"coverhead" : "none",
+    				"striphead" : "zinc",
     				"decorationhead" : "{plume}",
     				"colorhead" : "{color}"
 				}
@@ -838,7 +838,7 @@
 	// blackbronze variant
 	// blackbronze plated Armet with stripes and plume
 	{
-    	"ingredientPattern": "B_C,_AE,___",
+    	"ingredientPattern": "B_C,DA_,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -847,8 +847,8 @@
   					"types": {
     					"formhead" : "armet",
     					"basehead" : "steel",
-    					"coverhead" : "blackbronze",
-    					"striphead" : "none",
+    					"coverhead" : "none",
+    					"striphead" : "blackbronze",
     					"decorationhead" : "none",
     					"colorhead" : "none"}
   					} 
@@ -884,14 +884,14 @@
 						"pluma"
     				]
     		},
-			"E": {  "type": "item", 
-    				"code": "facore:rimsandrivets-*", 
-        			"name": "metalrivet", 
+			"D": {  "type": "item", 
+    				"code": "game:metalplate-*", 
+        			"name": "metalcover", 
           			"allowedVariants": [
-						"blackbronze",
-						"blackbronze",
-						"blackbronze",
-						"blackbronze",
+						"copper",
+						"cupronikel",
+						"brass",
+						"zinc",
         				"blackbronze",
 						"lead",
         				"silver",
@@ -912,7 +912,7 @@
     				"formhead" : "armet",
     				"basehead" : "steel",
     				"coverhead" : "blackbronze",
-    				"striphead" : "{metalrivet}",
+    				"striphead" : "{metalcover}",
     				"decorationhead" : "{plume}",
     				"colorhead" : "{color}"
 				}
@@ -922,7 +922,7 @@
 	
 	// blackbronze plated Armet with stripes
 	{
-    	"ingredientPattern": "__,_AE,___",
+    	"ingredientPattern": "__,DA_,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -931,20 +931,20 @@
   					"types": {
     					"formhead" : "armet",
     					"basehead" : "steel",
-    					"coverhead" : "blackbronze",
-    					"striphead" : "none",
+    					"coverhead" : "none",
+    					"striphead" : "blackbronze",
     					"decorationhead" : "none",
     					"colorhead" : "none"}
   					} 
 			},    
-			"E": {  "type": "item", 
-    				"code": "facore:rimsandrivets-*", 
-        			"name": "metalrivet", 
+			"D": {  "type": "item", 
+    				"code": "game:metalplate-*", 
+        			"name": "metalcover", 
           			"allowedVariants": [
-						"blackbronze",
-						"blackbronze",
-						"blackbronze",
-						"blackbronze",
+						"copper",
+						"cupronikel",
+						"brass",
+						"zinc",
         				"blackbronze",
 						"lead",
         				"silver",
@@ -965,7 +965,7 @@
     				"formhead" : "armet",
     				"basehead" : "steel",
     				"coverhead" : "blackbronze",
-    				"striphead" : "{metalrivet}",
+    				"striphead" : "{metalcover}",
     				"decorationhead" : "none",
     				"colorhead" : "none"
 				}
@@ -975,7 +975,7 @@
 
 	// blackbronze plated Armet with plume
 	{
-    	"ingredientPattern": "B_C,_AE,___",
+    	"ingredientPattern": "B_C,DA_,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -984,8 +984,8 @@
   					"types": {
     					"formhead" : "armet",
     					"basehead" : "steel",
-    					"coverhead" : "blackbronze",
-    					"striphead" : "none",
+    					"coverhead" : "none",
+    					"striphead" : "blackbronze",
     					"decorationhead" : "none",
     					"colorhead" : "none"}
   					} 
@@ -1033,8 +1033,8 @@
   				"types": {
     				"formhead" : "armet",
     				"basehead" : "steel",
-    				"coverhead" : "blackbronze",
-    				"striphead" : "none",
+    				"coverhead" : "none",
+    				"striphead" : "blackbronze",
     				"decorationhead" : "{plume}",
     				"colorhead" : "{color}"
 				}
@@ -1047,7 +1047,7 @@
 	// lead variant
 	// lead plated Armet with stripes and plume
 	{
-    	"ingredientPattern": "B_C,_AE,___",
+    	"ingredientPattern": "B_C,DA_,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -1056,8 +1056,8 @@
   					"types": {
     					"formhead" : "armet",
     					"basehead" : "steel",
-    					"coverhead" : "lead",
-    					"striphead" : "none",
+    					"coverhead" : "none",
+    					"striphead" : "lead",
     					"decorationhead" : "none",
     					"colorhead" : "none"}
   					} 
@@ -1093,15 +1093,15 @@
 						"pluma"
     				]
     		},
-			"E": {  "type": "item", 
-    				"code": "facore:rimsandrivets-*", 
-        			"name": "metalrivet", 
+			"D": {  "type": "item", 
+    				"code": "game:metalplate-*", 
+        			"name": "metalcover", 
           			"allowedVariants": [
-						"lead",
-						"lead",
-						"lead",
-						"lead",
-        				"lead",
+						"copper",
+						"cupronikel",
+						"brass",
+						"zinc",
+        				"blackbronze",
 						"lead",
         				"silver",
     					"gold",
@@ -1121,7 +1121,7 @@
     				"formhead" : "armet",
     				"basehead" : "steel",
     				"coverhead" : "lead",
-    				"striphead" : "{metalrivet}",
+    				"striphead" : "{metalcover}",
     				"decorationhead" : "{plume}",
     				"colorhead" : "{color}"
 				}
@@ -1131,7 +1131,7 @@
 	
 	// lead plated Armet with stripes
 	{
-    	"ingredientPattern": "__,_AE,___",
+    	"ingredientPattern": "__,DA_,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -1140,21 +1140,21 @@
   					"types": {
     					"formhead" : "armet",
     					"basehead" : "steel",
-    					"coverhead" : "lead",
-    					"striphead" : "none",
+    					"coverhead" : "none",
+    					"striphead" : "lead",
     					"decorationhead" : "none",
     					"colorhead" : "none"}
   					} 
 			},    
-			"E": {  "type": "item", 
-    				"code": "facore:rimsandrivets-*", 
-        			"name": "metalrivet", 
+			"D": {  "type": "item", 
+    				"code": "game:metalplate-*", 
+        			"name": "metalcover", 
           			"allowedVariants": [
-						"lead",
-						"lead",
-						"lead",
-						"lead",
-        				"lead",
+						"copper",
+						"cupronikel",
+						"brass",
+						"zinc",
+        				"blackbronze",
 						"lead",
         				"silver",
     					"gold",
@@ -1174,7 +1174,7 @@
     				"formhead" : "armet",
     				"basehead" : "steel",
     				"coverhead" : "lead",
-    				"striphead" : "{metalrivet}",
+    				"striphead" : "{metalcover}",
     				"decorationhead" : "none",
     				"colorhead" : "none"
 				}
@@ -1184,7 +1184,7 @@
 
 	// lead plated Armet with plume
 	{
-    	"ingredientPattern": "B_C,_AE,___",
+    	"ingredientPattern": "B_C,DA_,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -1193,8 +1193,8 @@
   					"types": {
     					"formhead" : "armet",
     					"basehead" : "steel",
-    					"coverhead" : "lead",
-    					"striphead" : "none",
+    					"coverhead" : "none",
+    					"striphead" : "lead",
     					"decorationhead" : "none",
     					"colorhead" : "none"}
   					} 
@@ -1242,8 +1242,8 @@
   				"types": {
     				"formhead" : "armet",
     				"basehead" : "steel",
-    				"coverhead" : "lead",
-    				"striphead" : "none",
+    				"coverhead" : "none",
+    				"striphead" : "lead",
     				"decorationhead" : "{plume}",
     				"colorhead" : "{color}"
 				}
@@ -1256,7 +1256,7 @@
 	// silver variant
 	// silver plated Armet with stripes and plume
 	{
-    	"ingredientPattern": "B_C,_AE,___",
+    	"ingredientPattern": "B_C,DA_,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -1265,8 +1265,8 @@
   					"types": {
     					"formhead" : "armet",
     					"basehead" : "steel",
-    					"coverhead" : "silver",
-    					"striphead" : "none",
+    					"coverhead" : "none",
+    					"striphead" : "silver",
     					"decorationhead" : "none",
     					"colorhead" : "none"}
   					} 
@@ -1302,16 +1302,16 @@
 						"pluma"
     				]
     		},
-			"E": {  "type": "item", 
-    				"code": "facore:rimsandrivets-*", 
-        			"name": "metalrivet", 
+			"D": {  "type": "item", 
+    				"code": "game:metalplate-*", 
+        			"name": "metalcover", 
           			"allowedVariants": [
-						"silver",
-						"silver",
-						"silver",
-						"silver",
-        				"silver",
-						"silver",
+						"copper",
+						"cupronikel",
+						"brass",
+						"zinc",
+        				"blackbronze",
+						"lead",
         				"silver",
     					"gold",
 						"electrum"
@@ -1330,7 +1330,7 @@
     				"formhead" : "armet",
     				"basehead" : "steel",
     				"coverhead" : "silver",
-    				"striphead" : "{metalrivet}",
+    				"striphead" : "{metalcover}",
     				"decorationhead" : "{plume}",
     				"colorhead" : "{color}"
 				}
@@ -1340,7 +1340,7 @@
 	
 	// silver plated Armet with stripes
 	{
-    	"ingredientPattern": "__,_AE,___",
+    	"ingredientPattern": "__,DA_,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -1349,22 +1349,22 @@
   					"types": {
     					"formhead" : "armet",
     					"basehead" : "steel",
-    					"coverhead" : "silver",
-    					"striphead" : "none",
+    					"coverhead" : "none",
+    					"striphead" : "silver",
     					"decorationhead" : "none",
     					"colorhead" : "none"}
   					} 
 			},    
-			"E": {  "type": "item", 
-    				"code": "facore:rimsandrivets-*", 
-        			"name": "metalrivet", 
+			"D": {  "type": "item", 
+    				"code": "game:metalplate-*", 
+        			"name": "metalcover", 
           			"allowedVariants": [
-						"silver",
-						"silver",
-						"silver",
-						"silver",
-        				"silver",
-						"silver",
+						"copper",
+						"cupronikel",
+						"brass",
+						"zinc",
+        				"blackbronze",
+						"lead",
         				"silver",
     					"gold",
 						"electrum"
@@ -1383,7 +1383,7 @@
     				"formhead" : "armet",
     				"basehead" : "steel",
     				"coverhead" : "silver",
-    				"striphead" : "{metalrivet}",
+    				"striphead" : "{metalcover}",
     				"decorationhead" : "none",
     				"colorhead" : "none"
 				}
@@ -1393,7 +1393,7 @@
 
 	// silver plated Armet with plume
 	{
-    	"ingredientPattern": "B_C,_AE,___",
+    	"ingredientPattern": "B_C,DA_,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -1402,8 +1402,8 @@
   					"types": {
     					"formhead" : "armet",
     					"basehead" : "steel",
-    					"coverhead" : "silver",
-    					"striphead" : "none",
+    					"coverhead" : "none",
+    					"striphead" : "silver",
     					"decorationhead" : "none",
     					"colorhead" : "none"}
   					} 
@@ -1451,8 +1451,8 @@
   				"types": {
     				"formhead" : "armet",
     				"basehead" : "steel",
-    				"coverhead" : "silver",
-    				"striphead" : "none",
+    				"coverhead" : "none",
+    				"striphead" : "silver",
     				"decorationhead" : "{plume}",
     				"colorhead" : "{color}"
 				}
@@ -1465,7 +1465,7 @@
 	// meteoriciron variant
 	// meteoriciron plated Armet with stripes and plume
 	{
-    	"ingredientPattern": "B_C,_AE,___",
+    	"ingredientPattern": "B_C,DA_,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -1474,8 +1474,8 @@
   					"types": {
     					"formhead" : "armet",
     					"basehead" : "steel",
-    					"coverhead" : "meteoriciron",
-    					"striphead" : "none",
+    					"coverhead" : "none",
+    					"striphead" : "meteoriciron",
     					"decorationhead" : "none",
     					"colorhead" : "none"}
   					} 
@@ -1511,9 +1511,9 @@
 						"pluma"
     				]
     		},
-			"E": {  "type": "item", 
-    				"code": "facore:rimsandrivets-*", 
-        			"name": "metalrivet", 
+			"D": {  "type": "item", 
+    				"code": "game:metalplate-*", 
+        			"name": "metalcover", 
           			"allowedVariants": [
 						"meteoriciron",
 						"meteoriciron",
@@ -1539,7 +1539,7 @@
     				"formhead" : "armet",
     				"basehead" : "steel",
     				"coverhead" : "meteoriciron",
-    				"striphead" : "{metalrivet}",
+    				"striphead" : "{metalcover}",
     				"decorationhead" : "{plume}",
     				"colorhead" : "{color}"
 				}
@@ -1549,7 +1549,7 @@
 	
 	// meteoriciron plated Armet with stripes
 	{
-    	"ingredientPattern": "__,_AE,___",
+    	"ingredientPattern": "__,DA_,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -1558,15 +1558,15 @@
   					"types": {
     					"formhead" : "armet",
     					"basehead" : "steel",
-    					"coverhead" : "meteoriciron",
-    					"striphead" : "none",
+    					"coverhead" : "none",
+    					"striphead" : "meteoriciron",
     					"decorationhead" : "none",
     					"colorhead" : "none"}
   					} 
 			},    
-			"E": {  "type": "item", 
-    				"code": "facore:rimsandrivets-*", 
-        			"name": "metalrivet", 
+			"D": {  "type": "item", 
+    				"code": "game:metalplate-*", 
+        			"name": "metalcover", 
           			"allowedVariants": [
 						"meteoriciron",
 						"meteoriciron",
@@ -1592,7 +1592,7 @@
     				"formhead" : "armet",
     				"basehead" : "steel",
     				"coverhead" : "meteoriciron",
-    				"striphead" : "{metalrivet}",
+    				"striphead" : "{metalcover}",
     				"decorationhead" : "none",
     				"colorhead" : "none"
 				}
@@ -1602,7 +1602,7 @@
 
 	// meteoriciron plated Armet with plume
 	{
-    	"ingredientPattern": "B_C,_AE,___",
+    	"ingredientPattern": "B_C,DA_,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -1611,8 +1611,8 @@
   					"types": {
     					"formhead" : "armet",
     					"basehead" : "steel",
-    					"coverhead" : "meteoriciron",
-    					"striphead" : "none",
+    					"coverhead" : "none",
+    					"striphead" : "meteoriciron",
     					"decorationhead" : "none",
     					"colorhead" : "none"}
   					} 
@@ -1660,8 +1660,8 @@
   				"types": {
     				"formhead" : "armet",
     				"basehead" : "steel",
-    				"coverhead" : "meteoriciron",
-    				"striphead" : "none",
+    				"coverhead" : "none",
+    				"striphead" : "meteoriciron",
     				"decorationhead" : "{plume}",
     				"colorhead" : "{color}"
 				}
@@ -1674,7 +1674,7 @@
 	// gold variant
 	// gold plated Armet with stripes and plume
 	{
-    	"ingredientPattern": "B_C,_AE,___",
+    	"ingredientPattern": "B_C,DA_,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -1683,8 +1683,8 @@
   					"types": {
     					"formhead" : "armet",
     					"basehead" : "steel",
-    					"coverhead" : "gold",
-    					"striphead" : "none",
+    					"coverhead" : "none",
+    					"striphead" : "gold",
     					"decorationhead" : "none",
     					"colorhead" : "none"}
   					} 
@@ -1720,17 +1720,17 @@
 						"pluma"
     				]
     		},
-			"E": {  "type": "item", 
-    				"code": "facore:rimsandrivets-*", 
-        			"name": "metalrivet", 
+			"D": {  "type": "item", 
+    				"code": "game:metalplate-*", 
+        			"name": "metalcover", 
           			"allowedVariants": [
-						"gold",
-						"gold",
-						"gold",
-						"gold",
-        				"gold",
-						"gold",
-        				"gold",
+						"copper",
+						"cupronikel",
+						"brass",
+						"zinc",
+        				"blackbronze",
+						"lead",
+        				"silver",
     					"gold",
 						"electrum"
     				]
@@ -1748,7 +1748,7 @@
     				"formhead" : "armet",
     				"basehead" : "steel",
     				"coverhead" : "gold",
-    				"striphead" : "{metalrivet}",
+    				"striphead" : "{metalcover}",
     				"decorationhead" : "{plume}",
     				"colorhead" : "{color}"
 				}
@@ -1758,7 +1758,7 @@
 	
 	// gold plated Armet with stripes
 	{
-    	"ingredientPattern": "__,_AE,___",
+    	"ingredientPattern": "__,DA_,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -1767,23 +1767,23 @@
   					"types": {
     					"formhead" : "armet",
     					"basehead" : "steel",
-    					"coverhead" : "gold",
-    					"striphead" : "none",
+    					"coverhead" : "none",
+    					"striphead" : "gold",
     					"decorationhead" : "none",
     					"colorhead" : "none"}
   					} 
 			},    
-			"E": {  "type": "item", 
-    				"code": "facore:rimsandrivets-*", 
-        			"name": "metalrivet", 
+			"D": {  "type": "item", 
+    				"code": "game:metalplate-*", 
+        			"name": "metalcover", 
           			"allowedVariants": [
-						"gold",
-						"gold",
-						"gold",
-						"gold",
-        				"gold",
-						"gold",
-        				"gold",
+						"copper",
+						"cupronikel",
+						"brass",
+						"zinc",
+        				"blackbronze",
+						"lead",
+        				"silver",
     					"gold",
 						"electrum"
     				]
@@ -1801,7 +1801,7 @@
     				"formhead" : "armet",
     				"basehead" : "steel",
     				"coverhead" : "gold",
-    				"striphead" : "{metalrivet}",
+    				"striphead" : "{metalcover}",
     				"decorationhead" : "none",
     				"colorhead" : "none"
 				}
@@ -1811,7 +1811,7 @@
 
 	// gold plated Armet with plume
 	{
-    	"ingredientPattern": "B_C,_AE,___",
+    	"ingredientPattern": "B_C,DA_,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -1820,8 +1820,8 @@
   					"types": {
     					"formhead" : "armet",
     					"basehead" : "steel",
-    					"coverhead" : "gold",
-    					"striphead" : "none",
+    					"coverhead" : "none",
+    					"striphead" : "gold",
     					"decorationhead" : "none",
     					"colorhead" : "none"}
   					} 
@@ -1869,8 +1869,8 @@
   				"types": {
     				"formhead" : "armet",
     				"basehead" : "steel",
-    				"coverhead" : "gold",
-    				"striphead" : "none",
+    				"coverhead" : "none",
+    				"striphead" : "gold",
     				"decorationhead" : "{plume}",
     				"colorhead" : "{color}"
 				}
@@ -1883,7 +1883,7 @@
 	// electrum variant
 	// electrum plated Armet with stripes and plume
 	{
-    	"ingredientPattern": "B_C,_AE,___",
+    	"ingredientPattern": "B_C,DA_,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -1892,8 +1892,8 @@
   					"types": {
     					"formhead" : "armet",
     					"basehead" : "steel",
-    					"coverhead" : "electrum",
-    					"striphead" : "none",
+    					"coverhead" : "none",
+    					"striphead" : "electrum",
     					"decorationhead" : "none",
     					"colorhead" : "none"}
   					} 
@@ -1929,18 +1929,18 @@
 						"pluma"
     				]
     		},
-			"E": {  "type": "item", 
-    				"code": "facore:rimsandrivets-*", 
-        			"name": "metalrivet", 
+			"D": {  "type": "item", 
+    				"code": "game:metalplate-*", 
+        			"name": "metalcover", 
           			"allowedVariants": [
-						"electrum",
-						"electrum",
-						"electrum",
-						"electrum",
-        				"electrum",
-						"electrum",
-        				"electrum",
-    					"electrum",
+						"copper",
+						"cupronikel",
+						"brass",
+						"zinc",
+        				"blackbronze",
+						"lead",
+        				"silver",
+    					"gold",
 						"electrum"
     				]
     		}
@@ -1957,7 +1957,7 @@
     				"formhead" : "armet",
     				"basehead" : "steel",
     				"coverhead" : "electrum",
-    				"striphead" : "{metalrivet}",
+    				"striphead" : "{metalcover}",
     				"decorationhead" : "{plume}",
     				"colorhead" : "{color}"
 				}
@@ -1967,7 +1967,7 @@
 	
 	// electrum plated Armet with stripes
 	{
-    	"ingredientPattern": "__,_AE,___",
+    	"ingredientPattern": "__,DA_,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -1976,24 +1976,24 @@
   					"types": {
     					"formhead" : "armet",
     					"basehead" : "steel",
-    					"coverhead" : "electrum",
-    					"striphead" : "none",
+    					"coverhead" : "none",
+    					"striphead" : "electrum",
     					"decorationhead" : "none",
     					"colorhead" : "none"}
   					} 
 			},    
-			"E": {  "type": "item", 
-    				"code": "facore:rimsandrivets-*", 
-        			"name": "metalrivet", 
+			"D": {  "type": "item", 
+    				"code": "game:metalplate-*", 
+        			"name": "metalcover", 
           			"allowedVariants": [
-						"electrum",
-						"electrum",
-						"electrum",
-						"electrum",
-        				"electrum",
-						"electrum",
-        				"electrum",
-    					"electrum",
+						"copper",
+						"cupronikel",
+						"brass",
+						"zinc",
+        				"blackbronze",
+						"lead",
+        				"silver",
+    					"gold",
 						"electrum"
     				]
     		}
@@ -2010,7 +2010,7 @@
     				"formhead" : "armet",
     				"basehead" : "steel",
     				"coverhead" : "electrum",
-    				"striphead" : "{metalrivet}",
+    				"striphead" : "{metalcover}",
     				"decorationhead" : "none",
     				"colorhead" : "none"
 				}
@@ -2020,7 +2020,7 @@
 
 	// electrum plated Armet with plume
 	{
-    	"ingredientPattern": "B_C,_AE,___",
+    	"ingredientPattern": "B_C,DA_,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -2029,8 +2029,8 @@
   					"types": {
     					"formhead" : "armet",
     					"basehead" : "steel",
-    					"coverhead" : "electrum",
-    					"striphead" : "none",
+    					"coverhead" : "none",
+    					"striphead" : "electrum",
     					"decorationhead" : "none",
     					"colorhead" : "none"}
   					} 
@@ -2078,8 +2078,8 @@
   				"types": {
     				"formhead" : "armet",
     				"basehead" : "steel",
-    				"coverhead" : "electrum",
-    				"striphead" : "none",
+    				"coverhead" : "none",
+    				"striphead" : "electrum",
     				"decorationhead" : "{plume}",
     				"colorhead" : "{color}"
 				}
