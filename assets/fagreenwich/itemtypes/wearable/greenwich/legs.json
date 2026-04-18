@@ -1,9 +1,9 @@
 {
-    "code": "Legs",
+    "code": "legs",
     "maxstacksize": 1,
     "attributes": {
         "handbook": {
-            "groupBy": ["*"]
+            "exclude": true
         }
     },
     "behaviors": [

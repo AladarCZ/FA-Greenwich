@@ -31,7 +31,7 @@
 						"pine",
         				"purple",
         				"pink",
-						"burghundy",                           
+						"burgundy",                           
 						"orange",
     					"brown",
     					"gray",
@@ -53,7 +53,7 @@
         			"name": "metalrivet", 
           			"allowedVariants": [
 						"copper",
-						"cupronikel",
+						"cupronickel",
 						"brass",
 						"zinc",
         				"blackbronze",
@@ -106,7 +106,7 @@
         			"name": "metalrivet", 
           			"allowedVariants": [
 						"copper",
-						"cupronikel",
+						"cupronickel",
 						"brass",
 						"zinc",
         				"blackbronze",
@@ -168,7 +168,7 @@
 						"pine",
         				"purple",
         				"pink",
-						"burghundy",                           
+						"burgundy",                           
 						"orange",
     					"brown",
     					"gray",
@@ -208,8 +208,8 @@
 
 
 
-	// cupronikel variant
-	// cupronikel plated Armet with stripes and plume
+	// cupronickel variant
+	// cupronickel plated Armet with stripes and plume
 	{
     	"ingredientPattern": "B_C,_AE,___",
         "recipeGroup": 1,
@@ -220,7 +220,7 @@
   					"types": {
     					"formhead" : "armet",
     					"basehead" : "steel",
-    					"coverhead" : "cupronikel",
+    					"coverhead" : "cupronickel",
     					"striphead" : "none",
     					"decorationhead" : "none",
     					"colorhead" : "none"}
@@ -240,7 +240,7 @@
 						"pine",
         				"purple",
         				"pink",
-						"burghundy",                           
+						"burgundy",                           
 						"orange",
     					"brown",
     					"gray",
@@ -262,7 +262,7 @@
         			"name": "metalrivet", 
           			"allowedVariants": [
 						"copper",
-						"cupronikel",
+						"cupronickel",
 						"brass",
 						"zinc",
         				"blackbronze",
@@ -284,7 +284,7 @@
   				"types": {
     				"formhead" : "armet",
     				"basehead" : "steel",
-    				"coverhead" : "cupronikel",
+    				"coverhead" : "cupronickel",
     				"striphead" : "{metalrivet}",
     				"decorationhead" : "{plume}",
     				"colorhead" : "{color}"
@@ -293,7 +293,7 @@
         }
     },
 	
-	// cupronikel plated Armet with stripes
+	// cupronickel plated Armet with stripes
 	{
     	"ingredientPattern": "__,_AE,___",
         "recipeGroup": 1,
@@ -304,7 +304,7 @@
   					"types": {
     					"formhead" : "armet",
     					"basehead" : "steel",
-    					"coverhead" : "cupronikel",
+    					"coverhead" : "cupronickel",
     					"striphead" : "none",
     					"decorationhead" : "none",
     					"colorhead" : "none"}
@@ -315,7 +315,7 @@
         			"name": "metalrivet", 
           			"allowedVariants": [
 						"copper",
-						"cupronikel",
+						"cupronickel",
 						"brass",
 						"zinc",
         				"blackbronze",
@@ -337,7 +337,7 @@
   				"types": {
     				"formhead" : "armet",
     				"basehead" : "steel",
-    				"coverhead" : "cupronikel",
+    				"coverhead" : "cupronickel",
     				"striphead" : "{metalrivet}",
     				"decorationhead" : "none",
     				"colorhead" : "none"
@@ -346,7 +346,7 @@
         }
     },
 
-	// cupronikel plated Armet with plume
+	// cupronickel plated Armet with plume
 	{
     	"ingredientPattern": "B_C,_AE,___",
         "recipeGroup": 1,
@@ -357,7 +357,7 @@
   					"types": {
     					"formhead" : "armet",
     					"basehead" : "steel",
-    					"coverhead" : "cupronikel",
+    					"coverhead" : "cupronickel",
     					"striphead" : "none",
     					"decorationhead" : "none",
     					"colorhead" : "none"}
@@ -377,7 +377,7 @@
 						"pine",
         				"purple",
         				"pink",
-						"burghundy",                           
+						"burgundy",                           
 						"orange",
     					"brown",
     					"gray",
@@ -406,7 +406,7 @@
   				"types": {
     				"formhead" : "armet",
     				"basehead" : "steel",
-    				"coverhead" : "cupronikel",
+    				"coverhead" : "cupronickel",
     				"striphead" : "none",
     				"decorationhead" : "{plume}",
     				"colorhead" : "{color}"
@@ -449,7 +449,7 @@
 						"pine",
         				"purple",
         				"pink",
-						"burghundy",                           
+						"burgundy",                           
 						"orange",
     					"brown",
     					"gray",
@@ -471,7 +471,7 @@
         			"name": "metalrivet", 
           			"allowedVariants": [
 						"copper",
-						"cupronikel",
+						"cupronickel",
 						"brass",
 						"zinc",
         				"blackbronze",
@@ -524,7 +524,7 @@
         			"name": "metalrivet", 
           			"allowedVariants": [
 						"copper",
-						"cupronikel",
+						"cupronickel",
 						"brass",
 						"zinc",
         				"blackbronze",
@@ -586,7 +586,7 @@
 						"pine",
         				"purple",
         				"pink",
-						"burghundy",                           
+						"burgundy",                           
 						"orange",
     					"brown",
     					"gray",
@@ -658,7 +658,7 @@
 						"pine",
         				"purple",
         				"pink",
-						"burghundy",                           
+						"burgundy",                           
 						"orange",
     					"brown",
     					"gray",
@@ -680,7 +680,7 @@
         			"name": "metalrivet", 
           			"allowedVariants": [
 						"copper",
-						"cupronikel",
+						"cupronickel",
 						"brass",
 						"zinc",
         				"blackbronze",
@@ -733,7 +733,7 @@
         			"name": "metalrivet", 
           			"allowedVariants": [
 						"copper",
-						"cupronikel",
+						"cupronickel",
 						"brass",
 						"zinc",
         				"blackbronze",
@@ -795,7 +795,7 @@
 						"pine",
         				"purple",
         				"pink",
-						"burghundy",                           
+						"burgundy",                           
 						"orange",
     					"brown",
     					"gray",
@@ -867,7 +867,7 @@
 						"pine",
         				"purple",
         				"pink",
-						"burghundy",                           
+						"burgundy",                           
 						"orange",
     					"brown",
     					"gray",
@@ -889,7 +889,7 @@
         			"name": "metalrivet", 
           			"allowedVariants": [
 						"copper",
-						"cupronikel",
+						"cupronickel",
 						"brass",
 						"zinc",
         				"blackbronze",
@@ -942,7 +942,7 @@
         			"name": "metalrivet", 
           			"allowedVariants": [
 						"copper",
-						"cupronikel",
+						"cupronickel",
 						"brass",
 						"zinc",
         				"blackbronze",
@@ -1004,7 +1004,7 @@
 						"pine",
         				"purple",
         				"pink",
-						"burghundy",                           
+						"burgundy",                           
 						"orange",
     					"brown",
     					"gray",
@@ -1076,7 +1076,7 @@
 						"pine",
         				"purple",
         				"pink",
-						"burghundy",                           
+						"burgundy",                           
 						"orange",
     					"brown",
     					"gray",
@@ -1098,7 +1098,7 @@
         			"name": "metalrivet", 
           			"allowedVariants": [
 						"copper",
-						"cupronikel",
+						"cupronickel",
 						"brass",
 						"zinc",
         				"blackbronze",
@@ -1151,7 +1151,7 @@
         			"name": "metalrivet", 
           			"allowedVariants": [
 						"copper",
-						"cupronikel",
+						"cupronickel",
 						"brass",
 						"zinc",
         				"blackbronze",
@@ -1213,7 +1213,7 @@
 						"pine",
         				"purple",
         				"pink",
-						"burghundy",                           
+						"burgundy",                           
 						"orange",
     					"brown",
     					"gray",
@@ -1285,7 +1285,7 @@
 						"pine",
         				"purple",
         				"pink",
-						"burghundy",                           
+						"burgundy",                           
 						"orange",
     					"brown",
     					"gray",
@@ -1307,7 +1307,7 @@
         			"name": "metalrivet", 
           			"allowedVariants": [
 						"copper",
-						"cupronikel",
+						"cupronickel",
 						"brass",
 						"zinc",
         				"blackbronze",
@@ -1360,7 +1360,7 @@
         			"name": "metalrivet", 
           			"allowedVariants": [
 						"copper",
-						"cupronikel",
+						"cupronickel",
 						"brass",
 						"zinc",
         				"blackbronze",
@@ -1422,7 +1422,7 @@
 						"pine",
         				"purple",
         				"pink",
-						"burghundy",                           
+						"burgundy",                           
 						"orange",
     					"brown",
     					"gray",
@@ -1494,7 +1494,7 @@
 						"pine",
         				"purple",
         				"pink",
-						"burghundy",                           
+						"burgundy",                           
 						"orange",
     					"brown",
     					"gray",
@@ -1631,7 +1631,7 @@
 						"pine",
         				"purple",
         				"pink",
-						"burghundy",                           
+						"burgundy",                           
 						"orange",
     					"brown",
     					"gray",
@@ -1703,7 +1703,7 @@
 						"pine",
         				"purple",
         				"pink",
-						"burghundy",                           
+						"burgundy",                           
 						"orange",
     					"brown",
     					"gray",
@@ -1725,7 +1725,7 @@
         			"name": "metalrivet", 
           			"allowedVariants": [
 						"copper",
-						"cupronikel",
+						"cupronickel",
 						"brass",
 						"zinc",
         				"blackbronze",
@@ -1778,7 +1778,7 @@
         			"name": "metalrivet", 
           			"allowedVariants": [
 						"copper",
-						"cupronikel",
+						"cupronickel",
 						"brass",
 						"zinc",
         				"blackbronze",
@@ -1840,7 +1840,7 @@
 						"pine",
         				"purple",
         				"pink",
-						"burghundy",                           
+						"burgundy",                           
 						"orange",
     					"brown",
     					"gray",
@@ -1912,7 +1912,7 @@
 						"pine",
         				"purple",
         				"pink",
-						"burghundy",                           
+						"burgundy",                           
 						"orange",
     					"brown",
     					"gray",
@@ -1934,7 +1934,7 @@
         			"name": "metalrivet", 
           			"allowedVariants": [
 						"copper",
-						"cupronikel",
+						"cupronickel",
 						"brass",
 						"zinc",
         				"blackbronze",
@@ -1987,7 +1987,7 @@
         			"name": "metalrivet", 
           			"allowedVariants": [
 						"copper",
-						"cupronikel",
+						"cupronickel",
 						"brass",
 						"zinc",
         				"blackbronze",
@@ -2049,7 +2049,7 @@
 						"pine",
         				"purple",
         				"pink",
-						"burghundy",                           
+						"burgundy",                           
 						"orange",
     					"brown",
     					"gray",

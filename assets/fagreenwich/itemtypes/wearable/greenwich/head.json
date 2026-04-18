@@ -3,7 +3,7 @@
     "maxstacksize": 1,
     "attributes": {
         "handbook": {
-            "exclude": true
+            "include": true
         },
         "groundStorageTransform": {
             "translation": { "x": -2.1, "y": 0.9, "z": 3.9 },
@@ -20,52 +20,61 @@
                 "variantgroups": [
                     { "code": "formhead", "states": ["armet"] },
                     { "code": "basehead", "states": ["iron", "meteoriciron", "steel"] },
-                    { "code": "coverhead", "states": ["none", "copper", "cupronikel", "brass", "zinc", "blackbronze", "lead", "silver", "meteoriciron", "gold", "electrum"] },
-                    { "code": "striphead", "states": ["none", "copper", "cupronikel", "brass", "zinc", "blackbronze", "lead", "silver", "meteoriciron", "gold", "electrum"] },
+                    { "code": "coverhead", "states": ["none", "copper", "cupronickel", "brass", "zinc", "blackbronze", "lead", "silver", "meteoriciron", "gold", "electrum"] },
+                    { "code": "striphead", "states": ["none", "copper", "cupronickel", "brass", "zinc", "blackbronze", "lead", "silver", "meteoriciron", "gold", "electrum"] },
                     { "code": "decorationhead", "states": ["none", "pennae", "pluma", "crista", "bear"] },
-                    { "code": "colorhead", "states": ["none", "red", "rose", "green", "pine", "black", "blue", "navy", "brown", "white", "purple", "pink", "burghundy", "orange", "yellow", "gray", "plain"] }
-                ],
-                "tags":
-                {
-                    "formhead-armet::decorationhead-none": ["greenwich-helmet-nodecoration"]
-                },
+                    { "code": "colorhead", "states": ["none", "red", "rose", "green", "pine", "black", "blue", "navy", "brown", "white", "purple", "pink", "burgundy", "orange", "yellow", "gray", "plain"] }
+                ],                
                 "creativeinventory": {
-                    "general": ["*"],
-                    "fagreenwich": ["*"]
+                    "fagreenwichheads": ["decorationhead-none"]
                 },
                 "allowedvariants": [
-                    //Allow steel variants
-                    "basehead-steel",
-
-                    //Allow iron plain head and zinc-striped variant
-                    "basehead-iron::coverhead-none::striphead-zinc",
+                    "basehead-iron::coverhead-none::striphead-copper",
+                    "basehead-iron::coverhead-none::striphead-lead",
                     "basehead-iron::coverhead-none::striphead-none",
-
-                    //Allow meteoriciron plain head and cupronikel-striped variant
-                    "basehead-meteoriciron::coverhead-none::striphead-cupronikel",                    
-                    "basehead-meteoriciron::coverhead-none::striphead-brass",
+                    "basehead-meteoriciron::coverhead-none::striphead-cupronickel",
+                    "basehead-meteoriciron::coverhead-none::striphead-gold",
                     "basehead-meteoriciron::coverhead-none::striphead-blackbronze",
+                    "basehead-meteoriciron::coverhead-none::striphead-zinc",
                     "basehead-meteoriciron::coverhead-none::striphead-none",
-                    
-                    //Allow properly colored bear variants
-                    "decorationhead-bear::colorhead-brown",
-                    "decorationhead-bear::colorhead-black",
-                    "decorationhead-bear::colorhead-white",
-                    
-                    //Allow decorations
-                    "decorationhead-pennae",
-                    "decorationhead-crista",
-                    "decorationhead-pluma",
-                    
-                    //Allow just a single undecorated variant
-                    "decorationhead-none::colorhead-none"
-                    
+                    "basehead-steel"
                 ],
                 "skipvariants": [
-                    //Block decorated "none" duplicates
+                    "decorationhead-bear::colorhead-none",
+                    "decorationhead-bear::colorhead-red",
+                    "decorationhead-bear::colorhead-rose",
+                    "decorationhead-bear::colorhead-green",
+                    "decorationhead-bear::colorhead-pine",
+                    "decorationhead-bear::colorhead-blue",
+                    "decorationhead-bear::colorhead-navy",
+                    "decorationhead-bear::colorhead-purple",
+                    "decorationhead-bear::colorhead-pink",
+                    "decorationhead-bear::colorhead-burgundy",
+                    "decorationhead-bear::colorhead-orange",
+                    "decorationhead-bear::colorhead-yellow",
+                    "decorationhead-bear::colorhead-gray",
+                    "decorationhead-bear::colorhead-plain",
+
                     "decorationhead-pennae::colorhead-none",
                     "decorationhead-crista::colorhead-none",
-                    "decorationhead-pluma::colorhead-none"
+                    "decorationhead-pluma::colorhead-none",
+
+                    "decorationhead-none::colorhead-red",
+                    "decorationhead-none::colorhead-rose",
+                    "decorationhead-none::colorhead-green",
+                    "decorationhead-none::colorhead-pine",
+                    "decorationhead-none::colorhead-blue",
+                    "decorationhead-none::colorhead-navy",
+                    "decorationhead-none::colorhead-purple",
+                    "decorationhead-none::colorhead-pink",
+                    "decorationhead-none::colorhead-burgundy",
+                    "decorationhead-none::colorhead-orange",
+                    "decorationhead-none::colorhead-yellow",
+                    "decorationhead-none::colorhead-gray",
+                    "decorationhead-none::colorhead-white",
+                    "decorationhead-none::colorhead-brown",
+                    "decorationhead-none::colorhead-black",
+                    "decorationhead-none::colorhead-plain"
                 ]
             }
         },

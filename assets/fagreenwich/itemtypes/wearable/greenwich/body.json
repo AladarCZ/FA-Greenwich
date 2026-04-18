@@ -1,9 +1,9 @@
 {
-    "code": "Body",
+    "code": "body",
     "maxstacksize": 1,
     "attributes": {
         "handbook": {
-            "groupBy": ["*"]
+            "exclude": true
         },
         "groundStorageTransform": {
             "translation": { "x": -2.1, "y": 0.9, "z": 3.9 },
