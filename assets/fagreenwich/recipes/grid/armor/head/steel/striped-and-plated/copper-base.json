@@ -1,0 +1,710 @@
+[
+	// copper plated Armet with plume (all the stripe variants)
+	// copper + copper
+	{
+    	"ingredientPattern": "B_C,_A_,___",
+        "recipeGroup": 1,
+        "ingredients": {
+			"A": {	"type": "item", 
+    				"code":"fagreenwich:head", 
+				   	"attributes": {
+  					"types": {
+    					"formhead" : "armet",
+    					"basehead" : "steel",
+    					"coverhead" : "copper",
+    					"striphead" : "copper",
+    					"decorationhead" : "none",
+    					"colorhead" : "none"}
+  					} 
+			},    
+			"B": {  "type": "item", 
+        			"code": "facore:decorationkit-*", 
+        			"name": "color", 
+        			"allowedVariants": [
+        				"plain",
+    					"blue",
+						"navy",
+    					"red",
+						"rose",
+        				"yellow",
+        				"green",
+						"pine",
+        				"purple",
+        				"pink",
+						"burgundy",                           
+						"orange",
+    					"brown",
+    					"gray",
+        				"black",
+        				"white"
+        			]
+    		},
+			"C": {  "type": "item", 
+    				"code": "facore:ornaments-communis*", 
+        			"name": "plume", 
+        			"allowedVariants": [
+        				"crista",
+        				"pennae",
+						"pluma"
+    				]
+    		}
+		},
+		"copyAttributesFrom": "A",
+		"width": 3,
+		"height": 3,
+		"name": "Armet with Everything, even colors",
+		"output": {
+ 			"type": "item",
+  			"code": "fagreenwich:head",
+  			"attributes": {
+  				"types": {
+    				"formhead" : "armet",
+    				"basehead" : "steel",
+    				"coverhead" : "copper",
+    				"striphead" : "copper",
+    				"decorationhead" : "{plume}",
+    				"colorhead" : "{color}"
+				}
+            }
+        }
+    },
+
+
+
+	// copper + cupronickel
+	{
+    	"ingredientPattern": "B_C,_A_,___",
+        "recipeGroup": 1,
+        "ingredients": {
+			"A": {	"type": "item", 
+    				"code":"fagreenwich:head", 
+				   	"attributes": {
+  					"types": {
+    					"formhead" : "armet",
+    					"basehead" : "steel",
+    					"coverhead" : "copper",
+    					"striphead" : "cupronickel",
+    					"decorationhead" : "none",
+    					"colorhead" : "none"}
+  					} 
+			},    
+			"B": {  "type": "item", 
+        			"code": "facore:decorationkit-*", 
+        			"name": "color", 
+        			"allowedVariants": [
+        				"plain",
+    					"blue",
+						"navy",
+    					"red",
+						"rose",
+        				"yellow",
+        				"green",
+						"pine",
+        				"purple",
+        				"pink",
+						"burgundy",                           
+						"orange",
+    					"brown",
+    					"gray",
+        				"black",
+        				"white"
+        			]
+    		},
+			"C": {  "type": "item", 
+    				"code": "facore:ornaments-communis*", 
+        			"name": "plume", 
+        			"allowedVariants": [
+        				"crista",
+        				"pennae",
+						"pluma"
+    				]
+    		}
+		},
+		"copyAttributesFrom": "A",
+		"width": 3,
+		"height": 3,
+		"name": "Armet with Everything, even colors",
+		"output": {
+ 			"type": "item",
+  			"code": "fagreenwich:head",
+  			"attributes": {
+  				"types": {
+    				"formhead" : "armet",
+    				"basehead" : "steel",
+    				"coverhead" : "copper",
+    				"striphead" : "cupronickel",
+    				"decorationhead" : "{plume}",
+    				"colorhead" : "{color}"
+				}
+            }
+        }
+    },
+
+
+
+	// copper + brass
+	{
+    	"ingredientPattern": "B_C,_A_,___",
+        "recipeGroup": 1,
+        "ingredients": {
+			"A": {	"type": "item", 
+    				"code":"fagreenwich:head", 
+				   	"attributes": {
+  					"types": {
+    					"formhead" : "armet",
+    					"basehead" : "steel",
+    					"coverhead" : "copper",
+    					"striphead" : "brass",
+    					"decorationhead" : "none",
+    					"colorhead" : "none"}
+  					} 
+			},    
+			"B": {  "type": "item", 
+        			"code": "facore:decorationkit-*", 
+        			"name": "color", 
+        			"allowedVariants": [
+        				"plain",
+    					"blue",
+						"navy",
+    					"red",
+						"rose",
+        				"yellow",
+        				"green",
+						"pine",
+        				"purple",
+        				"pink",
+						"burgundy",                           
+						"orange",
+    					"brown",
+    					"gray",
+        				"black",
+        				"white"
+        			]
+    		},
+			"C": {  "type": "item", 
+    				"code": "facore:ornaments-communis*", 
+        			"name": "plume", 
+        			"allowedVariants": [
+        				"crista",
+        				"pennae",
+						"pluma"
+    				]
+    		}
+		},
+		"copyAttributesFrom": "A",
+		"width": 3,
+		"height": 3,
+		"name": "Armet with Everything, even colors",
+		"output": {
+ 			"type": "item",
+  			"code": "fagreenwich:head",
+  			"attributes": {
+  				"types": {
+    				"formhead" : "armet",
+    				"basehead" : "steel",
+    				"coverhead" : "copper",
+    				"striphead" : "brass",
+    				"decorationhead" : "{plume}",
+    				"colorhead" : "{color}"
+				}
+            }
+        }
+    },
+
+
+
+	// copper + zinc
+	{
+    	"ingredientPattern": "B_C,_A_,___",
+        "recipeGroup": 1,
+        "ingredients": {
+			"A": {	"type": "item", 
+    				"code":"fagreenwich:head", 
+				   	"attributes": {
+  					"types": {
+    					"formhead" : "armet",
+    					"basehead" : "steel",
+    					"coverhead" : "copper",
+    					"striphead" : "zinc",
+    					"decorationhead" : "none",
+    					"colorhead" : "none"}
+  					} 
+			},    
+			"B": {  "type": "item", 
+        			"code": "facore:decorationkit-*", 
+        			"name": "color", 
+        			"allowedVariants": [
+        				"plain",
+    					"blue",
+						"navy",
+    					"red",
+						"rose",
+        				"yellow",
+        				"green",
+						"pine",
+        				"purple",
+        				"pink",
+						"burgundy",                           
+						"orange",
+    					"brown",
+    					"gray",
+        				"black",
+        				"white"
+        			]
+    		},
+			"C": {  "type": "item", 
+    				"code": "facore:ornaments-communis*", 
+        			"name": "plume", 
+        			"allowedVariants": [
+        				"crista",
+        				"pennae",
+						"pluma"
+    				]
+    		}
+		},
+		"copyAttributesFrom": "A",
+		"width": 3,
+		"height": 3,
+		"name": "Armet with Everything, even colors",
+		"output": {
+ 			"type": "item",
+  			"code": "fagreenwich:head",
+  			"attributes": {
+  				"types": {
+    				"formhead" : "armet",
+    				"basehead" : "steel",
+    				"coverhead" : "copper",
+    				"striphead" : "zinc",
+    				"decorationhead" : "{plume}",
+    				"colorhead" : "{color}"
+				}
+            }
+        }
+    },
+
+
+
+	// copper + blackbronze
+	{
+    	"ingredientPattern": "B_C,_A_,___",
+        "recipeGroup": 1,
+        "ingredients": {
+			"A": {	"type": "item", 
+    				"code":"fagreenwich:head", 
+				   	"attributes": {
+  					"types": {
+    					"formhead" : "armet",
+    					"basehead" : "steel",
+    					"coverhead" : "copper",
+    					"striphead" : "blackbronze",
+    					"decorationhead" : "none",
+    					"colorhead" : "none"}
+  					} 
+			},    
+			"B": {  "type": "item", 
+        			"code": "facore:decorationkit-*", 
+        			"name": "color", 
+        			"allowedVariants": [
+        				"plain",
+    					"blue",
+						"navy",
+    					"red",
+						"rose",
+        				"yellow",
+        				"green",
+						"pine",
+        				"purple",
+        				"pink",
+						"burgundy",                           
+						"orange",
+    					"brown",
+    					"gray",
+        				"black",
+        				"white"
+        			]
+    		},
+			"C": {  "type": "item", 
+    				"code": "facore:ornaments-communis*", 
+        			"name": "plume", 
+        			"allowedVariants": [
+        				"crista",
+        				"pennae",
+						"pluma"
+    				]
+    		}
+		},
+		"copyAttributesFrom": "A",
+		"width": 3,
+		"height": 3,
+		"name": "Armet with Everything, even colors",
+		"output": {
+ 			"type": "item",
+  			"code": "fagreenwich:head",
+  			"attributes": {
+  				"types": {
+    				"formhead" : "armet",
+    				"basehead" : "steel",
+    				"coverhead" : "copper",
+    				"striphead" : "blackbronze",
+    				"decorationhead" : "{plume}",
+    				"colorhead" : "{color}"
+				}
+            }
+        }
+    },
+
+
+
+	// copper + lead
+	{
+    	"ingredientPattern": "B_C,_A_,___",
+        "recipeGroup": 1,
+        "ingredients": {
+			"A": {	"type": "item", 
+    				"code":"fagreenwich:head", 
+				   	"attributes": {
+  					"types": {
+    					"formhead" : "armet",
+    					"basehead" : "steel",
+    					"coverhead" : "copper",
+    					"striphead" : "lead",
+    					"decorationhead" : "none",
+    					"colorhead" : "none"}
+  					} 
+			},    
+			"B": {  "type": "item", 
+        			"code": "facore:decorationkit-*", 
+        			"name": "color", 
+        			"allowedVariants": [
+        				"plain",
+    					"blue",
+						"navy",
+    					"red",
+						"rose",
+        				"yellow",
+        				"green",
+						"pine",
+        				"purple",
+        				"pink",
+						"burgundy",                           
+						"orange",
+    					"brown",
+    					"gray",
+        				"black",
+        				"white"
+        			]
+    		},
+			"C": {  "type": "item", 
+    				"code": "facore:ornaments-communis*", 
+        			"name": "plume", 
+        			"allowedVariants": [
+        				"crista",
+        				"pennae",
+						"pluma"
+    				]
+    		}
+		},
+		"copyAttributesFrom": "A",
+		"width": 3,
+		"height": 3,
+		"name": "Armet with Everything, even colors",
+		"output": {
+ 			"type": "item",
+  			"code": "fagreenwich:head",
+  			"attributes": {
+  				"types": {
+    				"formhead" : "armet",
+    				"basehead" : "steel",
+    				"coverhead" : "copper",
+    				"striphead" : "lead",
+    				"decorationhead" : "{plume}",
+    				"colorhead" : "{color}"
+				}
+            }
+        }
+    },
+
+
+
+	// copper + silver
+	{
+    	"ingredientPattern": "B_C,_A_,___",
+        "recipeGroup": 1,
+        "ingredients": {
+			"A": {	"type": "item", 
+    				"code":"fagreenwich:head", 
+				   	"attributes": {
+  					"types": {
+    					"formhead" : "armet",
+    					"basehead" : "steel",
+    					"coverhead" : "copper",
+    					"striphead" : "silver",
+    					"decorationhead" : "none",
+    					"colorhead" : "none"}
+  					} 
+			},    
+			"B": {  "type": "item", 
+        			"code": "facore:decorationkit-*", 
+        			"name": "color", 
+        			"allowedVariants": [
+        				"plain",
+    					"blue",
+						"navy",
+    					"red",
+						"rose",
+        				"yellow",
+        				"green",
+						"pine",
+        				"purple",
+        				"pink",
+						"burgundy",                           
+						"orange",
+    					"brown",
+    					"gray",
+        				"black",
+        				"white"
+        			]
+    		},
+			"C": {  "type": "item", 
+    				"code": "facore:ornaments-communis*", 
+        			"name": "plume", 
+        			"allowedVariants": [
+        				"crista",
+        				"pennae",
+						"pluma"
+    				]
+    		}
+		},
+		"copyAttributesFrom": "A",
+		"width": 3,
+		"height": 3,
+		"name": "Armet with Everything, even colors",
+		"output": {
+ 			"type": "item",
+  			"code": "fagreenwich:head",
+  			"attributes": {
+  				"types": {
+    				"formhead" : "armet",
+    				"basehead" : "steel",
+    				"coverhead" : "copper",
+    				"striphead" : "silver",
+    				"decorationhead" : "{plume}",
+    				"colorhead" : "{color}"
+				}
+            }
+        }
+    },
+
+
+
+	// copper + meteoriciron
+	{
+    	"ingredientPattern": "B_C,_A_,___",
+        "recipeGroup": 1,
+        "ingredients": {
+			"A": {	"type": "item", 
+    				"code":"fagreenwich:head", 
+				   	"attributes": {
+  					"types": {
+    					"formhead" : "armet",
+    					"basehead" : "steel",
+    					"coverhead" : "copper",
+    					"striphead" : "meteoriciron",
+    					"decorationhead" : "none",
+    					"colorhead" : "none"}
+  					} 
+			},    
+			"B": {  "type": "item", 
+        			"code": "facore:decorationkit-*", 
+        			"name": "color", 
+        			"allowedVariants": [
+        				"plain",
+    					"blue",
+						"navy",
+    					"red",
+						"rose",
+        				"yellow",
+        				"green",
+						"pine",
+        				"purple",
+        				"pink",
+						"burgundy",                           
+						"orange",
+    					"brown",
+    					"gray",
+        				"black",
+        				"white"
+        			]
+    		},
+			"C": {  "type": "item", 
+    				"code": "facore:ornaments-communis*", 
+        			"name": "plume", 
+        			"allowedVariants": [
+        				"crista",
+        				"pennae",
+						"pluma"
+    				]
+    		}
+		},
+		"copyAttributesFrom": "A",
+		"width": 3,
+		"height": 3,
+		"name": "Armet with Everything, even colors",
+		"output": {
+ 			"type": "item",
+  			"code": "fagreenwich:head",
+  			"attributes": {
+  				"types": {
+    				"formhead" : "armet",
+    				"basehead" : "steel",
+    				"coverhead" : "copper",
+    				"striphead" : "meteoriciron",
+    				"decorationhead" : "{plume}",
+    				"colorhead" : "{color}"
+				}
+            }
+        }
+    },
+
+
+
+	// copper + gold
+	{
+    	"ingredientPattern": "B_C,_A_,___",
+        "recipeGroup": 1,
+        "ingredients": {
+			"A": {	"type": "item", 
+    				"code":"fagreenwich:head", 
+				   	"attributes": {
+  					"types": {
+    					"formhead" : "armet",
+    					"basehead" : "steel",
+    					"coverhead" : "copper",
+    					"striphead" : "gold",
+    					"decorationhead" : "none",
+    					"colorhead" : "none"}
+  					} 
+			},    
+			"B": {  "type": "item", 
+        			"code": "facore:decorationkit-*", 
+        			"name": "color", 
+        			"allowedVariants": [
+        				"plain",
+    					"blue",
+						"navy",
+    					"red",
+						"rose",
+        				"yellow",
+        				"green",
+						"pine",
+        				"purple",
+        				"pink",
+						"burgundy",                           
+						"orange",
+    					"brown",
+    					"gray",
+        				"black",
+        				"white"
+        			]
+    		},
+			"C": {  "type": "item", 
+    				"code": "facore:ornaments-communis*", 
+        			"name": "plume", 
+        			"allowedVariants": [
+        				"crista",
+        				"pennae",
+						"pluma"
+    				]
+    		}
+		},
+		"copyAttributesFrom": "A",
+		"width": 3,
+		"height": 3,
+		"name": "Armet with Everything, even colors",
+		"output": {
+ 			"type": "item",
+  			"code": "fagreenwich:head",
+  			"attributes": {
+  				"types": {
+    				"formhead" : "armet",
+    				"basehead" : "steel",
+    				"coverhead" : "copper",
+    				"striphead" : "gold",
+    				"decorationhead" : "{plume}",
+    				"colorhead" : "{color}"
+				}
+            }
+        }
+    },
+
+
+
+	// copper + electrum
+	{
+    	"ingredientPattern": "B_C,_A_,___",
+        "recipeGroup": 1,
+        "ingredients": {
+			"A": {	"type": "item", 
+    				"code":"fagreenwich:head", 
+				   	"attributes": {
+  					"types": {
+    					"formhead" : "armet",
+    					"basehead" : "steel",
+    					"coverhead" : "copper",
+    					"striphead" : "electrum",
+    					"decorationhead" : "none",
+    					"colorhead" : "none"}
+  					} 
+			},    
+			"B": {  "type": "item", 
+        			"code": "facore:decorationkit-*", 
+        			"name": "color", 
+        			"allowedVariants": [
+        				"plain",
+    					"blue",
+						"navy",
+    					"red",
+						"rose",
+        				"yellow",
+        				"green",
+						"pine",
+        				"purple",
+        				"pink",
+						"burgundy",                           
+						"orange",
+    					"brown",
+    					"gray",
+        				"black",
+        				"white"
+        			]
+    		},
+			"C": {  "type": "item", 
+    				"code": "facore:ornaments-communis*", 
+        			"name": "plume", 
+        			"allowedVariants": [
+        				"crista",
+        				"pennae",
+						"pluma"
+    				]
+    		}
+		},
+		"copyAttributesFrom": "A",
+		"width": 3,
+		"height": 3,
+		"name": "Armet with Everything, even colors",
+		"output": {
+ 			"type": "item",
+  			"code": "fagreenwich:head",
+  			"attributes": {
+  				"types": {
+    				"formhead" : "armet",
+    				"basehead" : "steel",
+    				"coverhead" : "copper",
+    				"striphead" : "electrum",
+    				"decorationhead" : "{plume}",
+    				"colorhead" : "{color}"
+				}
+            }
+        }
+    }
+]

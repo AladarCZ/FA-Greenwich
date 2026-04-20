@@ -18,7 +18,7 @@
   					} 
 			},    
 			"B": {  "type": "item", 
-        			"code": "facore:decorationkit-vanilla-", 
+        			"code": "facore:decorationkit-*", 
         			"name": "color", 
         			"allowedVariants": [
         				"plain",
@@ -139,7 +139,7 @@
 
 	// copper plated Armet with plume
 	{
-    	"ingredientPattern": "B_C,_AE,___",
+    	"ingredientPattern": "B_C,_A_,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -155,7 +155,7 @@
   					} 
 			},    
 			"B": {  "type": "item", 
-        			"code": "facore:decorationkit-vanilla-", 
+        			"code": "facore:decorationkit-*", 
         			"name": "color", 
         			"allowedVariants": [
         				"plain",
@@ -227,7 +227,7 @@
   					} 
 			},    
 			"B": {  "type": "item", 
-        			"code": "facore:decorationkit-vanilla-", 
+        			"code": "facore:decorationkit-*", 
         			"name": "color", 
         			"allowedVariants": [
         				"plain",
@@ -348,8 +348,8 @@
 
 	// cupronickel plated Armet with plume
 	{
-    	"ingredientPattern": "B_C,_AE,___",
-        "recipeGroup": 1,
+    	"ingredientPattern": "B_C,_A_,___",
+		"recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
     				"code":"fagreenwich:head", 
@@ -364,7 +364,7 @@
   					} 
 			},    
 			"B": {  "type": "item", 
-        			"code": "facore:decorationkit-vanilla-", 
+        			"code": "facore:decorationkit-*", 
         			"name": "color", 
         			"allowedVariants": [
         				"plain",
@@ -436,7 +436,7 @@
   					} 
 			},    
 			"B": {  "type": "item", 
-        			"code": "facore:decorationkit-vanilla-", 
+        			"code": "facore:decorationkit-*", 
         			"name": "color", 
         			"allowedVariants": [
         				"plain",
@@ -557,7 +557,7 @@
 
 	// brass plated Armet with plume
 	{
-    	"ingredientPattern": "B_C,_AE,___",
+    	"ingredientPattern": "B_C,_A_,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -573,7 +573,7 @@
   					} 
 			},    
 			"B": {  "type": "item", 
-        			"code": "facore:decorationkit-vanilla-", 
+        			"code": "facore:decorationkit-*", 
         			"name": "color", 
         			"allowedVariants": [
         				"plain",
@@ -645,7 +645,7 @@
   					} 
 			},    
 			"B": {  "type": "item", 
-        			"code": "facore:decorationkit-vanilla-", 
+        			"code": "facore:decorationkit-*", 
         			"name": "color", 
         			"allowedVariants": [
         				"plain",
@@ -766,7 +766,7 @@
 
 	// zinc plated Armet with plume
 	{
-    	"ingredientPattern": "B_C,_AE,___",
+    	"ingredientPattern": "B_C,_A_,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -782,7 +782,7 @@
   					} 
 			},    
 			"B": {  "type": "item", 
-        			"code": "facore:decorationkit-vanilla-", 
+        			"code": "facore:decorationkit-*", 
         			"name": "color", 
         			"allowedVariants": [
         				"plain",
@@ -854,7 +854,7 @@
   					} 
 			},    
 			"B": {  "type": "item", 
-        			"code": "facore:decorationkit-vanilla-", 
+        			"code": "facore:decorationkit-*", 
         			"name": "color", 
         			"allowedVariants": [
         				"plain",
@@ -975,7 +975,7 @@
 
 	// blackbronze plated Armet with plume
 	{
-    	"ingredientPattern": "B_C,_AE,___",
+    	"ingredientPattern": "B_C,_A_,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -991,7 +991,7 @@
   					} 
 			},    
 			"B": {  "type": "item", 
-        			"code": "facore:decorationkit-vanilla-", 
+        			"code": "facore:decorationkit-*", 
         			"name": "color", 
         			"allowedVariants": [
         				"plain",
@@ -1063,7 +1063,7 @@
   					} 
 			},    
 			"B": {  "type": "item", 
-        			"code": "facore:decorationkit-vanilla-", 
+        			"code": "facore:decorationkit-*", 
         			"name": "color", 
         			"allowedVariants": [
         				"plain",
@@ -1184,7 +1184,7 @@
 
 	// lead plated Armet with plume
 	{
-    	"ingredientPattern": "B_C,_AE,___",
+    	"ingredientPattern": "B_C,_A_,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -1200,7 +1200,7 @@
   					} 
 			},    
 			"B": {  "type": "item", 
-        			"code": "facore:decorationkit-vanilla-", 
+        			"code": "facore:decorationkit-*", 
         			"name": "color", 
         			"allowedVariants": [
         				"plain",
@@ -1272,7 +1272,7 @@
   					} 
 			},    
 			"B": {  "type": "item", 
-        			"code": "facore:decorationkit-vanilla-", 
+        			"code": "facore:decorationkit-*", 
         			"name": "color", 
         			"allowedVariants": [
         				"plain",
@@ -1393,7 +1393,7 @@
 
 	// silver plated Armet with plume
 	{
-    	"ingredientPattern": "B_C,_AE,___",
+    	"ingredientPattern": "B_C,_A_,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -1409,7 +1409,7 @@
   					} 
 			},    
 			"B": {  "type": "item", 
-        			"code": "facore:decorationkit-vanilla-", 
+        			"code": "facore:decorationkit-*", 
         			"name": "color", 
         			"allowedVariants": [
         				"plain",
@@ -1481,7 +1481,7 @@
   					} 
 			},    
 			"B": {  "type": "item", 
-        			"code": "facore:decorationkit-vanilla-", 
+        			"code": "facore:decorationkit-*", 
         			"name": "color", 
         			"allowedVariants": [
         				"plain",
@@ -1515,13 +1515,13 @@
     				"code": "facore:rimsandrivets-*", 
         			"name": "metalrivet", 
           			"allowedVariants": [
-						"meteoriciron",
-						"meteoriciron",
-						"meteoriciron",
-						"meteoriciron",
-        				"meteoriciron",
-						"meteoriciron",
-        				"meteoriciron",
+						"copper",
+						"cupronickel",
+						"brass",
+						"zinc",
+        				"blackbronze",
+						"lead",
+        				"silver",
     					"gold",
 						"electrum"
     				]
@@ -1568,13 +1568,13 @@
     				"code": "facore:rimsandrivets-*", 
         			"name": "metalrivet", 
           			"allowedVariants": [
-						"meteoriciron",
-						"meteoriciron",
-						"meteoriciron",
-						"meteoriciron",
-        				"meteoriciron",
-						"meteoriciron",
-        				"meteoriciron",
+						"copper",
+						"cupronickel",
+						"brass",
+						"zinc",
+        				"blackbronze",
+						"lead",
+        				"silver",
     					"gold",
 						"electrum"
     				]
@@ -1602,7 +1602,7 @@
 
 	// meteoriciron plated Armet with plume
 	{
-    	"ingredientPattern": "B_C,_AE,___",
+    	"ingredientPattern": "B_C,_A_,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -1618,7 +1618,7 @@
   					} 
 			},    
 			"B": {  "type": "item", 
-        			"code": "facore:decorationkit-vanilla-", 
+        			"code": "facore:decorationkit-*", 
         			"name": "color", 
         			"allowedVariants": [
         				"plain",
@@ -1690,7 +1690,7 @@
   					} 
 			},    
 			"B": {  "type": "item", 
-        			"code": "facore:decorationkit-vanilla-", 
+        			"code": "facore:decorationkit-*", 
         			"name": "color", 
         			"allowedVariants": [
         				"plain",
@@ -1811,7 +1811,7 @@
 
 	// gold plated Armet with plume
 	{
-    	"ingredientPattern": "B_C,_AE,___",
+    	"ingredientPattern": "B_C,_A_,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -1827,7 +1827,7 @@
   					} 
 			},    
 			"B": {  "type": "item", 
-        			"code": "facore:decorationkit-vanilla-", 
+        			"code": "facore:decorationkit-*", 
         			"name": "color", 
         			"allowedVariants": [
         				"plain",
@@ -1899,7 +1899,7 @@
   					} 
 			},    
 			"B": {  "type": "item", 
-        			"code": "facore:decorationkit-vanilla-", 
+        			"code": "facore:decorationkit-*", 
         			"name": "color", 
         			"allowedVariants": [
         				"plain",
@@ -2020,7 +2020,7 @@
 
 	// electrum plated Armet with plume
 	{
-    	"ingredientPattern": "B_C,_AE,___",
+    	"ingredientPattern": "B_C,_A_,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -2036,7 +2036,7 @@
   					} 
 			},    
 			"B": {  "type": "item", 
-        			"code": "facore:decorationkit-vanilla-", 
+        			"code": "facore:decorationkit-*", 
         			"name": "color", 
         			"allowedVariants": [
         				"plain",

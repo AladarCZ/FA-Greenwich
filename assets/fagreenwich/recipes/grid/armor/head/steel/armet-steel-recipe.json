@@ -17,7 +17,7 @@
   					} 
 			},    
 			"B": {  "type": "item", 
-        			"code": "facore:decorationkit-vanilla-", 
+        			"code": "facore:decorationkit-*", 
         			"name": "color", 
         			"allowedVariants": [
         				"plain",
@@ -269,8 +269,8 @@
   				"types": {
     				"formhead" : "armet",
     				"basehead" : "steel",
-    				"coverhead" : "none",
-    				"striphead" : "{metalrivet}",
+    				"coverhead" : "{metalcover}",
+    				"striphead" : "none",
     				"decorationhead" : "none",
     				"colorhead" : "none"
 				}
@@ -296,7 +296,7 @@
   					} 
 			},    
 			"B": {  "type": "item", 
-        			"code": "facore:decorationkit-vanilla-", 
+        			"code": "facore:decorationkit-*", 
         			"name": "color", 
         			"allowedVariants": [
         				"plain",
@@ -338,8 +338,8 @@
   				"types": {
     				"formhead" : "armet",
     				"basehead" : "steel",
-    				"coverhead" : "{metalcover}",
-    				"striphead" : "{metalrivet}",
+    				"coverhead" : "none",
+    				"striphead" : "none",
     				"decorationhead" : "{plume}",
     				"colorhead" : "{color}"
 				}
@@ -366,7 +366,7 @@
   					} 
 			},    
 			"B": {  "type": "item", 
-        			"code": "facore:decorationkit-vanilla-", 
+        			"code": "facore:decorationkit-*", 
         			"name": "color", 
         			"allowedVariants": [
         				"plain",
@@ -452,7 +452,7 @@
   					} 
 			},    
 			"B": {  "type": "item", 
-        			"code": "facore:decorationkit-vanilla-", 
+        			"code": "facore:decorationkit-*", 
         			"name": "color", 
         			"allowedVariants": [
         				"plain",

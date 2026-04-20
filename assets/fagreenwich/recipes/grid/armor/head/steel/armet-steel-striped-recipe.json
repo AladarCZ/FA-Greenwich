@@ -18,7 +18,7 @@
   					} 
 			},    
 			"B": {  "type": "item", 
-        			"code": "facore:decorationkit-vanilla-", 
+        			"code": "facore:decorationkit-*", 
         			"name": "color", 
         			"allowedVariants": [
         				"plain",
@@ -58,6 +58,7 @@
 						"zinc",
         				"blackbronze",
 						"lead",
+						"meteoriciron",
         				"silver",
     					"gold",
 						"electrum"
@@ -75,8 +76,8 @@
   				"types": {
     				"formhead" : "armet",
     				"basehead" : "steel",
-    				"coverhead" : "copper",
-    				"striphead" : "{metalcover}",
+    				"coverhead" : "{metalcover}",
+    				"striphead" : "copper",
     				"decorationhead" : "{plume}",
     				"colorhead" : "{color}"
 				}
@@ -111,6 +112,7 @@
 						"zinc",
         				"blackbronze",
 						"lead",
+						"meteoriciron",
         				"silver",
     					"gold",
 						"electrum"
@@ -128,8 +130,8 @@
   				"types": {
     				"formhead" : "armet",
     				"basehead" : "steel",
-    				"coverhead" : "copper",
-    				"striphead" : "{metalcover}",
+    				"coverhead" : "{metalcover}",
+    				"striphead" : "copper",
     				"decorationhead" : "none",
     				"colorhead" : "none"
 				}
@@ -139,7 +141,7 @@
 
 	// copper plated Armet with plume
 	{
-    	"ingredientPattern": "B_C,DA_,___",
+    	"ingredientPattern": "B_C,_A_,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -155,7 +157,7 @@
   					} 
 			},    
 			"B": {  "type": "item", 
-        			"code": "facore:decorationkit-vanilla-", 
+        			"code": "facore:decorationkit-*", 
         			"name": "color", 
         			"allowedVariants": [
         				"plain",
@@ -227,7 +229,7 @@
   					} 
 			},    
 			"B": {  "type": "item", 
-        			"code": "facore:decorationkit-vanilla-", 
+        			"code": "facore:decorationkit-*", 
         			"name": "color", 
         			"allowedVariants": [
         				"plain",
@@ -267,6 +269,7 @@
 						"zinc",
         				"blackbronze",
 						"lead",
+						"meteoriciron",
         				"silver",
     					"gold",
 						"electrum"
@@ -284,8 +287,8 @@
   				"types": {
     				"formhead" : "armet",
     				"basehead" : "steel",
-    				"coverhead" : "cupronickel",
-    				"striphead" : "{metalcover}",
+    				"coverhead" : "{metalcover}",
+    				"striphead" : "cupronickel",
     				"decorationhead" : "{plume}",
     				"colorhead" : "{color}"
 				}
@@ -320,6 +323,7 @@
 						"zinc",
         				"blackbronze",
 						"lead",
+						"meteoriciron",
         				"silver",
     					"gold",
 						"electrum"
@@ -337,8 +341,8 @@
   				"types": {
     				"formhead" : "armet",
     				"basehead" : "steel",
-    				"coverhead" : "cupronickel",
-    				"striphead" : "{metalcover}",
+    				"coverhead" : "{metalcover}",
+    				"striphead" : "cupronickel",
     				"decorationhead" : "none",
     				"colorhead" : "none"
 				}
@@ -348,7 +352,7 @@
 
 	// cupronickel plated Armet with plume
 	{
-    	"ingredientPattern": "B_C,DA_,___",
+    	"ingredientPattern": "B_C,_A_,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -364,7 +368,7 @@
   					} 
 			},    
 			"B": {  "type": "item", 
-        			"code": "facore:decorationkit-vanilla-", 
+        			"code": "facore:decorationkit-*", 
         			"name": "color", 
         			"allowedVariants": [
         				"plain",
@@ -436,7 +440,7 @@
   					} 
 			},    
 			"B": {  "type": "item", 
-        			"code": "facore:decorationkit-vanilla-", 
+        			"code": "facore:decorationkit-*", 
         			"name": "color", 
         			"allowedVariants": [
         				"plain",
@@ -476,6 +480,7 @@
 						"zinc",
         				"blackbronze",
 						"lead",
+						"meteoriciron",
         				"silver",
     					"gold",
 						"electrum"
@@ -493,8 +498,8 @@
   				"types": {
     				"formhead" : "armet",
     				"basehead" : "steel",
-    				"coverhead" : "brass",
-    				"striphead" : "{metalcover}",
+    				"coverhead" : "{metalcover}",
+    				"striphead" : "brass",
     				"decorationhead" : "{plume}",
     				"colorhead" : "{color}"
 				}
@@ -529,6 +534,7 @@
 						"zinc",
         				"blackbronze",
 						"lead",
+						"meteoriciron",
         				"silver",
     					"gold",
 						"electrum"
@@ -546,8 +552,8 @@
   				"types": {
     				"formhead" : "armet",
     				"basehead" : "steel",
-    				"coverhead" : "brass",
-    				"striphead" : "{metalcover}",
+    				"coverhead" : "{metalcover}",
+    				"striphead" : "brass",
     				"decorationhead" : "none",
     				"colorhead" : "none"
 				}
@@ -557,7 +563,7 @@
 
 	// brass plated Armet with plume
 	{
-    	"ingredientPattern": "B_C,DA_,___",
+    	"ingredientPattern": "B_C,_A_,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -573,7 +579,7 @@
   					} 
 			},    
 			"B": {  "type": "item", 
-        			"code": "facore:decorationkit-vanilla-", 
+        			"code": "facore:decorationkit-*", 
         			"name": "color", 
         			"allowedVariants": [
         				"plain",
@@ -615,8 +621,8 @@
   				"types": {
     				"formhead" : "armet",
     				"basehead" : "steel",
-    				"coverhead" : "brass",
-    				"striphead" : "none",
+    				"coverhead" : "none",
+    				"striphead" : "brass",
     				"decorationhead" : "{plume}",
     				"colorhead" : "{color}"
 				}
@@ -645,7 +651,7 @@
   					} 
 			},    
 			"B": {  "type": "item", 
-        			"code": "facore:decorationkit-vanilla-", 
+        			"code": "facore:decorationkit-*", 
         			"name": "color", 
         			"allowedVariants": [
         				"plain",
@@ -685,6 +691,7 @@
 						"zinc",
         				"blackbronze",
 						"lead",
+						"meteoriciron",
         				"silver",
     					"gold",
 						"electrum"
@@ -702,8 +709,8 @@
   				"types": {
     				"formhead" : "armet",
     				"basehead" : "steel",
-    				"coverhead" : "zinc",
-    				"striphead" : "{metalcover}",
+    				"coverhead" : "{metalcover}",
+    				"striphead" : "zinc",
     				"decorationhead" : "{plume}",
     				"colorhead" : "{color}"
 				}
@@ -738,6 +745,7 @@
 						"zinc",
         				"blackbronze",
 						"lead",
+						"meteoriciron",
         				"silver",
     					"gold",
 						"electrum"
@@ -755,8 +763,8 @@
   				"types": {
     				"formhead" : "armet",
     				"basehead" : "steel",
-    				"coverhead" : "zinc",
-    				"striphead" : "{metalcover}",
+    				"coverhead" : "{metalcover}",
+    				"striphead" : "zinc",
     				"decorationhead" : "none",
     				"colorhead" : "none"
 				}
@@ -766,7 +774,7 @@
 
 	// zinc plated Armet with plume
 	{
-    	"ingredientPattern": "B_C,DA_,___",
+    	"ingredientPattern": "B_C,_A_,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -782,7 +790,7 @@
   					} 
 			},    
 			"B": {  "type": "item", 
-        			"code": "facore:decorationkit-vanilla-", 
+        			"code": "facore:decorationkit-*", 
         			"name": "color", 
         			"allowedVariants": [
         				"plain",
@@ -854,7 +862,7 @@
   					} 
 			},    
 			"B": {  "type": "item", 
-        			"code": "facore:decorationkit-vanilla-", 
+        			"code": "facore:decorationkit-*", 
         			"name": "color", 
         			"allowedVariants": [
         				"plain",
@@ -894,6 +902,7 @@
 						"zinc",
         				"blackbronze",
 						"lead",
+						"meteoriciron",
         				"silver",
     					"gold",
 						"electrum"
@@ -911,8 +920,8 @@
   				"types": {
     				"formhead" : "armet",
     				"basehead" : "steel",
-    				"coverhead" : "blackbronze",
-    				"striphead" : "{metalcover}",
+    				"coverhead" : "{metalcover}",
+    				"striphead" : "blackbronze",
     				"decorationhead" : "{plume}",
     				"colorhead" : "{color}"
 				}
@@ -947,6 +956,7 @@
 						"zinc",
         				"blackbronze",
 						"lead",
+						"meteoriciron",
         				"silver",
     					"gold",
 						"electrum"
@@ -964,8 +974,8 @@
   				"types": {
     				"formhead" : "armet",
     				"basehead" : "steel",
-    				"coverhead" : "blackbronze",
-    				"striphead" : "{metalcover}",
+    				"coverhead" : "{metalcover}",
+    				"striphead" : "blackbronze",
     				"decorationhead" : "none",
     				"colorhead" : "none"
 				}
@@ -975,7 +985,7 @@
 
 	// blackbronze plated Armet with plume
 	{
-    	"ingredientPattern": "B_C,DA_,___",
+    	"ingredientPattern": "B_C,_A_,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -991,7 +1001,7 @@
   					} 
 			},    
 			"B": {  "type": "item", 
-        			"code": "facore:decorationkit-vanilla-", 
+        			"code": "facore:decorationkit-*", 
         			"name": "color", 
         			"allowedVariants": [
         				"plain",
@@ -1063,7 +1073,7 @@
   					} 
 			},    
 			"B": {  "type": "item", 
-        			"code": "facore:decorationkit-vanilla-", 
+        			"code": "facore:decorationkit-*", 
         			"name": "color", 
         			"allowedVariants": [
         				"plain",
@@ -1103,6 +1113,7 @@
 						"zinc",
         				"blackbronze",
 						"lead",
+						"meteoriciron",
         				"silver",
     					"gold",
 						"electrum"
@@ -1120,8 +1131,8 @@
   				"types": {
     				"formhead" : "armet",
     				"basehead" : "steel",
-    				"coverhead" : "lead",
-    				"striphead" : "{metalcover}",
+    				"coverhead" : "{metalcover}",
+    				"striphead" : "lead",
     				"decorationhead" : "{plume}",
     				"colorhead" : "{color}"
 				}
@@ -1156,6 +1167,7 @@
 						"zinc",
         				"blackbronze",
 						"lead",
+						"meteoriciron",
         				"silver",
     					"gold",
 						"electrum"
@@ -1173,8 +1185,8 @@
   				"types": {
     				"formhead" : "armet",
     				"basehead" : "steel",
-    				"coverhead" : "lead",
-    				"striphead" : "{metalcover}",
+    				"coverhead" : "{metalcover}",
+    				"striphead" : "lead",
     				"decorationhead" : "none",
     				"colorhead" : "none"
 				}
@@ -1184,7 +1196,7 @@
 
 	// lead plated Armet with plume
 	{
-    	"ingredientPattern": "B_C,DA_,___",
+    	"ingredientPattern": "B_C,_A_,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -1200,7 +1212,7 @@
   					} 
 			},    
 			"B": {  "type": "item", 
-        			"code": "facore:decorationkit-vanilla-", 
+        			"code": "facore:decorationkit-*", 
         			"name": "color", 
         			"allowedVariants": [
         				"plain",
@@ -1272,7 +1284,7 @@
   					} 
 			},    
 			"B": {  "type": "item", 
-        			"code": "facore:decorationkit-vanilla-", 
+        			"code": "facore:decorationkit-*", 
         			"name": "color", 
         			"allowedVariants": [
         				"plain",
@@ -1312,6 +1324,7 @@
 						"zinc",
         				"blackbronze",
 						"lead",
+						"meteoriciron",
         				"silver",
     					"gold",
 						"electrum"
@@ -1329,8 +1342,8 @@
   				"types": {
     				"formhead" : "armet",
     				"basehead" : "steel",
-    				"coverhead" : "silver",
-    				"striphead" : "{metalcover}",
+    				"coverhead" : "{metalcover}",
+    				"striphead" : "silver",
     				"decorationhead" : "{plume}",
     				"colorhead" : "{color}"
 				}
@@ -1365,6 +1378,7 @@
 						"zinc",
         				"blackbronze",
 						"lead",
+						"meteoriciron",
         				"silver",
     					"gold",
 						"electrum"
@@ -1382,8 +1396,8 @@
   				"types": {
     				"formhead" : "armet",
     				"basehead" : "steel",
-    				"coverhead" : "silver",
-    				"striphead" : "{metalcover}",
+    				"coverhead" : "{metalcover}",
+    				"striphead" : "silver",
     				"decorationhead" : "none",
     				"colorhead" : "none"
 				}
@@ -1393,7 +1407,7 @@
 
 	// silver plated Armet with plume
 	{
-    	"ingredientPattern": "B_C,DA_,___",
+    	"ingredientPattern": "B_C,_A_,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -1409,7 +1423,7 @@
   					} 
 			},    
 			"B": {  "type": "item", 
-        			"code": "facore:decorationkit-vanilla-", 
+        			"code": "facore:decorationkit-*", 
         			"name": "color", 
         			"allowedVariants": [
         				"plain",
@@ -1481,7 +1495,7 @@
   					} 
 			},    
 			"B": {  "type": "item", 
-        			"code": "facore:decorationkit-vanilla-", 
+        			"code": "facore:decorationkit-*", 
         			"name": "color", 
         			"allowedVariants": [
         				"plain",
@@ -1515,13 +1529,14 @@
     				"code": "game:metalplate-*", 
         			"name": "metalcover", 
           			"allowedVariants": [
+						"copper",
+						"cupronickel",
+						"brass",
+						"zinc",
+        				"blackbronze",
+						"lead",
 						"meteoriciron",
-						"meteoriciron",
-						"meteoriciron",
-						"meteoriciron",
-        				"meteoriciron",
-						"meteoriciron",
-        				"meteoriciron",
+        				"silver",
     					"gold",
 						"electrum"
     				]
@@ -1538,8 +1553,8 @@
   				"types": {
     				"formhead" : "armet",
     				"basehead" : "steel",
-    				"coverhead" : "meteoriciron",
-    				"striphead" : "{metalcover}",
+    				"coverhead" : "{metalcover}",
+    				"striphead" : "meteoriciron",
     				"decorationhead" : "{plume}",
     				"colorhead" : "{color}"
 				}
@@ -1568,13 +1583,14 @@
     				"code": "game:metalplate-*", 
         			"name": "metalcover", 
           			"allowedVariants": [
+						"copper",
+						"cupronickel",
+						"brass",
+						"zinc",
+        				"blackbronze",
+						"lead",
 						"meteoriciron",
-						"meteoriciron",
-						"meteoriciron",
-						"meteoriciron",
-        				"meteoriciron",
-						"meteoriciron",
-        				"meteoriciron",
+        				"silver",
     					"gold",
 						"electrum"
     				]
@@ -1591,8 +1607,8 @@
   				"types": {
     				"formhead" : "armet",
     				"basehead" : "steel",
-    				"coverhead" : "meteoriciron",
-    				"striphead" : "{metalcover}",
+    				"coverhead" : "{metalcover}",
+    				"striphead" : "meteoriciron",
     				"decorationhead" : "none",
     				"colorhead" : "none"
 				}
@@ -1602,7 +1618,7 @@
 
 	// meteoriciron plated Armet with plume
 	{
-    	"ingredientPattern": "B_C,DA_,___",
+    	"ingredientPattern": "B_C,_A_,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -1618,7 +1634,7 @@
   					} 
 			},    
 			"B": {  "type": "item", 
-        			"code": "facore:decorationkit-vanilla-", 
+        			"code": "facore:decorationkit-*", 
         			"name": "color", 
         			"allowedVariants": [
         				"plain",
@@ -1690,7 +1706,7 @@
   					} 
 			},    
 			"B": {  "type": "item", 
-        			"code": "facore:decorationkit-vanilla-", 
+        			"code": "facore:decorationkit-*", 
         			"name": "color", 
         			"allowedVariants": [
         				"plain",
@@ -1730,6 +1746,7 @@
 						"zinc",
         				"blackbronze",
 						"lead",
+						"meteoriciron",
         				"silver",
     					"gold",
 						"electrum"
@@ -1747,8 +1764,8 @@
   				"types": {
     				"formhead" : "armet",
     				"basehead" : "steel",
-    				"coverhead" : "gold",
-    				"striphead" : "{metalcover}",
+    				"coverhead" : "{metalcover}",
+    				"striphead" : "gold",
     				"decorationhead" : "{plume}",
     				"colorhead" : "{color}"
 				}
@@ -1783,6 +1800,7 @@
 						"zinc",
         				"blackbronze",
 						"lead",
+						"meteoriciron",
         				"silver",
     					"gold",
 						"electrum"
@@ -1800,8 +1818,8 @@
   				"types": {
     				"formhead" : "armet",
     				"basehead" : "steel",
-    				"coverhead" : "gold",
-    				"striphead" : "{metalcover}",
+    				"coverhead" : "{metalcover}",
+    				"striphead" : "gold",
     				"decorationhead" : "none",
     				"colorhead" : "none"
 				}
@@ -1811,7 +1829,7 @@
 
 	// gold plated Armet with plume
 	{
-    	"ingredientPattern": "B_C,DA_,___",
+    	"ingredientPattern": "B_C,_A_,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -1827,7 +1845,7 @@
   					} 
 			},    
 			"B": {  "type": "item", 
-        			"code": "facore:decorationkit-vanilla-", 
+        			"code": "facore:decorationkit-*", 
         			"name": "color", 
         			"allowedVariants": [
         				"plain",
@@ -1899,7 +1917,7 @@
   					} 
 			},    
 			"B": {  "type": "item", 
-        			"code": "facore:decorationkit-vanilla-", 
+        			"code": "facore:decorationkit-*", 
         			"name": "color", 
         			"allowedVariants": [
         				"plain",
@@ -1939,6 +1957,7 @@
 						"zinc",
         				"blackbronze",
 						"lead",
+						"meteoriciron",
         				"silver",
     					"gold",
 						"electrum"
@@ -1956,8 +1975,8 @@
   				"types": {
     				"formhead" : "armet",
     				"basehead" : "steel",
-    				"coverhead" : "electrum",
-    				"striphead" : "{metalcover}",
+    				"coverhead" : "{metalcover}",
+    				"striphead" : "electrum",
     				"decorationhead" : "{plume}",
     				"colorhead" : "{color}"
 				}
@@ -1992,6 +2011,7 @@
 						"zinc",
         				"blackbronze",
 						"lead",
+						"meteoriciron",
         				"silver",
     					"gold",
 						"electrum"
@@ -2009,8 +2029,8 @@
   				"types": {
     				"formhead" : "armet",
     				"basehead" : "steel",
-    				"coverhead" : "electrum",
-    				"striphead" : "{metalcover}",
+    				"coverhead" : "{metalcover}",
+    				"striphead" : "electrum",
     				"decorationhead" : "none",
     				"colorhead" : "none"
 				}
@@ -2020,7 +2040,7 @@
 
 	// electrum plated Armet with plume
 	{
-    	"ingredientPattern": "B_C,DA_,___",
+    	"ingredientPattern": "B_C,_A_,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -2036,7 +2056,7 @@
   					} 
 			},    
 			"B": {  "type": "item", 
-        			"code": "facore:decorationkit-vanilla-", 
+        			"code": "facore:decorationkit-*", 
         			"name": "color", 
         			"allowedVariants": [
         				"plain",
