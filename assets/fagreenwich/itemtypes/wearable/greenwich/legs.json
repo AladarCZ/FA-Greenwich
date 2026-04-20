@@ -3,7 +3,13 @@
     "maxstacksize": 1,
     "attributes": {
         "handbook": {
-            "exclude": true
+            "include": true
+        },
+        "groundStorageTransform": {
+            "translation": { "x": -2.1, "y": 0.9, "z": 3.9 },
+            "rotation": { "x": -91, "y": 40, "z": -10 },
+            "origin": { "x": 0, "y": 0, "z": 0 },
+            "scale": 2.45
         }
     },
     "behaviors": [
@@ -11,22 +17,61 @@
             "name": "AttributeRenderingLibrary.GenerateCreativeStacks",
             "properties": {
                 "variantgroups": [
-                    { "code": "FormLegs", "states": ["Chestplate"] },
-                    { "code": "BaseLegs", "states": ["Iron", "MeteoricIron", "Steel"] },
-                    { "code": "CoverLegs", "states": ["None", "BlackBronze"] },
-                    { "code": "StripLegs", "states": ["None", "Gold"] },
-                    { "code": "DecorationLegs", "states": ["None", "Tail", "Bear"] },
-                    { "code": "ColorLegs", "states": ["None", "Red", "Green", "Black", "Blue", "Brown", "White", "Purple", "Pink", "Orange", "Yellow", "Gray", "Plain"] }
-                ],
+                    { "code": "formlegs", "states": ["liutenantlegs"] },
+                    { "code": "baselegs", "states": ["iron", "meteoriciron", "steel"] },
+                    { "code": "coverlegs", "states": ["none", "copper", "cupronickel", "brass", "zinc", "blackbronze", "lead", "silver", "meteoriciron", "gold", "electrum"] },
+                    { "code": "striplegs", "states": ["none", "copper", "cupronickel", "brass", "zinc", "blackbronze", "lead", "silver", "meteoriciron", "gold", "electrum"] },
+                    { "code": "decorationlegs", "states": ["none", "lacinia", "bear"] },
+                    { "code": "colorlegs", "states": ["none", "red", "rose", "green", "pine", "black", "blue", "navy", "brown", "white", "purple", "pink", "burgundy", "orange", "yellow", "gray", "plain"] }
+                ],                
                 "creativeinventory": {
-                    "general": ["*"],
-                    "fagreenwich": ["*"]
+                    "fagreenwichlegss": ["decorationlegs-none"]
                 },
+                "allowedvariants": [
+                    "baselegs-iron::coverlegs-none::striplegs-copper",
+                    "baselegs-iron::coverlegs-none::striplegs-lead",
+                    "baselegs-iron::coverlegs-none::striplegs-none",
+                    "baselegs-meteoriciron::coverlegs-none::striplegs-cupronickel",
+                    "baselegs-meteoriciron::coverlegs-none::striplegs-gold",
+                    "baselegs-meteoriciron::coverlegs-none::striplegs-blackbronze",
+                    "baselegs-meteoriciron::coverlegs-none::striplegs-zinc",
+                    "baselegs-meteoriciron::coverlegs-none::striplegs-none",
+                    "baselegs-steel"
+                ],
                 "skipvariants": [
-                    "DecorationLegs-Bear::@ColorLegs-(None|red|green|blue|purple|pink|orange|yellow|gray|plain)",
-                    "DecorationLegs-None::@ColorLegs-(.*)",
-                    "DecorationLegs-Badges::ColorLegs-None",
-                    "@BaseLegs-(iron|meteoriciron)::CoverLegs-blackbronze::StripLegs-Gold"
+                    "decorationlegs-bear::colorlegs-none",
+                    "decorationlegs-bear::colorlegs-red",
+                    "decorationlegs-bear::colorlegs-rose",
+                    "decorationlegs-bear::colorlegs-green",
+                    "decorationlegs-bear::colorlegs-pine",
+                    "decorationlegs-bear::colorlegs-blue",
+                    "decorationlegs-bear::colorlegs-navy",
+                    "decorationlegs-bear::colorlegs-purple",
+                    "decorationlegs-bear::colorlegs-pink",
+                    "decorationlegs-bear::colorlegs-burgundy",
+                    "decorationlegs-bear::colorlegs-orange",
+                    "decorationlegs-bear::colorlegs-yellow",
+                    "decorationlegs-bear::colorlegs-gray",
+                    "decorationlegs-bear::colorlegs-plain",
+
+                    "decorationlegs-lacinia::colorlegs-none",
+
+                    "decorationlegs-none::colorlegs-red",
+                    "decorationlegs-none::colorlegs-rose",
+                    "decorationlegs-none::colorlegs-green",
+                    "decorationlegs-none::colorlegs-pine",
+                    "decorationlegs-none::colorlegs-blue",
+                    "decorationlegs-none::colorlegs-navy",
+                    "decorationlegs-none::colorlegs-purple",
+                    "decorationlegs-none::colorlegs-pink",
+                    "decorationlegs-none::colorlegs-burgundy",
+                    "decorationlegs-none::colorlegs-orange",
+                    "decorationlegs-none::colorlegs-yellow",
+                    "decorationlegs-none::colorlegs-gray",
+                    "decorationlegs-none::colorlegs-white",
+                    "decorationlegs-none::colorlegs-brown",
+                    "decorationlegs-none::colorlegs-black",
+                    "decorationlegs-none::colorlegs-plain"
                 ]
             }
         },
@@ -34,24 +79,33 @@
             "name": "AttributeRenderingLibrary.Wearable",
             "properties": {
                 "textures": {
-                    "FormLegs-Legplate:BaseLegs-Legplate::DecorationLegs-Bear": {
-                        "Seraph": { "base": "game:block/transparent" },
-                        "BaseLegs": { "base": "fagreenwich:armor/entity/greenwich/{BaseLegs}" },
-                        "ColorLegs": { "base": "game:entity/humanoid/serapharmor/hide/Bear/Bear-{ColorLegs}" }
+                    "coverlegs-none::decorationlegs-bear": {
+                        "seraph": { "base": "game:block/transparent" },
+                        "baselegs": { "base": "fagreenwich:armor/entity/greenwich/base/{baselegs}" },
+                        "striplegs": { "base": "facore:armor/entity/trim/{striplegs}" },
+                        "colorlegs": { "base": "facore:armor/entity/bear/{colorlegs}" }
                     },
-                    "FormLegs-Legplate::DecorationLegs-Bear::ColorLegs-White": {
-                        "Seraph": { "base": "game:block/transparent" },
-                        "BaseLegs": { "base": "fagreenwich:armor/entity/greenwich/{BaseLegs}" },
-                        "ColorLegs": { "base": "game:entity/humanoid/serapharmor/hide/Bear/Bear-Polar" }
+                    "coverlegs-*::decorationlegs-bear": {
+                        "seraph": { "base": "game:block/transparent" },
+                        "baselegs": { "base": "fagreenwich:armor/entity/greenwich/cover/{coverlegs}" },
+                        "striplegs": { "base": "facore:armor/entity/trim/{striplegs}" },
+                        "colorlegs": { "base": "facore:armor/entity/bear/{colorlegs}" }
                     },
-                    "*": {
-                        "Seraph": { "base": "game:block/transparent" },
-                        "BaseLegs": { "base": "fagreenwich:armor/entity/greenwich/{BaseLegs}" },
-                        "ColorLegs": { "base": "fagreenwich:block/textile/{ColorLegs}" }
+                    "coverlegs-none": {
+                        "seraph": { "base": "game:block/transparent" },
+                        "baselegs": { "base": "fagreenwich:armor/entity/greenwich/base/{baselegs}" },
+                        "striplegs": { "base": "facore:armor/entity/trim/{striplegs}" },
+                        "colorlegs": { "base": "facore:block/decoration/legs/{colorlegs}" }
+                    },
+                    "coverlegs-*": {
+                        "seraph": { "base": "game:block/transparent" },
+                        "baselegs": { "base": "fagreenwich:armor/entity/greenwich/cover/{coverlegs}" },
+                        "striplegs": { "base": "facore:armor/entity/trim/{striplegs}" },
+                        "colorlegs": { "base": "facore:block/decoration/legs/{colorlegs}" }
                     }
                 },
                 "shape": {
-                    "DecorationLegs-*": { "base": "fagreenwich:entity/armor/greenwich/{FormLegs}/{DecorationLegs}Legs" }
+                    "*": { "base": "fagreenwich:entity/armor/greenwich/{formlegs}/{decorationlegs}legs" }
                 },
                 "storageFlags": {
                     "*": 128
@@ -60,48 +114,48 @@
                     "*": ["hidehat", "Hood", "hoodupperover", "Hair tile upper part", "ponytailhigh", "ponytaillow", "Hair", "hair-uncovered", "hidefacialhair", "sidehigh", "sidelow", "bangs"]
                 },
                 "durability": {
-                    "BaseLegs-iron": 3700,
-                    "BaseLegs-meteoriciron": 4300,
-                    "@BaseLegs-steel": 7000
+                    "baselegs-iron": 3700,
+                    "baselegs-meteoriciron": 4300,
+                    "baselegs-steel": 7000
                 },
                 "visibleDamageEffect": {
                     "*": true
                 },
                 "warmth": {
-                    "DecorationLegs-bear::@ColorLegs-(black|brown)": 1,
-                    "DecorationLegs-bear::@ColorLegs-white": 1.5
+                    "decorationlegs-bear::@colorlegs-(black|brown)": 1,
+                    "decorationlegs-bear::@colorlegs-white": 1.5
                 },
                 "clothesCategory": {
-                    "*": "ArmorLegs"
+                    "*": "armorlegs"
                 },
                 "defaultProtLoss": {
                     "*": {
                         "perTierRelativeProtectionLoss": [0.03, 0.15],
-                        "perTierFlatDamageReductionLoss": [0.1, 0.2]
+                        "perTierFlatDamagereductionLoss": [0.1, 0.2]
                     }
                 },
                 "protectionModifiers": {
-                    "BaseLegs-steel": {
+                    "baselegs-steel": {
                         "relativeProtection": 0.98,
-                        "flatDamageReduction": 3.5,
+                        "flatDamagereduction": 3.5,
                         "highDamageTierResistant": true,
                         "protectionTier": 4
                     },
-                    "BaseLegs-meteoriciron": {
+                    "baselegs-meteoriciron": {
                         "relativeProtection": 0.975,
-                        "flatDamageReduction": 3.2,
+                        "flatDamagereduction": 3.2,
                         "highDamageTierResistant": true,
                         "protectionTier": 3
                     },
-                    "BaseLegs-iron": {
+                    "baselegs-iron": {
                         "relativeProtection": 0.97,
-                        "flatDamageReduction": 3,
+                        "flatDamagereduction": 3,
                         "highDamageTierResistant": true,
                         "protectionTier": 3
                     }
                 },
                 "statModifiers": {
-                    "DecorationLegs-Bear": {
+                    "decorationlegs-bear": {
                         "rangedWeaponsAcc": -0.15,
                         "rangedWeaponsSpeed": -0.25,
                         "walkSpeed": -0.14,
@@ -118,17 +172,20 @@
                 },
                 "description": {
                     "*": ["-----------------------------", "<br>",
-                         ["Type: {0}", "{FormLegs}"], "<br>", 
-                         ["Material: {0}", "{BaseLegs}"], "<br>", 
-                         ["Design: {0}", "{DecorationLegs}"], "<br>", 
-                         ["Decoration: {0}", "{ColorLegs}"], "<br>", 
-                         ["Coating: {0}", "{CoverLegs}"], "<br>", 
-                         ["Trim: {0}", "{StripLegs}"], "<br>", 
+                         ["Type: {0}", "formlegs-{formlegs}"], "<br>", 
+                         ["Material: {0}", "baselegs-{baselegs}"], "<br>", 
+                         ["Design: {0}", "decorationlegs-{decorationlegs}"], "<br>", 
+                         ["Decoration: {0}", "colorlegs-{colorlegs}"], "<br>", 
+                         ["Coating: {0}", "coverlegs-{coverlegs}"], "<br>", 
+                         ["Trim: {0}", "striplegs-{striplegs}"], "<br>", 
                          "-----------------------------", "<br>"]
                 },
                 "STFA_attachableToEntity": {
                     "categoryCode": {
-                        "*": "armorLegs"
+                        "*": "armorlegs"
+                    },
+                    "disableElements": {
+                        "*": ["hidehat", "Hood", "hoodupperover", "Hair tile upper part", "ponytailhigh", "ponytaillow", "Hair", "hair-uncovered", "hidefacialhair", "sidehigh", "sidelow", "bangs"]
                     }
                 }
             }
@@ -136,27 +193,27 @@
     ],
     "heldTpIdleAnimation": "holdunderarm",
     "fpHandTransform": {
-        "translation": { "x": 0.4, "y": -1.2, "z": -0.5 },
+        "translation": { "x": 0.4, "y": -1.9, "z": -0.5 },
         "rotation": { "x": 163, "y": -111, "z": -180 },
-        "origin": { "x": 0.5, "y": 1.6, "z": 0.5 },
+        "origin": { "x": 0.5, "y": 1.7, "z": 0.5 },
         "scale": 2.15
     },
     "tpHandTransform": {
-        "translation": { "x": -0.7, "y": -0.6, "z": -0.4 },
-        "rotation": { "x": 95, "y": -20, "z": -91 },
-        "origin": { "x": 0.5, "y": 0.7, "z": 0.5 },
-        "scale": 0.74
+        "translation": { "x": -0.82, "y": -2.2, "z": -0.5 },
+        "rotation": { "x": 18, "y": 169, "z": 30 },
+        "origin": { "x": 0.5, "y": 1.7, "z": 0.5 },
+        "scale": 0.64
     },
     "guiTransform": {
-        "translation": { "x": 1, "y": 0, "z": 0 },
+        "translation": { "x": 0, "y": 0, "z": 0 },
         "rotation": { "x": -26, "y": -46, "z": -180 },
-        "origin": { "x": 0.5, "y": 0.6, "z": 0.5 },
-        "scale": 1.25
+        "origin": { "x": 0.6, "y": 1.72, "z": 0.5 },
+        "scale": 2
     },
     "groundTransform": {
         "translation": { "x": 0, "y": 0, "z": 0 },
-        "rotation": { "x": 0, "y": 0, "z": 90 },
-        "origin": { "x": 0.34, "y": 1.12, "z": 0.5 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "origin": { "x": 0.34, "y": 1.71, "z": 0.5 },
         "scale": 3.1
     }
 }

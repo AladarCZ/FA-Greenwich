@@ -3,7 +3,7 @@
     "maxstacksize": 1,
     "attributes": {
         "handbook": {
-            "exclude": true
+            "include": true
         },
         "groundStorageTransform": {
             "translation": { "x": -2.1, "y": 0.9, "z": 3.9 },
@@ -17,22 +17,61 @@
             "name": "AttributeRenderingLibrary.GenerateCreativeStacks",
             "properties": {
                 "variantgroups": [
-                    { "code": "FormBody", "states": ["Chestplate"] },
-                    { "code": "BaseBody", "states": ["Iron", "MeteoricIron", "Steel"] },
-                    { "code": "CoverBody", "states": ["None", "BlackBronze"] },
-                    { "code": "StripBody", "states": ["None", "Gold"] },
-                    { "code": "DecorationBody", "states": ["None", "Badges", "Bear"] },
-                    { "code": "ColorBody", "states": ["None", "Red", "Green", "Black", "Blue", "Brown", "White", "Purple", "Pink", "Orange", "Yellow", "Gray", "Plain"] }
-                ],
+                    { "code": "formbody", "states": ["liutenantbody"] },
+                    { "code": "basebody", "states": ["iron", "meteoriciron", "steel"] },
+                    { "code": "coverbody", "states": ["none", "copper", "cupronickel", "brass", "zinc", "blackbronze", "lead", "silver", "meteoriciron", "gold", "electrum"] },
+                    { "code": "stripbody", "states": ["none", "copper", "cupronickel", "brass", "zinc", "blackbronze", "lead", "silver", "meteoriciron", "gold", "electrum"] },
+                    { "code": "decorationbody", "states": ["none", "insignia", "bear"] },
+                    { "code": "colorbody", "states": ["none", "red", "rose", "green", "pine", "black", "blue", "navy", "brown", "white", "purple", "pink", "burgundy", "orange", "yellow", "gray", "plain"] }
+                ],                
                 "creativeinventory": {
-                    "general": ["*"],
-                    "fagreenwich": ["*"]
+                    "fagreenwichbodys": ["decorationbody-none"]
                 },
+                "allowedvariants": [
+                    "basebody-iron::coverbody-none::stripbody-copper",
+                    "basebody-iron::coverbody-none::stripbody-lead",
+                    "basebody-iron::coverbody-none::stripbody-none",
+                    "basebody-meteoriciron::coverbody-none::stripbody-cupronickel",
+                    "basebody-meteoriciron::coverbody-none::stripbody-gold",
+                    "basebody-meteoriciron::coverbody-none::stripbody-blackbronze",
+                    "basebody-meteoriciron::coverbody-none::stripbody-zinc",
+                    "basebody-meteoriciron::coverbody-none::stripbody-none",
+                    "basebody-steel"
+                ],
                 "skipvariants": [
-                    "DecorationBody-Bear::@ColorBody-(None|red|green|blue|purple|pink|orange|yellow|gray|plain)",
-                    "DecorationBody-None::@ColorBody-(.*)",
-                    "DecorationBody-Badges::ColorBody-None",
-                    "@BaseBody-(iron|meteoriciron)::CoverBody-blackbronze::StripBody-Gold"
+                    "decorationbody-bear::colorbody-none",
+                    "decorationbody-bear::colorbody-red",
+                    "decorationbody-bear::colorbody-rose",
+                    "decorationbody-bear::colorbody-green",
+                    "decorationbody-bear::colorbody-pine",
+                    "decorationbody-bear::colorbody-blue",
+                    "decorationbody-bear::colorbody-navy",
+                    "decorationbody-bear::colorbody-purple",
+                    "decorationbody-bear::colorbody-pink",
+                    "decorationbody-bear::colorbody-burgundy",
+                    "decorationbody-bear::colorbody-orange",
+                    "decorationbody-bear::colorbody-yellow",
+                    "decorationbody-bear::colorbody-gray",
+                    "decorationbody-bear::colorbody-plain",
+
+                    "decorationbody-insignia::colorbody-none",
+
+                    "decorationbody-none::colorbody-red",
+                    "decorationbody-none::colorbody-rose",
+                    "decorationbody-none::colorbody-green",
+                    "decorationbody-none::colorbody-pine",
+                    "decorationbody-none::colorbody-blue",
+                    "decorationbody-none::colorbody-navy",
+                    "decorationbody-none::colorbody-purple",
+                    "decorationbody-none::colorbody-pink",
+                    "decorationbody-none::colorbody-burgundy",
+                    "decorationbody-none::colorbody-orange",
+                    "decorationbody-none::colorbody-yellow",
+                    "decorationbody-none::colorbody-gray",
+                    "decorationbody-none::colorbody-white",
+                    "decorationbody-none::colorbody-brown",
+                    "decorationbody-none::colorbody-black",
+                    "decorationbody-none::colorbody-plain"
                 ]
             }
         },
@@ -40,24 +79,33 @@
             "name": "AttributeRenderingLibrary.Wearable",
             "properties": {
                 "textures": {
-                    "FormBody-Chestplate::DecorationBody-Bear": {
-                        "Seraph": { "base": "game:block/transparent" },
-                        "BaseBody": { "base": "fagreenwich:armor/entity/greenwich/{BaseBody}" },
-                        "ColorBody": { "base": "game:entity/humanoid/serapharmor/hide/Bear/Bear-{ColorBody}" }
+                    "coverbody-none::decorationbody-bear": {
+                        "seraph": { "base": "game:block/transparent" },
+                        "basebody": { "base": "fagreenwich:armor/entity/greenwich/base/{basebody}" },
+                        "stripbody": { "base": "facore:armor/entity/trim/{stripbody}" },
+                        "colorbody": { "base": "facore:armor/entity/bear/{colorbody}" }
                     },
-                    "FormBody-Chestplate::DecorationBody-Bear::ColorBody-White": {
-                        "Seraph": { "base": "game:block/transparent" },
-                        "BaseBody": { "base": "fagreenwich:armor/entity/greenwich/{BaseBody}" },
-                        "ColorBody": { "base": "game:entity/humanoid/serapharmor/hide/Bear/Bear-Polar" }
+                    "coverbody-*::decorationbody-bear": {
+                        "seraph": { "base": "game:block/transparent" },
+                        "basebody": { "base": "fagreenwich:armor/entity/greenwich/cover/{coverbody}" },
+                        "stripbody": { "base": "facore:armor/entity/trim/{stripbody}" },
+                        "colorbody": { "base": "facore:armor/entity/bear/{colorbody}" }
                     },
-                    "*": {
-                        "Seraph": { "base": "game:block/transparent" },
-                        "BaseBody": { "base": "fagreenwich:armor/entity/greenwich/{BaseBody}" },
-                        "ColorBody": { "base": "fagreenwich:block/textile/{ColorBody}" }
+                    "coverbody-none": {
+                        "seraph": { "base": "game:block/transparent" },
+                        "basebody": { "base": "fagreenwich:armor/entity/greenwich/base/{basebody}" },
+                        "stripbody": { "base": "facore:armor/entity/trim/{stripbody}" },
+                        "colorbody": { "base": "facore:block/decoration/body/{colorbody}" }
+                    },
+                    "coverbody-*": {
+                        "seraph": { "base": "game:block/transparent" },
+                        "basebody": { "base": "fagreenwich:armor/entity/greenwich/cover/{coverbody}" },
+                        "stripbody": { "base": "facore:armor/entity/trim/{stripbody}" },
+                        "colorbody": { "base": "facore:block/decoration/body/{colorbody}" }
                     }
                 },
                 "shape": {
-                    "DecorationBody-*": { "base": "fagreenwich:entity/armor/greenwich/{FormBody}/{DecorationBody}Body" }
+                    "*": { "base": "fagreenwich:entity/armor/greenwich/{formbody}/{decorationbody}body" }
                 },
                 "storageFlags": {
                     "*": 128
@@ -66,48 +114,48 @@
                     "*": ["hidehat", "Hood", "hoodupperover", "Hair tile upper part", "ponytailhigh", "ponytaillow", "Hair", "hair-uncovered", "hidefacialhair", "sidehigh", "sidelow", "bangs"]
                 },
                 "durability": {
-                    "BaseBody-iron": 3700,
-                    "BaseBody-meteoriciron": 4300,
-                    "@BaseBody-steel": 7000
+                    "basebody-iron": 3700,
+                    "basebody-meteoriciron": 4300,
+                    "basebody-steel": 7000
                 },
                 "visibleDamageEffect": {
                     "*": true
                 },
                 "warmth": {
-                    "DecorationBody-bear::@ColorBody-(black|brown)": 1,
-                    "DecorationBody-bear::@ColorBody-white": 1.5
+                    "decorationbody-bear::@colorbody-(black|brown)": 1,
+                    "decorationbody-bear::@colorbody-white": 1.5
                 },
                 "clothesCategory": {
-                    "*": "ArmorBody"
+                    "*": "armorbody"
                 },
                 "defaultProtLoss": {
                     "*": {
                         "perTierRelativeProtectionLoss": [0.03, 0.15],
-                        "perTierFlatDamageReductionLoss": [0.1, 0.2]
+                        "perTierFlatDamagereductionLoss": [0.1, 0.2]
                     }
                 },
                 "protectionModifiers": {
-                    "BaseBody-steel": {
+                    "basebody-steel": {
                         "relativeProtection": 0.98,
-                        "flatDamageReduction": 3.5,
+                        "flatDamagereduction": 3.5,
                         "highDamageTierResistant": true,
                         "protectionTier": 4
                     },
-                    "BaseBody-meteoriciron": {
+                    "basebody-meteoriciron": {
                         "relativeProtection": 0.975,
-                        "flatDamageReduction": 3.2,
+                        "flatDamagereduction": 3.2,
                         "highDamageTierResistant": true,
                         "protectionTier": 3
                     },
-                    "BaseBody-iron": {
+                    "basebody-iron": {
                         "relativeProtection": 0.97,
-                        "flatDamageReduction": 3,
+                        "flatDamagereduction": 3,
                         "highDamageTierResistant": true,
                         "protectionTier": 3
                     }
                 },
                 "statModifiers": {
-                    "DecorationBody-Bear": {
+                    "decorationbody-bear": {
                         "rangedWeaponsAcc": -0.15,
                         "rangedWeaponsSpeed": -0.25,
                         "walkSpeed": -0.14,
@@ -124,17 +172,20 @@
                 },
                 "description": {
                     "*": ["-----------------------------", "<br>",
-                         ["Type: {0}", "{FormBody}"], "<br>", 
-                         ["Material: {0}", "{BaseBody}"], "<br>", 
-                         ["Design: {0}", "{DecorationBody}"], "<br>", 
-                         ["Decoration: {0}", "{ColorBody}"], "<br>", 
-                         ["Coating: {0}", "{CoverBody}"], "<br>", 
-                         ["Trim: {0}", "{StripBody}"], "<br>", 
+                         ["Type: {0}", "formbody-{formbody}"], "<br>", 
+                         ["Material: {0}", "basebody-{basebody}"], "<br>", 
+                         ["Design: {0}", "decorationbody-{decorationbody}"], "<br>", 
+                         ["Decoration: {0}", "colorbody-{colorbody}"], "<br>", 
+                         ["Coating: {0}", "coverbody-{coverbody}"], "<br>", 
+                         ["Trim: {0}", "stripbody-{stripbody}"], "<br>", 
                          "-----------------------------", "<br>"]
                 },
                 "STFA_attachableToEntity": {
                     "categoryCode": {
-                        "*": "armorBody"
+                        "*": "armorbody"
+                    },
+                    "disableElements": {
+                        "*": ["hidehat", "Hood", "hoodupperover", "Hair tile upper part", "ponytailhigh", "ponytaillow", "Hair", "hair-uncovered", "hidefacialhair", "sidehigh", "sidelow", "bangs"]
                     }
                 }
             }
@@ -142,27 +193,27 @@
     ],
     "heldTpIdleAnimation": "holdunderarm",
     "fpHandTransform": {
-        "translation": { "x": 0.4, "y": -1.2, "z": -0.5 },
+        "translation": { "x": 0.4, "y": -1.9, "z": -0.5 },
         "rotation": { "x": 163, "y": -111, "z": -180 },
-        "origin": { "x": 0.5, "y": 1.6, "z": 0.5 },
+        "origin": { "x": 0.5, "y": 1.7, "z": 0.5 },
         "scale": 2.15
     },
     "tpHandTransform": {
-        "translation": { "x": -1, "y": -1.9, "z": -0.5 },
-        "rotation": { "x": 97, "y": -168, "z": 94 },
-        "origin": { "x": 0.5, "y": 1.5, "z": 0.5 },
-        "scale": 0.67
+        "translation": { "x": -0.82, "y": -2.2, "z": -0.5 },
+        "rotation": { "x": 18, "y": 169, "z": 30 },
+        "origin": { "x": 0.5, "y": 1.7, "z": 0.5 },
+        "scale": 0.64
     },
     "guiTransform": {
-        "translation": { "x": 3, "y": 0, "z": 0 },
+        "translation": { "x": 0, "y": 0, "z": 0 },
         "rotation": { "x": -26, "y": -46, "z": -180 },
-        "origin": { "x": 0.5, "y": 1.11, "z": 0.5 },
-        "scale": 1.37
+        "origin": { "x": 0.6, "y": 1.72, "z": 0.5 },
+        "scale": 2
     },
     "groundTransform": {
         "translation": { "x": 0, "y": 0, "z": 0 },
-        "rotation": { "x": 0, "y": 0, "z": 90 },
-        "origin": { "x": 0.34, "y": 1.12, "z": 0.5 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "origin": { "x": 0.34, "y": 1.71, "z": 0.5 },
         "scale": 3.1
     }
 }
