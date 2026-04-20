@@ -40,7 +40,7 @@
         			]
     		},
 			"C": {  "type": "item", 
-    				"code": "facore:ornaments-communis*", 
+    				"code": "facore:ornaments-communis-*", 
         			"name": "plume", 
         			"allowedVariants": [
         				"crista",
@@ -86,7 +86,7 @@
 	
 	// copper plated Armet with stripes
 	{
-    	"ingredientPattern": "__,_AE,___",
+    	"ingredientPattern": "___,_AE,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -177,7 +177,7 @@
         			]
     		},
 			"C": {  "type": "item", 
-    				"code": "facore:ornaments-communis*", 
+    				"code": "facore:ornaments-communis-*", 
         			"name": "plume", 
         			"allowedVariants": [
         				"crista",
@@ -249,7 +249,7 @@
         			]
     		},
 			"C": {  "type": "item", 
-    				"code": "facore:ornaments-communis*", 
+    				"code": "facore:ornaments-communis-*", 
         			"name": "plume", 
         			"allowedVariants": [
         				"crista",
@@ -295,7 +295,7 @@
 	
 	// cupronickel plated Armet with stripes
 	{
-    	"ingredientPattern": "__,_AE,___",
+    	"ingredientPattern": "___,_AE,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -386,7 +386,7 @@
         			]
     		},
 			"C": {  "type": "item", 
-    				"code": "facore:ornaments-communis*", 
+    				"code": "facore:ornaments-communis-*", 
         			"name": "plume", 
         			"allowedVariants": [
         				"crista",
@@ -458,7 +458,7 @@
         			]
     		},
 			"C": {  "type": "item", 
-    				"code": "facore:ornaments-communis*", 
+    				"code": "facore:ornaments-communis-*", 
         			"name": "plume", 
         			"allowedVariants": [
         				"crista",
@@ -504,7 +504,7 @@
 	
 	// brass plated Armet with stripes
 	{
-    	"ingredientPattern": "__,_AE,___",
+    	"ingredientPattern": "___,_AE,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -595,7 +595,7 @@
         			]
     		},
 			"C": {  "type": "item", 
-    				"code": "facore:ornaments-communis*", 
+    				"code": "facore:ornaments-communis-*", 
         			"name": "plume", 
         			"allowedVariants": [
         				"crista",
@@ -667,7 +667,7 @@
         			]
     		},
 			"C": {  "type": "item", 
-    				"code": "facore:ornaments-communis*", 
+    				"code": "facore:ornaments-communis-*", 
         			"name": "plume", 
         			"allowedVariants": [
         				"crista",
@@ -713,7 +713,7 @@
 	
 	// zinc plated Armet with stripes
 	{
-    	"ingredientPattern": "__,_AE,___",
+    	"ingredientPattern": "___,_AE,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -804,7 +804,7 @@
         			]
     		},
 			"C": {  "type": "item", 
-    				"code": "facore:ornaments-communis*", 
+    				"code": "facore:ornaments-communis-*", 
         			"name": "plume", 
         			"allowedVariants": [
         				"crista",
@@ -876,7 +876,7 @@
         			]
     		},
 			"C": {  "type": "item", 
-    				"code": "facore:ornaments-communis*", 
+    				"code": "facore:ornaments-communis-*", 
         			"name": "plume", 
         			"allowedVariants": [
         				"crista",
@@ -922,7 +922,7 @@
 	
 	// blackbronze plated Armet with stripes
 	{
-    	"ingredientPattern": "__,_AE,___",
+    	"ingredientPattern": "___,_AE,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -1013,7 +1013,7 @@
         			]
     		},
 			"C": {  "type": "item", 
-    				"code": "facore:ornaments-communis*", 
+    				"code": "facore:ornaments-communis-*", 
         			"name": "plume", 
         			"allowedVariants": [
         				"crista",
@@ -1085,7 +1085,7 @@
         			]
     		},
 			"C": {  "type": "item", 
-    				"code": "facore:ornaments-communis*", 
+    				"code": "facore:ornaments-communis-*", 
         			"name": "plume", 
         			"allowedVariants": [
         				"crista",
@@ -1131,7 +1131,7 @@
 	
 	// lead plated Armet with stripes
 	{
-    	"ingredientPattern": "__,_AE,___",
+    	"ingredientPattern": "___,_AE,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -1222,7 +1222,7 @@
         			]
     		},
 			"C": {  "type": "item", 
-    				"code": "facore:ornaments-communis*", 
+    				"code": "facore:ornaments-communis-*", 
         			"name": "plume", 
         			"allowedVariants": [
         				"crista",
@@ -1294,7 +1294,7 @@
         			]
     		},
 			"C": {  "type": "item", 
-    				"code": "facore:ornaments-communis*", 
+    				"code": "facore:ornaments-communis-*", 
         			"name": "plume", 
         			"allowedVariants": [
         				"crista",
@@ -1340,7 +1340,7 @@
 	
 	// silver plated Armet with stripes
 	{
-    	"ingredientPattern": "__,_AE,___",
+    	"ingredientPattern": "___,_AE,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -1431,7 +1431,7 @@
         			]
     		},
 			"C": {  "type": "item", 
-    				"code": "facore:ornaments-communis*", 
+    				"code": "facore:ornaments-communis-*", 
         			"name": "plume", 
         			"allowedVariants": [
         				"crista",
@@ -1503,7 +1503,7 @@
         			]
     		},
 			"C": {  "type": "item", 
-    				"code": "facore:ornaments-communis*", 
+    				"code": "facore:ornaments-communis-*", 
         			"name": "plume", 
         			"allowedVariants": [
         				"crista",
@@ -1549,7 +1549,7 @@
 	
 	// meteoriciron plated Armet with stripes
 	{
-    	"ingredientPattern": "__,_AE,___",
+    	"ingredientPattern": "___,_AE,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -1640,7 +1640,7 @@
         			]
     		},
 			"C": {  "type": "item", 
-    				"code": "facore:ornaments-communis*", 
+    				"code": "facore:ornaments-communis-*", 
         			"name": "plume", 
         			"allowedVariants": [
         				"crista",
@@ -1712,7 +1712,7 @@
         			]
     		},
 			"C": {  "type": "item", 
-    				"code": "facore:ornaments-communis*", 
+    				"code": "facore:ornaments-communis-*", 
         			"name": "plume", 
         			"allowedVariants": [
         				"crista",
@@ -1758,7 +1758,7 @@
 	
 	// gold plated Armet with stripes
 	{
-    	"ingredientPattern": "__,_AE,___",
+    	"ingredientPattern": "___,_AE,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -1849,7 +1849,7 @@
         			]
     		},
 			"C": {  "type": "item", 
-    				"code": "facore:ornaments-communis*", 
+    				"code": "facore:ornaments-communis-*", 
         			"name": "plume", 
         			"allowedVariants": [
         				"crista",
@@ -1921,7 +1921,7 @@
         			]
     		},
 			"C": {  "type": "item", 
-    				"code": "facore:ornaments-communis*", 
+    				"code": "facore:ornaments-communis-*", 
         			"name": "plume", 
         			"allowedVariants": [
         				"crista",
@@ -1967,7 +1967,7 @@
 	
 	// electrum plated Armet with stripes
 	{
-    	"ingredientPattern": "__,_AE,___",
+    	"ingredientPattern": "___,_AE,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -2058,7 +2058,7 @@
         			]
     		},
 			"C": {  "type": "item", 
-    				"code": "facore:ornaments-communis*", 
+    				"code": "facore:ornaments-communis-*", 
         			"name": "plume", 
         			"allowedVariants": [
         				"crista",

@@ -39,7 +39,7 @@
         			]
     		},
 			"C": {  "type": "item", 
-    				"code": "facore:ornaments-communis*", 
+    				"code": "facore:ornaments-communis-*", 
         			"name": "plume", 
         			"allowedVariants": [
         				"crista",
@@ -318,7 +318,7 @@
         			]
     		},
 			"C": {  "type": "item", 
-    				"code": "facore:ornaments-communis*", 
+    				"code": "facore:ornaments-communis-*", 
         			"name": "plume", 
         			"allowedVariants": [
         				"crista",
@@ -350,7 +350,7 @@
 
 	// Armet with plating and plume
 	{
-    	"ingredientPattern": "B_C,DAE,___",
+    	"ingredientPattern": "B_C,DA_,___",
         "recipeGroup": 1,
         "ingredients": {
 			"A": {	"type": "item", 
@@ -388,7 +388,7 @@
         			]
     		},
 			"C": {  "type": "item", 
-    				"code": "facore:ornaments-communis*", 
+    				"code": "facore:ornaments-communis-*", 
         			"name": "plume", 
         			"allowedVariants": [
         				"crista",
@@ -474,7 +474,7 @@
         			]
     		},
 			"C": {  "type": "item", 
-    				"code": "facore:ornaments-communis*", 
+    				"code": "facore:ornaments-communis-*", 
         			"name": "plume", 
         			"allowedVariants": [
         				"crista",

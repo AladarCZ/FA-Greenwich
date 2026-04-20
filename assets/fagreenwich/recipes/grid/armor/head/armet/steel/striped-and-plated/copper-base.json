@@ -40,7 +40,7 @@
         			]
     		},
 			"C": {  "type": "item", 
-    				"code": "facore:ornaments-communis*", 
+    				"code": "facore:ornaments-communis-*", 
         			"name": "plume", 
         			"allowedVariants": [
         				"crista",
@@ -111,7 +111,7 @@
         			]
     		},
 			"C": {  "type": "item", 
-    				"code": "facore:ornaments-communis*", 
+    				"code": "facore:ornaments-communis-*", 
         			"name": "plume", 
         			"allowedVariants": [
         				"crista",
@@ -182,7 +182,7 @@
         			]
     		},
 			"C": {  "type": "item", 
-    				"code": "facore:ornaments-communis*", 
+    				"code": "facore:ornaments-communis-*", 
         			"name": "plume", 
         			"allowedVariants": [
         				"crista",
@@ -253,7 +253,7 @@
         			]
     		},
 			"C": {  "type": "item", 
-    				"code": "facore:ornaments-communis*", 
+    				"code": "facore:ornaments-communis-*", 
         			"name": "plume", 
         			"allowedVariants": [
         				"crista",
@@ -324,7 +324,7 @@
         			]
     		},
 			"C": {  "type": "item", 
-    				"code": "facore:ornaments-communis*", 
+    				"code": "facore:ornaments-communis-*", 
         			"name": "plume", 
         			"allowedVariants": [
         				"crista",
@@ -395,7 +395,7 @@
         			]
     		},
 			"C": {  "type": "item", 
-    				"code": "facore:ornaments-communis*", 
+    				"code": "facore:ornaments-communis-*", 
         			"name": "plume", 
         			"allowedVariants": [
         				"crista",
@@ -466,7 +466,7 @@
         			]
     		},
 			"C": {  "type": "item", 
-    				"code": "facore:ornaments-communis*", 
+    				"code": "facore:ornaments-communis-*", 
         			"name": "plume", 
         			"allowedVariants": [
         				"crista",
@@ -537,7 +537,7 @@
         			]
     		},
 			"C": {  "type": "item", 
-    				"code": "facore:ornaments-communis*", 
+    				"code": "facore:ornaments-communis-*", 
         			"name": "plume", 
         			"allowedVariants": [
         				"crista",
@@ -608,7 +608,7 @@
         			]
     		},
 			"C": {  "type": "item", 
-    				"code": "facore:ornaments-communis*", 
+    				"code": "facore:ornaments-communis-*", 
         			"name": "plume", 
         			"allowedVariants": [
         				"crista",
@@ -679,7 +679,7 @@
         			]
     		},
 			"C": {  "type": "item", 
-    				"code": "facore:ornaments-communis*", 
+    				"code": "facore:ornaments-communis-*", 
         			"name": "plume", 
         			"allowedVariants": [
         				"crista",
