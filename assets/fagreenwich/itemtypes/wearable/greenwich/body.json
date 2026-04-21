@@ -1,4 +1,5 @@
 {
+    "enabled": false,
     "code": "body",
     "maxstacksize": 1,
     "attributes": {
