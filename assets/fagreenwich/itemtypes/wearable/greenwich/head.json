@@ -2,9 +2,6 @@
 	"code": "head",
 	"maxstacksize": 1,
 	"attributes": {
-		"handbook": {
-			"include": true
-		},
 		"groundStorageTransform": {
 			"translation": { "x": -2.1, "y": 0.9, "z": 3.9 },
 			"rotation": { "x": -91, "y": 40, "z": -10 },
@@ -20,22 +17,27 @@
 				"variantgroups": [
 					{ "code": "formhead", "states": ["armet"] },
 					{ "code": "basehead", "states": ["iron", "meteoriciron", "steel"] },
-					{ "code": "coverhead", "states": ["none", "copper", "cupronickel", "brass", "zinc", "blackbronze", "lead", "silver", "meteoriciron", "gold", "electrum"] },
-					{ "code": "striphead", "states": ["none", "copper", "cupronickel", "brass", "zinc", "blackbronze", "lead", "silver", "meteoriciron", "gold", "electrum"] },
-					{ "code": "decorationhead", "states": ["none", "pennae", "pluma", "crista", "bear"] },
+					{ "code": "coverhead", "states": ["bismuth", "blackbronze", "brass", "copper", "cupronickel", "electrum", "gold", "lead", "meteoriciron", "none", "silver", "uranium", "zinc"] },
+					{ "code": "striphead", "states": ["bismuth", "blackbronze", "brass", "copper", "cupronickel", "electrum", "gold", "lead", "meteoriciron", "none", "silver", "uranium", "zinc"] },
+					{ "code": "decorationhead", "states": ["none", "communis-pennae", "communis-pluma", "communis-crista", "bear"] },
 					{ "code": "colorhead", "states": ["none", "red", "rose", "green", "pine", "black", "blue", "navy", "brown", "white", "purple", "pink", "burgundy", "orange", "yellow", "gray", "plain"] }
 				],
 				"creativeinventory": {
-					"fagreenwichheads": ["*"]
+					"general": ["formhead-armet::coverhead-none::striphead-none::decorationhead-none::colorhead-none"],
+					"items": ["formhead-armet::coverhead-none::striphead-none::decorationhead-none::colorhead-none"],
+					"forgottenarmory": ["formhead-armet::coverhead-none::striphead-none::decorationhead-none::colorhead-none"]
 				},
 				"allowedvariants": [
 					"basehead-iron::coverhead-none::striphead-copper",
 					"basehead-iron::coverhead-none::striphead-lead",
+					"basehead-iron::coverhead-none::striphead-bismuth",
 					"basehead-iron::coverhead-none::striphead-none",
-					"basehead-meteoriciron::coverhead-none::striphead-cupronickel",
+					"basehead-meteoriciron::coverhead-none::striphead-copper",
 					"basehead-meteoriciron::coverhead-none::striphead-gold",
 					"basehead-meteoriciron::coverhead-none::striphead-blackbronze",
 					"basehead-meteoriciron::coverhead-none::striphead-zinc",
+					"basehead-meteoriciron::coverhead-none::striphead-bismuth",
+					"basehead-meteoriciron::coverhead-none::striphead-uranium",
 					"basehead-meteoriciron::coverhead-none::striphead-none",
 					"basehead-steel"
 				],
@@ -55,9 +57,9 @@
 					"decorationhead-bear::colorhead-gray",
 					"decorationhead-bear::colorhead-plain",
 
-					"decorationhead-pennae::colorhead-none",
-					"decorationhead-crista::colorhead-none",
-					"decorationhead-pluma::colorhead-none",
+					"decorationhead-communis-pennae::colorhead-none",
+					"decorationhead-communis-crista::colorhead-none",
+					"decorationhead-communis-pluma::colorhead-none",
 
 					"decorationhead-none::colorhead-red",
 					"decorationhead-none::colorhead-rose",
@@ -107,13 +109,13 @@
 						"seraph": { "base": "game:block/transparent" },
 						"basehead": { "base": "fagreenwich:armor/entity/greenwich/base/{basehead}" },
 						"striphead": { "base": "facore:armor/entity/trim/{striphead}" },
-						"colorhead": { "base": "facore:block/decoration/head/{colorhead}" }
+						"colorhead": { "base": "facore:block/decorations/head/{colorhead}" }
 					},
 					"coverhead-*": {
 						"seraph": { "base": "game:block/transparent" },
 						"basehead": { "base": "fagreenwich:armor/entity/greenwich/cover/{coverhead}" },
 						"striphead": { "base": "facore:armor/entity/trim/{striphead}" },
-						"colorhead": { "base": "facore:block/decoration/head/{colorhead}" }
+						"colorhead": { "base": "facore:block/decorations/head/{colorhead}" }
 					}
 				},
 				"shape": {
@@ -138,7 +140,7 @@
 					"decorationhead-bear::@colorhead-white": 1.5
 				},
 				"clothesCategory": {
-					"*": "ArmorHead"
+					"*": "armorhead"
 				},
 				"defaultProtLoss": {
 					"*": {

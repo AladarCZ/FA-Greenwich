@@ -49,61 +49,7 @@
 					"decorationbody-bear::colorbody-yellow",
 					"decorationbody-bear::colorbody-gray",
 					"decorationbody-bear::colorbody-plain",
-    "enabled": false,
-    "code": "body",
-    "maxstacksize": 1,
-    "attributes": {
-        "handbook": {
-            "include": true
-        },
-        "groundStorageTransform": {
-            "translation": { "x": -2.1, "y": 0.9, "z": 3.9 },
-            "rotation": { "x": -91, "y": 40, "z": -10 },
-            "origin": { "x": 0, "y": 0, "z": 0 },
-            "scale": 2.45
-        }
-    },
-    "behaviors": [
-        {
-            "name": "AttributeRenderingLibrary.GenerateCreativeStacks",
-            "properties": {
-                "variantgroups": [
-                    { "code": "formbody", "states": ["liutenantbody"] },
-                    { "code": "basebody", "states": ["iron", "meteoriciron", "steel"] },
-                    { "code": "coverbody", "states": ["none", "copper", "cupronickel", "brass", "zinc", "blackbronze", "lead", "silver", "meteoriciron", "gold", "electrum"] },
-                    { "code": "stripbody", "states": ["none", "copper", "cupronickel", "brass", "zinc", "blackbronze", "lead", "silver", "meteoriciron", "gold", "electrum"] },
-                    { "code": "decorationbody", "states": ["none", "insignia", "bear"] },
-                    { "code": "colorbody", "states": ["none", "red", "rose", "green", "pine", "black", "blue", "navy", "brown", "white", "purple", "pink", "burgundy", "orange", "yellow", "gray", "plain"] }
-                ],                
-                "creativeinventory": {
-                    "fagreenwichbodys": ["decorationbody-none"]
-                },
-                "allowedvariants": [
-                    "basebody-iron::coverbody-none::stripbody-copper",
-                    "basebody-iron::coverbody-none::stripbody-lead",
-                    "basebody-iron::coverbody-none::stripbody-none",
-                    "basebody-meteoriciron::coverbody-none::stripbody-cupronickel",
-                    "basebody-meteoriciron::coverbody-none::stripbody-gold",
-                    "basebody-meteoriciron::coverbody-none::stripbody-blackbronze",
-                    "basebody-meteoriciron::coverbody-none::stripbody-zinc",
-                    "basebody-meteoriciron::coverbody-none::stripbody-none",
-                    "basebody-steel"
-                ],
-                "skipvariants": [
-                    "decorationbody-bear::colorbody-none",
-                    "decorationbody-bear::colorbody-red",
-                    "decorationbody-bear::colorbody-rose",
-                    "decorationbody-bear::colorbody-green",
-                    "decorationbody-bear::colorbody-pine",
-                    "decorationbody-bear::colorbody-blue",
-                    "decorationbody-bear::colorbody-navy",
-                    "decorationbody-bear::colorbody-purple",
-                    "decorationbody-bear::colorbody-pink",
-                    "decorationbody-bear::colorbody-burgundy",
-                    "decorationbody-bear::colorbody-orange",
-                    "decorationbody-bear::colorbody-yellow",
-                    "decorationbody-bear::colorbody-gray",
-                    "decorationbody-bear::colorbody-plain",
+
 					"decorationbody-insignia::colorbody-none",
 
 					"decorationbody-none::colorbody-red",
