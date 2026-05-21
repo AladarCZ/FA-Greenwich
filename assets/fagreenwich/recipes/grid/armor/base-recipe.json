@@ -1,0 +1,83 @@
+[
+	{
+		"ingredientPattern": "_C_,CAC,_B_",
+		"recipeGroup": 1,
+		"ingredients": {
+			"A": { "type": "item", "code": "game:armor-head-plate-*", "name": "metal", "allowedVariants": ["iron", "meteoriciron", "steel"] },
+			"B": { "type": "item", "code": "fagreenwich:fa-greenwich-schematic", "consume": false },
+			"C": { "type": "item", "code": "game:metalplate-*", "name": "metal", "allowedVariants": ["iron", "meteoriciron", "steel"] }
+		},
+		"copyAttributesFrom": "A",
+		"width": 3,
+		"height": 3,
+		"name": "Greenwich Armet Initial",
+		"output": {
+			"type": "item",
+			"code": "fagreenwich:head",
+			"attributes": {
+				"types": {
+					"formhead": "armet",
+					"basehead": "{metal}",
+					"coverhead": "none",
+					"striphead": "none",
+					"decorationhead": "none",
+					"colorhead": "none"
+				}
+			}
+		}
+	},
+	{
+		"ingredientPattern": "_C_,CAC,_B_",
+		"recipeGroup": 1,
+		"ingredients": {
+			"A": { "type": "item", "code": "game:armor-body-plate-*", "name": "metal", "allowedVariants": ["iron", "meteoriciron", "steel"] },
+			"B": { "type": "item", "code": "fagreenwich:fa-greenwich-schematic", "consume": false },
+			"C": { "type": "item", "code": "game:metalplate-*", "name": "metal", "allowedVariants": ["iron", "meteoriciron", "steel"] }
+		},
+		"copyAttributesFrom": "A",
+		"width": 3,
+		"height": 3,
+		"name": "Greenwich GuardBody Initial",
+		"output": {
+			"type": "item",
+			"code": "fagreenwich:body",
+			"attributes": {
+				"types": {
+					"formbody": "guardbody",
+					"basebody": "{metal}",
+					"coverbody": "none",
+					"stripbody": "none",
+					"decorationbody": "none",
+					"colorbody": "none"
+				}
+			}
+		}
+	},
+	{
+		"ingredientPattern": "_C_,CAC,_B_",
+		"recipeGroup": 1,
+		"ingredients": {
+			"A": { "type": "item", "code": "game:armor-legs-plate-*", "name": "metal", "allowedVariants": ["iron", "meteoriciron", "steel"] },
+			"B": { "type": "item", "code": "fagreenwich:fa-greenwich-schematic", "consume": false },
+			"C": { "type": "item", "code": "game:metalplate-*", "name": "metal", "allowedVariants": ["iron", "meteoriciron", "steel"] }
+		},
+		"copyAttributesFrom": "A",
+		"width": 3,
+		"height": 3,
+		"name": "Greenwich GuardLegs Initial",
+		"output": {
+			"type": "item",
+			"code": "fagreenwich:legs",
+			"attributes": {
+				"types": {
+					"formlegs": "guardlegs",
+					"baselegs": "{metal}",
+					"coverlegs": "none",
+					"striplegs": "none",
+					"decorationlegs": "none",
+					"colorlegs": "none"
+				}
+			}
+		}
+	}
+]

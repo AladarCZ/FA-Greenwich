@@ -5,5 +5,23 @@
 		"fagreenwich-armet-steel", 
 		"fagreenwich-armet-no-plating", 
 		"fagreenwich-armet-no-trim", 
-		"fagreenwich-armet-no-decoration"]
+		"fagreenwich-armet-no-decoration",
+
+		"fagreenwich-guardbody-iron", 
+		"fagreenwich-guardbody-meteoriciron", 
+		"fagreenwich-guardbody-steel", 
+		"fagreenwich-guardbody-no-plating", 
+		"fagreenwich-guardbody-no-trim", 
+		"fagreenwich-guardbody-no-decoration",
+
+
+
+		"fagreenwich-guardlegs-iron", 
+		"fagreenwich-guardlegs-meteoriciron", 
+		"fagreenwich-guardlegs-steel", 
+		"fagreenwich-guardlegs-no-plating", 
+		"fagreenwich-guardlegs-no-trim", 
+		"fagreenwich-guardlegs-no-decoration"
+	
+	]
 }

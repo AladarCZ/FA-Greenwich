@@ -20,7 +20,7 @@
 	"textures": {
 		"scroll": { "base": "utility/scrolled-schematic-greenwich" }
 	},
-	"creativeinventory": { "general": ["*"], "items": ["*"], "forgottenarmorygreenwich": ["*"] },
+	"creativeinventory": { "general": ["*"], "items": ["*"], "forgottenarmory": ["*"] },
 	"guiTransform": {
 		"translation": { "x": 0, "y": 0, "z": 0 },
 		"rotation": { "x": -19, "y": -59, "z": 20 },

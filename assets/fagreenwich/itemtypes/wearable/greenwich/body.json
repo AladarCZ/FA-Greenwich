@@ -1,4 +1,54 @@
 {
+	"code": "body",
+	"maxstacksize": 1,
+	"attributes": {
+	},
+	"behaviors": [
+		{
+			"name": "AttributeRenderingLibrary.GenerateCreativeStacks",
+			"properties": {
+				"variantgroups": [
+					{ "code": "formbody", "states": ["guardbody"] },
+					{ "code": "basebody", "states": ["iron", "meteoriciron", "steel"] },
+					{ "code": "coverbody", "states": ["bismuth", "blackbronze", "brass", "copper", "cupronickel", "electrum", "gold", "lead", "meteoriciron", "none", "silver", "uranium", "zinc"] },
+					{ "code": "stripbody", "states": ["bismuth", "blackbronze", "brass", "copper", "cupronickel", "electrum", "gold", "lead", "meteoriciron", "none", "silver", "uranium", "zinc"] },
+					{ "code": "decorationbody", "states": ["none", "insignia", "bear"] },
+					{ "code": "colorbody", "states": ["none", "red", "rose", "green", "pine", "black", "blue", "navy", "brown", "white", "purple", "pink", "burgundy", "orange", "yellow", "gray", "plain"] }
+				],
+				"creativeinventory": {
+					"general": ["formbody-guardbody::coverbody-none::stripbody-none::decorationbody-none::colorbody-none"],
+					"items": ["formbody-guardbody::coverbody-none::stripbody-none::decorationbody-none::colorbody-none"],
+					"forgottenarmory": ["formbody-guardbody::coverbody-none::stripbody-none::decorationbody-none::colorbody-none"]
+				},
+				"allowedvariants": [
+					"basebody-iron::coverbody-none::stripbody-copper",
+					"basebody-iron::coverbody-none::stripbody-lead",
+					"basebody-iron::coverbody-none::stripbody-bismuth",
+					"basebody-iron::coverbody-none::stripbody-none",
+					"basebody-meteoriciron::coverbody-none::stripbody-copper",
+					"basebody-meteoriciron::coverbody-none::stripbody-gold",
+					"basebody-meteoriciron::coverbody-none::stripbody-blackbronze",
+					"basebody-meteoriciron::coverbody-none::stripbody-zinc",
+					"basebody-meteoriciron::coverbody-none::stripbody-bismuth",
+					"basebody-meteoriciron::coverbody-none::stripbody-uranium",
+					"basebody-meteoriciron::coverbody-none::stripbody-none",
+					"basebody-steel"
+				],
+				"skipvariants": [
+					"decorationbody-bear::colorbody-none",
+					"decorationbody-bear::colorbody-red",
+					"decorationbody-bear::colorbody-rose",
+					"decorationbody-bear::colorbody-green",
+					"decorationbody-bear::colorbody-pine",
+					"decorationbody-bear::colorbody-blue",
+					"decorationbody-bear::colorbody-navy",
+					"decorationbody-bear::colorbody-purple",
+					"decorationbody-bear::colorbody-pink",
+					"decorationbody-bear::colorbody-burgundy",
+					"decorationbody-bear::colorbody-orange",
+					"decorationbody-bear::colorbody-yellow",
+					"decorationbody-bear::colorbody-gray",
+					"decorationbody-bear::colorbody-plain",
     "enabled": false,
     "code": "body",
     "maxstacksize": 1,
@@ -54,167 +104,185 @@
                     "decorationbody-bear::colorbody-yellow",
                     "decorationbody-bear::colorbody-gray",
                     "decorationbody-bear::colorbody-plain",
+					"decorationbody-insignia::colorbody-none",
 
-                    "decorationbody-insignia::colorbody-none",
+					"decorationbody-none::colorbody-red",
+					"decorationbody-none::colorbody-rose",
+					"decorationbody-none::colorbody-green",
+					"decorationbody-none::colorbody-pine",
+					"decorationbody-none::colorbody-blue",
+					"decorationbody-none::colorbody-navy",
+					"decorationbody-none::colorbody-purple",
+					"decorationbody-none::colorbody-pink",
+					"decorationbody-none::colorbody-burgundy",
+					"decorationbody-none::colorbody-orange",
+					"decorationbody-none::colorbody-yellow",
+					"decorationbody-none::colorbody-gray",
+					"decorationbody-none::colorbody-white",
+					"decorationbody-none::colorbody-brown",
+					"decorationbody-none::colorbody-black",
+					"decorationbody-none::colorbody-plain"
+				]
+			}
+		},
+		{
+			"name": "AttributeRenderingLibrary.Wearable",
+			"properties": {
+				"tagsCombine": {
+					"formbody-guardbody::basebody-iron": ["fagreenwich-guardbody-iron"],
+					"formbody-guardbody::basebody-meteoriciron": ["fagreenwich-guardbody-meteoriciron"],
+					"formbody-guardbody::basebody-steel": ["fagreenwich-guardbody-steel"],
 
-                    "decorationbody-none::colorbody-red",
-                    "decorationbody-none::colorbody-rose",
-                    "decorationbody-none::colorbody-green",
-                    "decorationbody-none::colorbody-pine",
-                    "decorationbody-none::colorbody-blue",
-                    "decorationbody-none::colorbody-navy",
-                    "decorationbody-none::colorbody-purple",
-                    "decorationbody-none::colorbody-pink",
-                    "decorationbody-none::colorbody-burgundy",
-                    "decorationbody-none::colorbody-orange",
-                    "decorationbody-none::colorbody-yellow",
-                    "decorationbody-none::colorbody-gray",
-                    "decorationbody-none::colorbody-white",
-                    "decorationbody-none::colorbody-brown",
-                    "decorationbody-none::colorbody-black",
-                    "decorationbody-none::colorbody-plain"
-                ]
-            }
-        },
-        {
-            "name": "AttributeRenderingLibrary.Wearable",
-            "properties": {
-                "textures": {
-                    "coverbody-none::decorationbody-bear": {
-                        "seraph": { "base": "game:block/transparent" },
-                        "basebody": { "base": "fagreenwich:armor/entity/greenwich/base/{basebody}" },
-                        "stripbody": { "base": "facore:armor/entity/trim/{stripbody}" },
-                        "colorbody": { "base": "facore:armor/entity/bear/{colorbody}" }
-                    },
-                    "coverbody-*::decorationbody-bear": {
-                        "seraph": { "base": "game:block/transparent" },
-                        "basebody": { "base": "fagreenwich:armor/entity/greenwich/cover/{coverbody}" },
-                        "stripbody": { "base": "facore:armor/entity/trim/{stripbody}" },
-                        "colorbody": { "base": "facore:armor/entity/bear/{colorbody}" }
-                    },
-                    "coverbody-none": {
-                        "seraph": { "base": "game:block/transparent" },
-                        "basebody": { "base": "fagreenwich:armor/entity/greenwich/base/{basebody}" },
-                        "stripbody": { "base": "facore:armor/entity/trim/{stripbody}" },
-                        "colorbody": { "base": "facore:block/decoration/body/{colorbody}" }
-                    },
-                    "coverbody-*": {
-                        "seraph": { "base": "game:block/transparent" },
-                        "basebody": { "base": "fagreenwich:armor/entity/greenwich/cover/{coverbody}" },
-                        "stripbody": { "base": "facore:armor/entity/trim/{stripbody}" },
-                        "colorbody": { "base": "facore:block/decoration/body/{colorbody}" }
-                    }
-                },
-                "shape": {
-                    "*": { "base": "fagreenwich:entity/armor/greenwich/{formbody}/{decorationbody}body" }
-                },
-                "storageFlags": {
-                    "*": 128
-                },
-                "shapeIgnoreElements": {
-                    "*": ["hidehat", "Hood", "hoodupperover", "Hair tile upper part", "ponytailhigh", "ponytaillow", "Hair", "hair-uncovered", "hidefacialhair", "sidehigh", "sidelow", "bangs"]
-                },
-                "durability": {
-                    "basebody-iron": 3700,
-                    "basebody-meteoriciron": 4300,
-                    "basebody-steel": 7000
-                },
-                "visibleDamageEffect": {
-                    "*": true
-                },
-                "warmth": {
-                    "decorationbody-bear::@colorbody-(black|brown)": 1,
-                    "decorationbody-bear::@colorbody-white": 1.5
-                },
-                "clothesCategory": {
-                    "*": "armorbody"
-                },
-                "defaultProtLoss": {
-                    "*": {
-                        "perTierRelativeProtectionLoss": [0.03, 0.15],
-                        "perTierFlatDamagereductionLoss": [0.1, 0.2]
-                    }
-                },
-                "protectionModifiers": {
-                    "basebody-steel": {
-                        "relativeProtection": 0.98,
-                        "flatDamagereduction": 3.5,
-                        "highDamageTierResistant": true,
-                        "protectionTier": 4
-                    },
-                    "basebody-meteoriciron": {
-                        "relativeProtection": 0.975,
-                        "flatDamagereduction": 3.2,
-                        "highDamageTierResistant": true,
-                        "protectionTier": 3
-                    },
-                    "basebody-iron": {
-                        "relativeProtection": 0.97,
-                        "flatDamagereduction": 3,
-                        "highDamageTierResistant": true,
-                        "protectionTier": 3
-                    }
-                },
-                "statModifiers": {
-                    "decorationbody-bear": {
-                        "rangedWeaponsAcc": -0.15,
-                        "rangedWeaponsSpeed": -0.25,
-                        "walkSpeed": -0.14,
-                        "healingeffectivness": -0.3334,
-                        "hungerrate": 0.24
-                    },
-                    "*": {
-                        "rangedWeaponsAcc": -0.15,
-                        "rangedWeaponsSpeed": -0.25,
-                        "walkSpeed": -0.12,
-                        "healingeffectivness": -0.3334,
-                        "hungerrate": 0.24
-                    }
-                },
-                "description": {
-                    "*": ["-----------------------------", "<br>",
-                         ["Type: {0}", "formbody-{formbody}"], "<br>", 
-                         ["Material: {0}", "basebody-{basebody}"], "<br>", 
-                         ["Design: {0}", "decorationbody-{decorationbody}"], "<br>", 
-                         ["Decoration: {0}", "colorbody-{colorbody}"], "<br>", 
-                         ["Coating: {0}", "coverbody-{coverbody}"], "<br>", 
-                         ["Trim: {0}", "stripbody-{stripbody}"], "<br>", 
-                         "-----------------------------", "<br>"]
-                },
-                "STFA_attachableToEntity": {
-                    "categoryCode": {
-                        "*": "armorbody"
-                    },
-                    "disableElements": {
-                        "*": ["hidehat", "Hood", "hoodupperover", "Hair tile upper part", "ponytailhigh", "ponytaillow", "Hair", "hair-uncovered", "hidefacialhair", "sidehigh", "sidelow", "bangs"]
-                    }
-                }
-            }
-        }
-    ],
+					"coverbody-none": ["fagreenwich-guardbody-no-plating"],
+					"stripbody-none": ["fagreenwich-guardbody-no-trim"],
+					"decorationbody-none::colorbody-none": ["fagreenwich-guardbody-no-decoration"]
+				},
+				"textures": {
+					"coverbody-none::decorationbody-bear": {
+						"seraph": { "base": "game:block/transparent" },
+						"basebody": { "base": "fagreenwich:armor/entity/greenwich/base/{basebody}" },
+						"stripbody": { "base": "facore:armor/entity/trim/{stripbody}" },
+						"colorbody": { "base": "facore:armor/entity/bear/{colorbody}" }
+					},
+					"coverbody-*::decorationbody-bear": {
+						"seraph": { "base": "game:block/transparent" },
+						"basebody": { "base": "fagreenwich:armor/entity/greenwich/cover/{coverbody}" },
+						"stripbody": { "base": "facore:armor/entity/trim/{stripbody}" },
+						"colorbody": { "base": "facore:armor/entity/bear/{colorbody}" }
+					},
+					"coverbody-none": {
+						"seraph": { "base": "game:block/transparent" },
+						"basebody": { "base": "fagreenwich:armor/entity/greenwich/base/{basebody}" },
+						"stripbody": { "base": "facore:armor/entity/trim/{stripbody}" },
+						"colorbody": { "base": "facore:block/decorations/body/{colorbody}" }
+					},
+					"coverbody-*": {
+						"seraph": { "base": "game:block/transparent" },
+						"basebody": { "base": "fagreenwich:armor/entity/greenwich/cover/{coverbody}" },
+						"stripbody": { "base": "facore:armor/entity/trim/{stripbody}" },
+						"colorbody": { "base": "facore:block/decorations/body/{colorbody}" }
+					}
+				},
+				"shape": {
+					"*": { "base": "fagreenwich:entity/armor/greenwich/{formbody}/{decorationbody}body" }
+				},
+				"storageFlags": {
+					"*": 128
+				},
+				"shapeIgnoreElements": {
+					"*": ["hidehat", "Hood", "hoodupperover", "Hair tile upper part", "ponytailhigh", "ponytaillow", "Hair", "hair-uncovered", "hidefacialhair", "sidehigh", "sidelow", "bangs"]
+				},
+				"durability": {
+					"basebody-iron": 3700,
+					"basebody-meteoriciron": 4300,
+					"basebody-steel": 7000
+				},
+				"visibleDamageEffect": {
+					"*": true
+				},
+				"warmth": {
+					"decorationbody-bear::@colorbody-(black|brown)": 1,
+					"decorationbody-bear::@colorbody-white": 1.5
+				},
+				"clothesCategory": {
+					"*": "armorbody"
+				},
+				"defaultProtLoss": {
+					"*": {
+						"perTierRelativeProtectionLoss": [0.03, 0.15],
+						"perTierFlatDamagereductionLoss": [0.1, 0.2]
+					}
+				},
+				"protectionModifiers": {
+					"basebody-steel": {
+						"relativeProtection": 0.98,
+						"flatDamagereduction": 3.5,
+						"highDamageTierResistant": true,
+						"protectionTier": 4
+					},
+					"basebody-meteoriciron": {
+						"relativeProtection": 0.975,
+						"flatDamagereduction": 3.2,
+						"highDamageTierResistant": true,
+						"protectionTier": 3
+					},
+					"basebody-iron": {
+						"relativeProtection": 0.97,
+						"flatDamagereduction": 3,
+						"highDamageTierResistant": true,
+						"protectionTier": 3
+					}
+				},
+				"statModifiers": {
+					"decorationbody-bear": {
+						"rangedWeaponsAcc": -0.15,
+						"rangedWeaponsSpeed": -0.25,
+						"walkSpeed": -0.14,
+						"healingeffectivness": -0.3334,
+						"hungerrate": 0.24
+					},
+					"*": {
+						"rangedWeaponsAcc": -0.15,
+						"rangedWeaponsSpeed": -0.25,
+						"walkSpeed": -0.12,
+						"healingeffectivness": -0.3334,
+						"hungerrate": 0.24
+					}
+				},
+				"description": {
+					"*": [
+						"-----------------------------",
+						"<br>",
+						["Type: {0}", "formbody-{formbody}"],
+						"<br>",
+						["Material: {0}", "basebody-{basebody}"],
+						"<br>",
+						["Design: {0}", "decorationbody-{decorationbody}"],
+						"<br>",
+						["Decoration: {0}", "colorbody-{colorbody}"],
+						"<br>",
+						["Coating: {0}", "coverbody-{coverbody}"],
+						"<br>",
+						["Trim: {0}", "stripbody-{stripbody}"],
+						"<br>",
+						"-----------------------------",
+						"<br>"
+					]
+				},
+				"STFA_attachableToEntity": {
+					"categoryCode": {
+						"*": "armorbody"
+					},
+					"disableElements": {
+						"*": ["hidehat", "Hood", "hoodupperover", "Hair tile upper part", "ponytailhigh", "ponytaillow", "Hair", "hair-uncovered", "hidefacialhair", "sidehigh", "sidelow", "bangs"]
+					}
+				}
+			}
+		}
+	],
     "heldTpIdleAnimation": "holdunderarm",
     "fpHandTransform": {
-        "translation": { "x": 0.4, "y": -1.9, "z": -0.5 },
+        "translation": { "x": 0.4, "y": -1.2, "z": -0.5 },
         "rotation": { "x": 163, "y": -111, "z": -180 },
-        "origin": { "x": 0.5, "y": 1.7, "z": 0.5 },
+        "origin": { "x": 0.5, "y": 1.6, "z": 0.5 },
         "scale": 2.15
     },
     "tpHandTransform": {
-        "translation": { "x": -0.82, "y": -2.2, "z": -0.5 },
-        "rotation": { "x": 18, "y": 169, "z": 30 },
-        "origin": { "x": 0.5, "y": 1.7, "z": 0.5 },
-        "scale": 0.64
+        "translation": { "x": -1, "y": -1.9, "z": -0.5 },
+        "rotation": { "x": 97, "y": -168, "z": 94 },
+        "origin": { "x": 0.5, "y": 1.5, "z": 0.5 },
+        "scale": 0.67
     },
     "guiTransform": {
-        "translation": { "x": 0, "y": 0, "z": 0 },
+        "translation": { "x": 3, "y": 0, "z": 0 },
         "rotation": { "x": -26, "y": -46, "z": -180 },
-        "origin": { "x": 0.6, "y": 1.72, "z": 0.5 },
-        "scale": 2
+        "origin": { "x": 0.6, "y": 1.11, "z": 0.5 },
+        "scale": 1.37
     },
     "groundTransform": {
         "translation": { "x": 0, "y": 0, "z": 0 },
         "rotation": { "x": 0, "y": 0, "z": 0 },
-        "origin": { "x": 0.34, "y": 1.71, "z": 0.5 },
+        "origin": { "x": 0.34, "y": 1.12, "z": 0.5 },
         "scale": 3.1
     }
 }
