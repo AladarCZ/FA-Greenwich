@@ -1,7 +1,7 @@
 {
 	"editor": {
 		"backDropShape": "C:/Program Files (x86)/VSModelCreator/seraph-hairless",
-		"collapsedPaths": "Root/SideDecorationCrown/CrownFront,Root/ArmorHelmet/PlumeP3/Plume22,Root/ArmorHelmet/SideDecorationCrown/CrownBack,Root/ArmorHelmet/TopDecorationLion/leg2/legdown2,Root/ArmorHelmet/BearHead,Root/ArmorHelmet/TopDecorationLion/hand2,Root/ArmorHelmet/TopDecorationLion/hand1,Root/ArmorHelmet/SideDecorationCrown/CrownRight,Root/SideDecorationCrown,Root/ArmorHelmet/Plume/Plume12,Root/ArmorHelmet/FinTrim1,Root/ArmorHelmet/PlumeBase/PlumeSubBase1/Plume2,Root/ArmorHelmet/ArmorNose,Root/ArmorHelmet/TopDecorationLion/hand1/forearm1,Root/ArmorHelmet/lining,Root/TopDecorationLion/hand1,Root/ArmorHelmet/TopDecorationLion/Tail,Root/ArmorHelmet/SideDecorationCrown/CrownLeft,Root/ArmorHelmet/HeadDecCrownBase,Root/TopDecorationLion/hand2,Root/TopDecorationLion/Head,Root/ArmorHelmet/Plume/Plume4,Root/ArmorHelmet/OpenAxis,Root/ArmorHelmet/Plume/Plume3,Root/ArmorHelmet/HeadDecCrownBase/CrownBack,Root/ArmorHelmet/TopDecorationLion/leg2,Root/ArmorHelmet/TopDecorationLion/leg1,Root/ArmorHelmet/HeadTrimOrig,Root/ArmorHelmet/Plume/Plume21,Root/TopDecorationLion/leg2,Root/ArmorHelmet/TopDecorationLion/hand2/forearm2,Root/ArmorHelmet/TopDecorationLion/Head,Root/ArmorHelmet/SideDecorationCrown/CrownFront,Root/ArmorHelmet/PlumeP2,Root/ArmorHelmet/TopDecorationLion/Bottomtop,Root/ArmorHelmet/Plume/Plume3/Plume4,Root/TopDecorationLion,Root/ArmorHelmet/TopDecorationLion/Head/Nose,Root/ArmorHelmet/HeadDecCrownBase/CrownFront3,Root/SideDecorationCrown/CrownRight,Root/ArmorHelmet/Plume/Plume21/Plume22,Root/ArmorHelmet/HeadDecCrownBase/CrownFront4,Root/ArmorHelmet/PlumeP1/Plume4,Root/ArmorHelmet/TopDecorationLion/leg1/legdown1,Root/ArmorHelmet/HeadDecCrownBase/CrownLeft,Root/ArmorHelmet/HeadDecCrownBase/CrownFront2,Root/ArmorHelmet/Fin,Root/ArmorHelmet/Hinge1,Root/ArmorHelmet/HeadDecCrownBase/CrownFront,Root/ArmorHelmet/Hinge4,Root/SideDecorationCrown/CrownLeft,Root/ArmorHelmet/HeadDecCrownBase/CrownRight,Root/ArmorHelmet/HeadDecCrownBase/CrownRight2,Root/ArmorHelmet/PlumeBase,Root/SideDecorationCrown/CrownFront4,Root/SideDecorationCrown/CrownFront3,Root/SideDecorationCrown/CrownFront2",
+		"collapsedPaths": "Root/SideDecorationCrown/CrownFront,Root/ArmorHelmet/PlumeP3/Plume22,Root/ArmorHelmet/SideDecorationCrown/CrownBack,Root/ArmorHelmet/TopDecorationLion/leg2/legdown2,Root/ArmorHelmet/BearHead,Root/ArmorHelmet/TopDecorationLion/hand2,Root/ArmorHelmet/TopDecorationLion/hand1,Root/ArmorHelmet/SideDecorationCrown/CrownRight,Root/SideDecorationCrown,Root/ArmorHelmet/Plume/Plume12,Root/ArmorHelmet/PlumeBase/PlumeSubBase1/Plume2,Root/ArmorHelmet/ArmorNose,Root/ArmorHelmet/TopDecorationLion/hand1/forearm1,Root/ArmorHelmet/lining,Root/TopDecorationLion/hand1,Root/ArmorHelmet/TopDecorationLion/Tail,Root/ArmorHelmet/SideDecorationCrown/CrownLeft,Root/ArmorHelmet/HeadDecCrownBase,Root/TopDecorationLion/hand2,Root/TopDecorationLion/Head,Root/ArmorHelmet/Plume/Plume4,Root/ArmorHelmet/Plume/Plume3,Root/ArmorHelmet/HeadDecCrownBase/CrownBack,Root/ArmorHelmet/TopDecorationLion/leg2,Root/ArmorHelmet/TopDecorationLion/leg1,Root/ArmorHelmet/HeadTrimOrig,Root/ArmorHelmet/Plume/Plume21,Root/TopDecorationLion/leg2,Root/ArmorHelmet/TopDecorationLion/hand2/forearm2,Root/ArmorHelmet/TopDecorationLion/Head,Root/ArmorHelmet/SideDecorationCrown/CrownFront,Root/ArmorHelmet/PlumeP2,Root/ArmorHelmet/TopDecorationLion/Bottomtop,Root/ArmorHelmet/Plume/Plume3/Plume4,Root/TopDecorationLion,Root/ArmorHelmet/TopDecorationLion/Head/Nose,Root/ArmorHelmet/HeadDecCrownBase/CrownFront3,Root/SideDecorationCrown/CrownRight,Root/ArmorHelmet/Plume/Plume21/Plume22,Root/ArmorHelmet/HeadDecCrownBase/CrownFront4,Root/ArmorHelmet/PlumeP1/Plume4,Root/ArmorHelmet/TopDecorationLion/leg1/legdown1,Root/ArmorHelmet/HeadDecCrownBase/CrownLeft,Root/ArmorHelmet/HeadDecCrownBase/CrownFront2,Root/ArmorHelmet/Hinge1,Root/ArmorHelmet/HeadDecCrownBase/CrownFront,Root/ArmorHelmet/Hinge4,Root/SideDecorationCrown/CrownLeft,Root/ArmorHelmet/HeadDecCrownBase/CrownRight,Root/ArmorHelmet/HeadDecCrownBase/CrownRight2,Root/ArmorHelmet/PlumeBase,Root/SideDecorationCrown/CrownFront4,Root/SideDecorationCrown/CrownFront3,Root/SideDecorationCrown/CrownFront2",
 		"allAngles": true,
 		"entityTextureMode": true
 	},
@@ -13,7 +13,7 @@
 	},
 	"textures": {
 		"basehead": "fagreenwich:armor/entity/greenwich/base/steel",
-		"striphead": "facore:armor/entity/trim/brass",
+		"striphead": "facore:armor/entity/trim/brass"
 	},
 	"elements": [
 		{
@@ -30,7 +30,7 @@
 				"south": { "texture": "#basehead", "uv": [ 38.5, 20.5, 45.0, 26.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
 				"west": { "texture": "#basehead", "uv": [ 33.0, 20.5, 39.0, 26.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
 				"up": { "texture": "#basehead", "uv": [ 33.0, 14.0, 39.0, 20.5 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-				"down": { "texture": "#basehead", "uv": [ 33.0, 26.5, 39.0, 33.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+				"down": { "texture": "#basehead", "uv": [ 33.0, 26.5, 39.0, 32.5 ], "rotation": 90, "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
 			},
 			"children": [
 				{
@@ -169,15 +169,15 @@
 																	"name": "Fin7",
 																	"from": [ 1.0, 0.0, -0.05 ],
 																	"to": [ 4.1, 1.4, 0.55 ],
-																	"uv": [ 56.5, 27.5 ],
+																	"uv": [ 47.5, 22.5 ],
 																	"rotationOrigin": [ 1.0, 1.4, -0.05 ],
 																	"rotationZ": -25.0,
 																	"faces": {
-																		"north": { "texture": "#basehead", "uv": [ 56.5, 28.0, 57.5, 31.0 ], "rotation": 270 },
-																		"east": { "texture": "#basehead", "uv": [ 57.5, 28.0, 58.5, 28.5 ], "rotation": 270, "windMode": [-1,-1,-1,-1] },
-																		"south": { "texture": "#basehead", "uv": [ 58.5, 28.0, 59.5, 31.0 ], "rotation": 90 },
-																		"west": { "texture": "#basehead", "uv": [ 59.5, 28.0, 60.0, 29.0 ], "windMode": [-1,-1,-1,-1] },
-																		"up": { "texture": "#basehead", "uv": [ 56.5, 27.5, 59.5, 28.0 ], "windMode": [-1,-1,-1,-1] },
+																		"north": { "texture": "#basehead", "uv": [ 47.5, 23.0, 48.5, 26.0 ], "rotation": 270 },
+																		"east": { "texture": "#basehead", "uv": [ 48.5, 23.0, 49.5, 23.5 ], "rotation": 270, "windMode": [-1,-1,-1,-1] },
+																		"south": { "texture": "#basehead", "uv": [ 49.5, 23.0, 50.5, 26.0 ], "rotation": 90 },
+																		"west": { "texture": "#basehead", "uv": [ 50.5, 23.0, 51.0, 24.0 ], "windMode": [-1,-1,-1,-1] },
+																		"up": { "texture": "#basehead", "uv": [ 47.5, 22.5, 50.5, 23.0 ], "windMode": [-1,-1,-1,-1] },
 																		"down": { "texture": "#basehead", "uv": [ 0.0, 0.0, 3.0, 0.5 ], "windMode": [-1,-1,-1,-1], "enabled": false }
 																	}
 																}
@@ -647,7 +647,7 @@
 												"east": { "texture": "#basehead", "uv": [ 0.0, 0.0, 3.5, 1.0 ], "windMode": [-1,-1,-1,-1], "enabled": false },
 												"south": { "texture": "#basehead", "uv": [ 0.0, 0.0, 3.5, 1.0 ], "windMode": [-1,-1,-1,-1], "enabled": false },
 												"west": { "texture": "#basehead", "uv": [ 39.5, 28.5, 43.0, 29.9 ], "rotation": 180, "autoUv": false, "windMode": [-1,-1,-1,-1] },
-												"up": { "texture": "#basehead", "uv": [ 57.0, 27.5, 60.5, 31.0 ] },
+												"up": { "texture": "#basehead", "uv": [ 47.0, 22.5, 50.5, 26.0 ] },
 												"down": { "texture": "#basehead", "uv": [ 0.0, 0.0, 3.5, 3.5 ], "enabled": false }
 											},
 											"children": [

@@ -1,14 +1,20 @@
 {
-	"fagreenwich:item-head": "Greenwich Armet",
-	"fagreenwich:item-body": "Greenwich Chestplate",
-	"fagreenwich:item-legs": "Greenwwich Legplate",
+	"game:tabname-forgottenarmoryheads": "Forgotten Armory Heads",
+	"game:tabname-forgottenarmorybody": "Forgotten Armory Body",
+	"game:tabname-forgottenarmorylegs": "Forgotten Armory Legs",
 
-	"game:formhead-armet": "Armet",
+	"fagreenwich:item-fa-greenwich-schematic": "Greenwich armor schematic",
+	"fagreenwich:item-fa-greenwich-rolled-schematic": "Rolled Greenwich armor schematic",
 
-	"game:formbody-guardbody": "Guard Chestplate",
+	"fagreenwich:item-platehead-armet-iron": "Greenwich Iron Armet",
+	"fagreenwich:item-platehead-armet-meteoriciron": "Greenwich Meteoric Iron Armet",
+	"fagreenwich:item-platehead-armet-steel": "Greenwich Steel Armet",
 
-	"game:formlegs-guardlegs": "Guard Chestplate",
+	"fagreenwich:item-platebody-noble-iron": "Greenwich Noble Iron Plate",
+	"fagreenwich:item-platebody-noble-meteoriciron": "Greenwich Noble Meteoric Plate",
+	"fagreenwich:item-platebody-noble-steel": "Greenwich Noble Steel Plate",
 
-	"fagreenwich:item-fa-greenwich-rolled-schematic": "Greenwich style (schematic rolled)",
-	"fagreenwich:item-fa-greenwich-schematic": "Greenwich style (schematic)"
+	"fagreenwich:item-platelegs-noble-iron": "Greenwich Noble Iron Legplates",
+	"fagreenwich:item-platelegs-noble-meteoriciron": "Greenwich Noble Meteoric Legplates",
+	"fagreenwich:item-platelegs-noble-steel": "Greenwich Noble Steel Legplates"
 }

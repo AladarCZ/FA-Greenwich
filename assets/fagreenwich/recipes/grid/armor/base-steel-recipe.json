@@ -1,0 +1,173 @@
+[
+	{
+		"ingredientPattern": "_C_,CAC,DBD",
+		"recipeGroup": 1,
+		"ingredients": {
+			"A": { 	"type": "item", 
+					"code": "game:armor-head-plate-*" , 
+					"name": "metal", 
+					"allowedVariants": ["iron", "meteoriciron"]
+			},
+			"B": { "type": "item", "code": "fagreenwich:fa-greenwich-schematic", "consume": false },
+			"C": { 	"type": "item", "code": "game:metalplate-*" , 
+					"name": "metal", 
+					"allowedVariants": ["iron", "meteoriciron"]
+			},
+			"D": { "type": "item", "code": "game:leather-normal-plain" , "quantity": 1 }
+		},
+		"width": 3,
+		"height": 3,
+		"name": "Greenwich Armet Initial",
+		"output": {
+			"type": "item",
+			"code": "fagreenwich:platehead-armet-{metal}",
+			"attributes": {
+				"types": {				
+					"coverhead": "none",
+					"striphead": "none",
+					"decorationhead": "none",
+					"colorhead": "none"
+				}
+			}
+		}
+	},
+	{
+		"ingredientPattern": "_C_,CAC,DBD",
+		"recipeGroup": 1,
+		"ingredients": {
+			"A": { 	"type": "item", 
+					"code": "game:armor-body-plate-*" , 
+					"name": "metal", 
+					"allowedVariants": ["iron", "meteoriciron"]
+			},
+			"B": { "type": "item", "code": "fagreenwich:fa-greenwich-schematic", "consume": false },
+			"C": { 	"type": "item", "code": "game:metalplate-*" , 
+					"name": "metal", 
+					"allowedVariants": ["iron", "meteoriciron"]
+			},			"D": { "type": "item", "code": "game:leather-normal-plain" , "quantity": 3 }
+		},
+		"width": 3,
+		"height": 3,
+		"name": "Greenwich Armet Initial",
+		"output": {
+			"type": "item",
+			"code": "fagreenwich:platebody-noble-{metal}",
+			"attributes": {
+				"types": {
+					"coverbody": "none",
+					"stripbody": "none",
+					"decorationbody": "none",
+					"colorbody": "none"
+				}
+			}
+		}
+	},
+	{
+		"ingredientPattern": "_C_,CAC,DBD",
+		"recipeGroup": 1,
+		"ingredients": {
+			"A": { 	"type": "item", 
+					"code": "game:armor-legs-plate-*" , 
+					"name": "metal", 
+					"allowedVariants": ["iron", "meteoriciron"]
+			},
+			"B": { "type": "item", "code": "fagreenwich:fa-greenwich-schematic", "consume": false },
+			"C": { 	"type": "item", "code": "game:metalplate-*" , 
+					"name": "metal", 
+					"allowedVariants": ["iron", "meteoriciron"]
+			},			"D": { "type": "item", "code": "game:leather-normal-plain" , "quantity": 2 }
+		},
+		"width": 3,
+		"height": 3,
+		"name": "Greenwich Armet Initial",
+		"output": {
+			"type": "item",
+			"code": "fagreenwich:platelegs-noble-{metal}",
+			"attributes": {
+				"types": {				
+					"coverlegs": "none",
+					"striplegs": "none",
+					"decorationlegs": "none",
+					"colorlegs": "none"
+				}
+			}
+		}
+	},
+
+
+	{
+		"ingredientPattern": "_C_,CAC,DBD",
+		"recipeGroup": 1,
+		"ingredients": {
+			"A": { 	"type": "item", "code": "game:armor-head-plate-steel" },
+			"B": { "type": "item", "code": "fagreenwich:fa-greenwich-schematic", "consume": false },
+			"C": { 	"type": "item", "code": "game:metalplate-steel" },
+			"D": { "type": "item", "code": "game:leather-sturdy-plain" , "quantity": 1 }
+		},
+		"width": 3,
+		"height": 3,
+		"name": "Greenwich Armet Initial",
+		"output": {
+			"type": "item",
+			"code": "fagreenwich:platehead-armet-steel",
+			"attributes": {
+				"types": {				
+					"coverhead": "none",
+					"striphead": "none",
+					"decorationhead": "none",
+					"colorhead": "none"
+				}
+			}
+		}
+	},
+	{
+		"ingredientPattern": "_C_,CAC,DBD",
+		"recipeGroup": 1,
+		"ingredients": {
+			"A": { 	"type": "item", "code": "game:armor-body-plate-steel" },
+			"B": { "type": "item", "code": "fagreenwich:fa-greenwich-schematic", "consume": false },
+			"C": { 	"type": "item", "code": "game:metalplate-steel" },			
+			"D": { "type": "item", "code": "game:leather-sturdy-plain" , "quantity": 3 }
+		},
+		"width": 3,
+		"height": 3,
+		"name": "Greenwich Armet Initial",
+		"output": {
+			"type": "item",
+			"code": "fagreenwich:platebody-noble-steel",
+			"attributes": {
+				"types": {				
+					"coverbody": "none",
+					"stripbody": "none",
+					"decorationbody": "none",
+					"colorbody": "none"
+				}
+			}
+		}
+	},
+	{
+		"ingredientPattern": "_C_,CAC,DBD",
+		"recipeGroup": 1,
+		"ingredients": {
+			"A": { 	"type": "item", "code": "game:armor-legs-plate-steel"},
+			"B": { "type": "item", "code": "fagreenwich:fa-greenwich-schematic", "consume": false },
+			"C": { 	"type": "item", "code": "game:metalplate-steel"},			
+			"D": { "type": "item", "code": "game:leather-sturdy-plain" , "quantity": 2 }
+		},
+		"width": 3,
+		"height": 3,
+		"name": "Greenwich Armet Initial",
+		"output": {
+			"type": "item",
+			"code": "fagreenwich:platelegs-noble-steel",
+			"attributes": {
+				"types": {				
+					"coverlegs": "none",
+					"striplegs": "none",
+					"decorationlegs": "none",
+					"colorlegs": "none"
+				}
+			}
+		}
+	}
+]

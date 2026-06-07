@@ -1,0 +1,485 @@
+{
+	"code": "platelegs",
+	"variantgroups": [
+		{ "code": "version", "states": ["noble"] },
+		{ "code": "metal", "states": ["iron", "meteoriciron", "steel"] }
+	],
+	"maxstacksize": 1,
+	"attributes": {
+	},
+	"durabilityByType": {
+		"*-iron": 3700,
+		"*-meteoriciron": 4300,
+		"*-steel": 7000
+	},
+	"renderAlphaTest": 0.25,
+	"storageFlags": 128,
+	"behaviorsByType": {
+		"*-iron": [
+			{
+				"name": "AttributeRenderingLibrary.GenerateCreativeStacks",
+				"properties": {
+					"variantgroups": [
+						{ "code": "coverlegs", "states": ["bismuth", "brass", "copper", "gold", "lead", "none", "silver" ] },
+						{ "code": "striplegs", "states": ["bismuth", "brass", "copper", "gold", "lead", "none", "silver" ] },						
+						{ "code": "decorationlegs", "states": ["none", "lacinia", "bear"] },
+						{ "code": "colorlegs", "states": ["none", "red", "rose", "green", "pine", "black", "blue", "navy", "brown", "white", "purple", "pink", "burgundy", "orange", "yellow", "gray", "plain"] }
+					],
+					"creativeinventory": {
+						"forgottenarmorylegs": ["*"],
+						"forgottenarmory": ["coverlegs-none::striplegs-none::decorationlegs-none::colorlegs-none"]
+					},
+					"skipvariants": [
+						"decorationlegs-bear::colorlegs-none",
+						"decorationlegs-bear::colorlegs-red",
+						"decorationlegs-bear::colorlegs-rose",
+						"decorationlegs-bear::colorlegs-green",
+						"decorationlegs-bear::colorlegs-pine",
+						"decorationlegs-bear::colorlegs-blue",
+						"decorationlegs-bear::colorlegs-navy",
+						"decorationlegs-bear::colorlegs-purple",
+						"decorationlegs-bear::colorlegs-pink",
+						"decorationlegs-bear::colorlegs-burgundy",
+						"decorationlegs-bear::colorlegs-orange",
+						"decorationlegs-bear::colorlegs-yellow",
+						"decorationlegs-bear::colorlegs-gray",
+						"decorationlegs-bear::colorlegs-plain",
+
+						"decorationlegs-lacinia::colorlegs-none",
+
+						"decorationlegs-none::colorlegs-red",
+						"decorationlegs-none::colorlegs-rose",
+						"decorationlegs-none::colorlegs-green",
+						"decorationlegs-none::colorlegs-pine",
+						"decorationlegs-none::colorlegs-blue",
+						"decorationlegs-none::colorlegs-navy",
+						"decorationlegs-none::colorlegs-purple",
+						"decorationlegs-none::colorlegs-pink",
+						"decorationlegs-none::colorlegs-burgundy",
+						"decorationlegs-none::colorlegs-orange",
+						"decorationlegs-none::colorlegs-yellow",
+						"decorationlegs-none::colorlegs-gray",
+						"decorationlegs-none::colorlegs-white",
+						"decorationlegs-none::colorlegs-brown",
+						"decorationlegs-none::colorlegs-black",
+						"decorationlegs-none::colorlegs-plain"
+					]
+				}
+			},
+			{
+				"name": "AttributeRenderingLibrary.Wearable",
+				"properties": {
+					"textures": {
+						"coverlegs-none::decorationlegs-bear": {
+							"seraph": { "base": "game:block/transparent" },
+							"baselegs": { "base": "fagreenwich:armor/entity/greenwich/base/plate/iron" },
+							"striplegs": { "base": "facore:armor/entity/trim/{striplegs}" },
+							"colorlegs": { "base": "facore:armor/entity/bear/{colorlegs}" }
+						},
+						"coverlegs-*::decorationlegs-bear": {
+							"seraph": { "base": "game:block/transparent" },
+							"baselegs": { "base": "fagreenwich:armor/entity/greenwich/cover/iron/plate/{coverlegs}" },
+							"striplegs": { "base": "facore:armor/entity/trim/{striplegs}" },
+							"colorlegs": { "base": "facore:armor/entity/bear/{colorlegs}" }
+						},
+						"coverlegs-none": {
+							"seraph": { "base": "game:block/transparent" },
+							"baselegs": { "base": "fagreenwich:armor/entity/greenwich/base/plate/iron" },
+							"striplegs": { "base": "facore:armor/entity/trim/{striplegs}" },
+							"colorlegs": { "base": "facore:block/decorations/legs/{colorlegs}" }
+						},
+						"coverlegs-*": {
+							"seraph": { "base": "game:block/transparent" },
+							"baselegs": { "base": "fagreenwich:armor/entity/greenwich/cover/iron/plate/{coverlegs}" },
+							"striplegs": { "base": "facore:armor/entity/trim/{striplegs}" },
+							"colorlegs": { "base": "facore:block/decorations/legs/{colorlegs}" }
+						}
+					},
+					"shape": {
+						"*": { "base": "fagreenwich:entity/armor/greenwich/platelegs/{decorationlegs}legs" }
+					},
+					"warmth": {
+						"decorationlegs-bear::@colorlegs-(black|brown)": 1,
+						"decorationlegs-bear::@colorlegs-white": 1.5
+					},					
+					"protectionModifiers": {						
+						"*": {
+							"relativeProtection": 0.97,
+							"flatDamageReduction": 3,
+							"highDamageTierResistant": true,
+							"protectionTier": 3						
+						}
+					},
+					"statModifiers": {
+						"decorationlegs-bear": {
+							"rangedWeaponsAcc": -0.15,
+							"rangedWeaponsSpeed": -0.25,
+							"walkSpeed": -0.14,
+							"healingeffectivness": -0.3334,
+							"hungerrate": 0.24
+						},
+						"*": {
+							"rangedWeaponsAcc": -0.15,
+							"rangedWeaponsSpeed": -0.25,
+							"walkSpeed": -0.12,
+							"healingeffectivness": -0.3334,
+							"hungerrate": 0.24
+						}
+					},				
+					"visibleDamageEffect": {
+						"*": true
+					},				
+					"clothesCategory": {
+						"*": "armorlegs"
+					},
+					"defaultProtLoss": {
+						"*": {
+							"perTierRelativeProtectionLoss": [0.03, 0.15],
+							"perTierFlatDamagereductionLoss": [0.1, 0.2]
+						}
+					},		
+					"STFA_attachableToEntity": {
+						"categoryCode": {
+							"*": "armorlegs"
+						}
+					},
+					"description": {
+						"*": [
+							"-----------------------------",
+							"<br>",
+							["Design: {0}", "decorationlegs-{decorationlegs}"],
+							"<br>",
+							["Decoration: {0}", "colorlegs-{colorlegs}"],
+							"<br>",
+							["Coating: {0}", "coverlegs-{coverlegs}"],
+							"<br>",
+							["Trim: {0}", "striplegs-{striplegs}"],
+							"<br>",
+							"-----------------------------",
+							"<br>"
+						]
+					}
+				}
+			}
+		],
+		"*-meteoriciron": [
+			{
+				"name": "AttributeRenderingLibrary.GenerateCreativeStacks",
+				"properties": {
+					"variantgroups": [
+						{ "code": "coverlegs", "states": ["bismuth", "brass", "copper", "gold", "lead", "none", "silver" ] },
+						{ "code": "striplegs", "states": ["bismuth", "brass", "copper", "gold", "lead", "none", "silver" ] },
+						{ "code": "decorationlegs", "states": ["none", "lacinia", "bear"] },
+						{ "code": "colorlegs", "states": ["none", "red", "rose", "green", "pine", "black", "blue", "navy", "brown", "white", "purple", "pink", "burgundy", "orange", "yellow", "gray", "plain"] }
+					],
+					"creativeinventory": {
+						"forgottenarmorylegs": ["*"],
+						"forgottenarmory": ["coverlegs-none::striplegs-none::decorationlegs-none::colorlegs-none"]
+					},
+					"skipvariants": [
+						"decorationlegs-bear::colorlegs-none",
+						"decorationlegs-bear::colorlegs-red",
+						"decorationlegs-bear::colorlegs-rose",
+						"decorationlegs-bear::colorlegs-green",
+						"decorationlegs-bear::colorlegs-pine",
+						"decorationlegs-bear::colorlegs-blue",
+						"decorationlegs-bear::colorlegs-navy",
+						"decorationlegs-bear::colorlegs-purple",
+						"decorationlegs-bear::colorlegs-pink",
+						"decorationlegs-bear::colorlegs-burgundy",
+						"decorationlegs-bear::colorlegs-orange",
+						"decorationlegs-bear::colorlegs-yellow",
+						"decorationlegs-bear::colorlegs-gray",
+						"decorationlegs-bear::colorlegs-plain",
+
+						"decorationlegs-lacinia::colorlegs-none",
+
+						"decorationlegs-none::colorlegs-red",
+						"decorationlegs-none::colorlegs-rose",
+						"decorationlegs-none::colorlegs-green",
+						"decorationlegs-none::colorlegs-pine",
+						"decorationlegs-none::colorlegs-blue",
+						"decorationlegs-none::colorlegs-navy",
+						"decorationlegs-none::colorlegs-purple",
+						"decorationlegs-none::colorlegs-pink",
+						"decorationlegs-none::colorlegs-burgundy",
+						"decorationlegs-none::colorlegs-orange",
+						"decorationlegs-none::colorlegs-yellow",
+						"decorationlegs-none::colorlegs-gray",
+						"decorationlegs-none::colorlegs-white",
+						"decorationlegs-none::colorlegs-brown",
+						"decorationlegs-none::colorlegs-black",
+						"decorationlegs-none::colorlegs-plain"
+					]
+				}
+			},
+			{
+				"name": "AttributeRenderingLibrary.Wearable",
+				"properties": {
+					"textures": {
+						"coverlegs-none::decorationlegs-bear": {
+							"seraph": { "base": "game:block/transparent" },
+							"baselegs": { "base": "fagreenwich:armor/entity/greenwich/base/plate/meteoriciron" },
+							"striplegs": { "base": "facore:armor/entity/trim/{striplegs}" },
+							"colorlegs": { "base": "facore:armor/entity/bear/{colorlegs}" }
+						},
+						"coverlegs-*::decorationlegs-bear": {
+							"seraph": { "base": "game:block/transparent" },
+							"baselegs": { "base": "fagreenwich:armor/entity/greenwich/cover/meteoriciron/plate/{coverlegs}" },
+							"striplegs": { "base": "facore:armor/entity/trim/{striplegs}" },
+							"colorlegs": { "base": "facore:armor/entity/bear/{colorlegs}" }
+						},
+						"coverlegs-none": {
+							"seraph": { "base": "game:block/transparent" },
+							"baselegs": { "base": "fagreenwich:armor/entity/greenwich/base/plate/meteoriciron" },
+							"striplegs": { "base": "facore:armor/entity/trim/{striplegs}" },
+							"colorlegs": { "base": "facore:block/decorations/legs/{colorlegs}" }
+						},
+						"coverlegs-*": {
+							"seraph": { "base": "game:block/transparent" },
+							"baselegs": { "base": "fagreenwich:armor/entity/greenwich/cover/meteoriciron/plate/{coverlegs}" },
+							"striplegs": { "base": "facore:armor/entity/trim/{striplegs}" },
+							"colorlegs": { "base": "facore:block/decorations/legs/{colorlegs}" }
+						}
+					},
+					"shape": {
+						"*": { "base": "fagreenwich:entity/armor/greenwich/platelegs/{decorationlegs}legs" }
+					},
+					"warmth": {
+						"decorationlegs-bear::@colorlegs-(black|brown)": 1,
+						"decorationlegs-bear::@colorlegs-white": 1.5
+					},					
+					"protectionModifiers": {
+						"*": {
+							"relativeProtection": 0.975,
+							"flatDamageReduction": 3.2,
+							"highDamageTierResistant": true,
+							"protectionTier": 4					
+						}
+					},
+					"statModifiers": {
+						"decorationlegs-bear": {
+							"rangedWeaponsAcc": -0.15,
+							"rangedWeaponsSpeed": -0.25,
+							"walkSpeed": -0.14,
+							"healingeffectivness": -0.3334,
+							"hungerrate": 0.24
+						},
+						"*": {
+							"rangedWeaponsAcc": -0.15,
+							"rangedWeaponsSpeed": -0.25,
+							"walkSpeed": -0.12,
+							"healingeffectivness": -0.3334,
+							"hungerrate": 0.24
+						}
+					},				
+					"visibleDamageEffect": {
+						"*": true
+					},					
+					"clothesCategory": {
+						"*": "armorlegs"
+					},
+					"defaultProtLoss": {
+						"*": {
+							"perTierRelativeProtectionLoss": [0.03, 0.15],
+							"perTierFlatDamagereductionLoss": [0.1, 0.2]
+						}
+					},		
+					"STFA_attachableToEntity": {
+						"categoryCode": {
+							"*": "armorlegs"
+						}
+					},
+					"description": {
+						"*": [
+							"-----------------------------",
+							"<br>",
+							["Design: {0}", "decorationlegs-{decorationlegs}"],
+							"<br>",
+							["Decoration: {0}", "colorlegs-{colorlegs}"],
+							"<br>",
+							["Coating: {0}", "coverlegs-{coverlegs}"],
+							"<br>",
+							["Trim: {0}", "striplegs-{striplegs}"],
+							"<br>",
+							"-----------------------------",
+							"<br>"
+						]
+					}
+				}
+			}
+		],
+		"*-steel": [
+			{
+				"name": "AttributeRenderingLibrary.GenerateCreativeStacks",
+				"properties": {
+					"variantgroups": [
+						{ "code": "coverlegs", "states": ["bismuth", "blackbronze", "bismuthbronze", "tinbronze", "brass", "copper", "cupronickel", "electrum", "gold", "lead", "meteoriciron", "none", "silver", "uranium", "zinc"] },
+						{ "code": "striplegs", "states": ["bismuth", "blackbronze", "bismuthbronze", "tinbronze", "brass", "copper", "cupronickel", "electrum", "gold", "lead", "meteoriciron", "none", "silver", "uranium", "zinc"] },
+						{ "code": "decorationlegs", "states": ["none", "lacinia", "bear"] },
+						{ "code": "colorlegs", "states": ["none", "red", "rose", "green", "pine", "black", "blue", "navy", "brown", "white", "purple", "pink", "burgundy", "orange", "yellow", "gray", "plain"] }
+					],
+					"creativeinventory": {
+						"forgottenarmorylegs": ["*"],
+						"forgottenarmory": ["coverlegs-none::striplegs-none::decorationlegs-none::colorlegs-none"]
+					},
+					"skipvariants": [
+						"decorationlegs-bear::colorlegs-none",
+						"decorationlegs-bear::colorlegs-red",
+						"decorationlegs-bear::colorlegs-rose",
+						"decorationlegs-bear::colorlegs-green",
+						"decorationlegs-bear::colorlegs-pine",
+						"decorationlegs-bear::colorlegs-blue",
+						"decorationlegs-bear::colorlegs-navy",
+						"decorationlegs-bear::colorlegs-purple",
+						"decorationlegs-bear::colorlegs-pink",
+						"decorationlegs-bear::colorlegs-burgundy",
+						"decorationlegs-bear::colorlegs-orange",
+						"decorationlegs-bear::colorlegs-yellow",
+						"decorationlegs-bear::colorlegs-gray",
+						"decorationlegs-bear::colorlegs-plain",
+
+						"decorationlegs-lacinia::colorlegs-none",
+
+						"decorationlegs-none::colorlegs-red",
+						"decorationlegs-none::colorlegs-rose",
+						"decorationlegs-none::colorlegs-green",
+						"decorationlegs-none::colorlegs-pine",
+						"decorationlegs-none::colorlegs-blue",
+						"decorationlegs-none::colorlegs-navy",
+						"decorationlegs-none::colorlegs-purple",
+						"decorationlegs-none::colorlegs-pink",
+						"decorationlegs-none::colorlegs-burgundy",
+						"decorationlegs-none::colorlegs-orange",
+						"decorationlegs-none::colorlegs-yellow",
+						"decorationlegs-none::colorlegs-gray",
+						"decorationlegs-none::colorlegs-white",
+						"decorationlegs-none::colorlegs-brown",
+						"decorationlegs-none::colorlegs-black",
+						"decorationlegs-none::colorlegs-plain"
+					]
+				}
+			},
+			{
+				"name": "AttributeRenderingLibrary.Wearable",
+				"properties": {
+					"textures": {
+						"coverlegs-none::decorationlegs-bear": {
+							"seraph": { "base": "game:block/transparent" },
+							"baselegs": { "base": "fagreenwich:armor/entity/greenwich/base/plate/steel" },
+							"striplegs": { "base": "facore:armor/entity/trim/{striplegs}" },
+							"colorlegs": { "base": "facore:armor/entity/bear/{colorlegs}" }
+						},
+						"coverlegs-*::decorationlegs-bear": {
+							"seraph": { "base": "game:block/transparent" },
+							"baselegs": { "base": "fagreenwich:armor/entity/greenwich/cover/steel/plate/{coverlegs}" },
+							"striplegs": { "base": "facore:armor/entity/trim/{striplegs}" },
+							"colorlegs": { "base": "facore:armor/entity/bear/{colorlegs}" }
+						},
+						"coverlegs-none": {
+							"seraph": { "base": "game:block/transparent" },
+							"baselegs": { "base": "fagreenwich:armor/entity/greenwich/base/plate/steel" },
+							"striplegs": { "base": "facore:armor/entity/trim/{striplegs}" },
+							"colorlegs": { "base": "facore:block/decorations/legs/{colorlegs}" }
+						},
+						"coverlegs-*": {
+							"seraph": { "base": "game:block/transparent" },
+							"baselegs": { "base": "fagreenwich:armor/entity/greenwich/cover/steel/plate/{coverlegs}" },
+							"striplegs": { "base": "facore:armor/entity/trim/{striplegs}" },
+							"colorlegs": { "base": "facore:block/decorations/legs/{colorlegs}" }
+						}
+					},
+					"shape": {
+						"*": { "base": "fagreenwich:entity/armor/greenwich/platelegs/{decorationlegs}legs" }
+					},
+					"warmth": {
+						"decorationlegs-bear::@colorlegs-(black|brown)": 1,
+						"decorationlegs-bear::@colorlegs-white": 1.5
+					},
+					"protectionModifiers": {
+						"*": {
+							"relativeProtection": 0.98,
+							"flatDamageReduction": 3.5,
+							"highDamageTierResistant": true,
+							"protectionTier": 4					
+						}
+					},
+					"statModifiers": {
+						"decorationlegs-bear": {
+							"rangedWeaponsAcc": -0.15,
+							"rangedWeaponsSpeed": -0.25,
+							"walkSpeed": -0.14,
+							"healingeffectivness": -0.3334,
+							"hungerrate": 0.24
+						},
+						"*": {
+							"rangedWeaponsAcc": -0.15,
+							"rangedWeaponsSpeed": -0.25,
+							"walkSpeed": -0.12,
+							"healingeffectivness": -0.3334,
+							"hungerrate": 0.24
+						}
+					},				
+					"visibleDamageEffect": {
+						"*": true
+					},					 				
+					"clothesCategory": {
+						"*": "armorlegs"
+					},
+					"defaultProtLoss": {
+						"*": {
+							"perTierRelativeProtectionLoss": [0.03, 0.15],
+							"perTierFlatDamagereductionLoss": [0.1, 0.2]
+						}
+					},		
+					"STFA_attachableToEntity": {
+						"categoryCode": {
+							"*": "armorlegs"
+						}
+					},
+					"description": {
+						"*": [
+							"-----------------------------",
+							"<br>",
+							["Design: {0}", "decorationlegs-{decorationlegs}"],
+							"<br>",
+							["Decoration: {0}", "colorlegs-{colorlegs}"],
+							"<br>",
+							["Coating: {0}", "coverlegs-{coverlegs}"],
+							"<br>",
+							["Trim: {0}", "striplegs-{striplegs}"],
+							"<br>",
+							"-----------------------------",
+							"<br>"
+						]
+					}
+				}
+			}
+		]
+	},
+	"heldTpIdleAnimation": "holdunderarm",
+	"fpHandTransform": {
+		"translation": { "x": 0.4, "y": -1.2, "z": -0.5 },
+		"rotation": { "x": 163, "y": -111, "z": -180 },
+		"origin": { "x": 0.5, "y": 1.6, "z": 0.5 },
+		"scale": 2.15
+	},
+	"tpHandTransform": {
+		"translation": { "x": -0.7, "y": -0.6, "z": -0.4 },
+		"rotation": { "x": 95, "y": -20, "z": -91 },
+		"origin": { "x": 0.5, "y": 0.7, "z": 0.5 },
+		"scale": 0.74
+	},
+	"guiTransform": {
+		"translation": { "x": 1, "y": 0, "z": 0 },
+		"rotation": { "x": -26, "y": -46, "z": -180 },
+		"origin": { "x": 0.5, "y": 0.6, "z": 0.5 },
+		"scale": 1.25
+	},
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 0, "y": 0, "z": 90 },
+		"origin": { "x": 0.34, "y": 1.12, "z": 0.5 },
+		"scale": 3.1
+	}
+}
