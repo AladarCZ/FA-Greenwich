@@ -128,7 +128,10 @@
 					},				
 					"visibleDamageEffect": {
 						"*": true
-					},				
+					},
+					"footStepSound": {
+						"*": "game:wearable/plate*"
+					},
 					"clothesCategory": {
 						"*": "armorbody"
 					},
@@ -276,6 +279,9 @@
 					"visibleDamageEffect": {
 						"*": true
 					},					
+					"footStepSound": {
+						"*": "game:wearable/plate*"
+					},					
 					"clothesCategory": {
 						"*": "armorbody"
 					},
@@ -422,6 +428,9 @@
 					},				
 					"visibleDamageEffect": {
 						"*": true
+					},					
+					"footStepSound": {
+						"*": "game:wearable/plate*"
 					},					 				
 					"clothesCategory": {
 						"*": "armorbody"

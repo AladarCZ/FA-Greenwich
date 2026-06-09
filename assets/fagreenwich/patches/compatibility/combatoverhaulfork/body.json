@@ -1,0 +1,156 @@
+[
+  {
+    "file": "fagreenwich:itemtypes/wearable/greenwich/platebody",
+    "op": "addmerge",
+    "path": "/behaviorsByType",
+    "dependsOn": [{ "modId": "combatoverhaulfork" }],
+    "value": {
+      "*-iron": [
+        { "name": "CombatOverhaul:WearableArmor" },
+        {
+          "name": "CombatOverhaul:Armor",
+          "propertiesByType": {
+            "platebody-noble-iron*": {
+              "Layers": ["Outer"],
+              "Zones": ["Torso", "Arms", "Hands"],
+              "Resists": {
+                "PiercingAttack": 9,
+                "SlashingAttack": 7,
+                "BluntAttack": 7
+              },
+              "FlatReduction": {},
+              "PlayerStats": {
+                "walkspeed": -0.06,
+                "manipulationSpeed": -0.25,
+                "steadyAim": -0.35,
+                "healingeffectivness": -0.09,
+                "hungerrate": 0.12
+              }
+            }
+          }
+        }
+      ],
+      "*-meteoriciron": [
+        { "name": "CombatOverhaul:WearableArmor" },
+        {
+          "name": "CombatOverhaul:Armor",
+          "propertiesByType": {
+            "platebody-noble-meteoriciron*": {
+              "Layers": ["Outer"],
+              "Zones": ["Torso", "Arms", "Hands"],
+              "Resists": {
+                "PiercingAttack": 9,
+                "SlashingAttack": 7,
+                "BluntAttack": 7
+              },
+              "FlatReduction": {},
+              "PlayerStats": {
+                "walkspeed": -0.06,
+                "manipulationSpeed": -0.25,
+                "steadyAim": -0.35,
+                "healingeffectivness": -0.09,
+                "hungerrate": 0.12
+              }
+            }
+          }
+        }
+      ],
+      "*-steel": [
+        { "name": "CombatOverhaul:WearableArmor" },
+        {
+          "name": "CombatOverhaul:Armor",
+          "propertiesByType": {
+            "platebody-noble-steel*": {
+              "Layers": ["Outer"],
+              "Zones": ["Torso", "Arms", "Hands"],
+              "Resists": {
+                "PiercingAttack": 10,
+                "SlashingAttack": 8,
+                "BluntAttack": 8
+              },
+              "FlatReduction": {},
+              "PlayerStats": {
+                "walkspeed": -0.06,
+                "manipulationSpeed": -0.25,
+                "steadyAim": -0.35,
+                "healingeffectivness": -0.09,
+                "hungerrate": 0.12
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "file": "fagreenwich:itemtypes/wearable/greenwich/platebody",
+    "op": "replace",
+    "path": "/durabilityByType",
+    "dependsOn": [{ "modId": "combatoverhaulfork" }],
+    "value": {
+        "platebody-noble-steel*": 35000,
+        "platebody-noble-meteoriciron*": 18000,
+        "platebody-noble-iron*": 15000
+    }
+  },
+  {
+    "file": "fagreenwich:itemtypes/wearable/greenwich/platebody",
+    "dependsOn": [{ "modId": "combatoverhaulfork" }],
+    "op": "remove",
+    "path": "/behaviorsByType/*-iron/1/properties/protectionModifiers"
+  },
+  {
+    "file": "fagreenwich:itemtypes/wearable/greenwich/platebody",
+    "dependsOn": [{ "modId": "combatoverhaulfork" }],
+    "op": "remove",
+    "path": "/behaviorsByType/*-iron/1/properties/statModifiers"
+  },
+  {
+    "file": "fagreenwich:itemtypes/wearable/greenwich/platebody",
+    "dependsOn": [{ "modId": "combatoverhaulfork" }],
+    "op": "remove",
+    "path": "/behaviorsByType/*-meteoriciron/1/properties/protectionModifiers"
+  },
+  {
+    "file": "fagreenwich:itemtypes/wearable/greenwich/platebody",
+    "dependsOn": [{ "modId": "combatoverhaulfork" }],
+    "op": "remove",
+    "path": "/behaviorsByType/*-meteoriciron/1/properties/statModifiers"
+  },
+  {
+    "file": "fagreenwich:itemtypes/wearable/greenwich/platebody",
+    "dependsOn": [{ "modId": "combatoverhaulfork" }],
+    "op": "remove",
+    "path": "/behaviorsByType/*-steel/1/properties/protectionModifiers"
+  },
+  {
+    "file": "fagreenwich:itemtypes/wearable/greenwich/platebody",
+    "dependsOn": [{ "modId": "combatoverhaulfork" }],
+    "op": "remove",
+    "path": "/behaviorsByType/*-steel/1/properties/statModifiers"
+  },
+  {
+    "file": "fagreenwich:itemtypes/wearable/greenwich/platebody",
+    "dependsOn": [{ "modId": "combatoverhaulfork" }],
+    "op": "addmerge",
+    "path": "/class",
+    "value": "Item"
+  },
+  {
+    "file": "fagreenwich:itemtypes/wearable/greenwich/platebody",
+    "dependsOn": [{ "modId": "combatoverhaulfork" }],
+    "op": "addmerge",
+    "path": "/attributes",
+    "value": {
+      "clothesCategory": "armorbody"
+    }
+  },
+  {
+    "file": "fagreenwich:itemtypes/wearable/greenwich/platebody",
+    "dependsOn": [{ "modId": "combatoverhaulfork" }],
+    "op": "add",
+    "path": "/attributes/materialCountByType",
+    "value": { "platebody-*": 16 }
+  }
+
+]
