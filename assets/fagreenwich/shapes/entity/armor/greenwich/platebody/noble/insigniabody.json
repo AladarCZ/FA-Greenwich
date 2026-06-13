@@ -13,7 +13,7 @@
 		"colorbody": [64,64]
 	},
 	"textures": {
-		"basebody": "fagreenwich:armor/entity/greenwich/base/steel",
+		"basebody": "fagreenwich:armor/entity/greenwich/base/plate/noble/steel",
 		"stripbody": "facore:armor/entity/trim/brass",
 		"colorbody": "facore:block/decorations/body/red"
 	},

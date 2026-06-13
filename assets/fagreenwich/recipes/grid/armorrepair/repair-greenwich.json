@@ -1,137 +1,200 @@
 [
-	{
-		"ingredientPattern": "AL,P_",
-		"recipeGroup": 2,
-		"ingredients": {
-			"A": { "type": "item", "code": "fagreenwich:platehead-armet-*", 
-					"name": "metal", 
-					"allowedVariants": ["iron", "meteoriciron"]
-			},
-			"P": { 	"type": "item", "code": "game:metalplate-*" , 
-					"name": "metal", 
-					"allowedVariants": ["iron", "meteoriciron"]
-			},
-			"L": { "type": "item", "code": "game:leather-normal-plain" }
-		},
-		"copyAttributesFrom": "A",
-		"averageDurability": false,
-		"width": 2,
-		"height": 2,
-		"shapeless": true,
-		"name": "greenwich norm body repair",
-		"output": {
-			"type": "item",
-			"code": "fagreenwich:platehead-armet-{metal}"
-		}
-	},
-	{
-		"ingredientPattern": "AL,P_",
-		"recipeGroup": 2,
-		"ingredients": {
-			"A": { "type": "item", "code": "fagreenwich:platebody-noble-*", 
-					"name": "metal", 
-					"allowedVariants": ["iron", "meteoriciron"]
-			},
-			"P": { 	"type": "item", "code": "game:metalplate-*" , 
-					"name": "metal", 
-					"allowedVariants": ["iron", "meteoriciron"]
-			},
-			"L": { "type": "item", "code": "game:leather-normal-plain" }
-		},
-		"copyAttributesFrom": "A",
-		"averageDurability": false,
-		"width": 2,
-		"height": 2,
-		"shapeless": true,
-		"name": "greenwich norm body repair",
-		"output": {
-			"type": "item",
-			"code": "fagreenwich:platebody-noble-{metal}"
-		}
-	},
-	{
-		"ingredientPattern": "AL,P_",
-		"recipeGroup": 2,
-		"ingredients": {
-			"A": { "type": "item", "code": "fagreenwich:platelegs-noble-*", 
-					"name": "metal", 
-					"allowedVariants": ["iron", "meteoriciron"]
-			},
-			"P": { 	"type": "item", "code": "game:metalplate-*" , 
-					"name": "metal", 
-					"allowedVariants": ["iron", "meteoriciron"]
-			},
-			"L": { "type": "item", "code": "game:leather-normal-plain" }
-		},
-		"copyAttributesFrom": "A",
-		"averageDurability": false,
-		"width": 2,
-		"height": 2,
-		"shapeless": true,
-		"name": "greenwich norm body repair",
-		"output": {
-			"type": "item",
-			"code": "fagreenwich:platelegs-noble-{metal}"
-		}
-	},
-
-
-
-	{
-		"ingredientPattern": "AL,P_",
-		"recipeGroup": 2,
-		"ingredients": {
-			"A": { "type": "item", "code": "fagreenwich:platehead-armet-steel" },
-			"P": { 	"type": "item", "code": "game:metalplate-steel" },
-			"L": { "type": "item", "code": "game:leather-sturdy-plain" }
-		},
-		"copyAttributesFrom": "A",
-		"averageDurability": false,
-		"width": 2,
-		"height": 2,
-		"shapeless": true,
-		"name": "greenwich norm body repair",
-		"output": {
-			"type": "item",
-			"code": "fagreenwich:platehead-armet-steel"
-		}
-	},
-	{
-		"ingredientPattern": "AL,P_",
-		"recipeGroup": 2,
-		"ingredients": {
-			"A": { "type": "item", "code": "fagreenwich:platebody-noble-steel" },
-			"P": { 	"type": "item", "code": "game:metalplate-steel" },
-			"L": { "type": "item", "code": "game:leather-sturdy-plain" }
-		},
-		"copyAttributesFrom": "A",
-		"averageDurability": false,
-		"width": 2,
-		"height": 2,
-		"shapeless": true,
-		"name": "greenwich norm body repair",
-		"output": {
-			"type": "item",
-			"code": "fagreenwich:platebody-noble-steel"
-		}
-	},
-	{
-		"ingredientPattern": "AL,P_",
-		"recipeGroup": 2,
-		"ingredients": {
-			"A": { "type": "item", "code": "fagreenwich:platelegs-noble-steel" },
-			"P": { 	"type": "item", "code": "game:metalplate-steel" },
-			"L": { "type": "item", "code": "game:leather-sturdy-plain" }
-		},
-		"copyAttributesFrom": "A",
-		"averageDurability": false,
-		"width": 2,
-		"height": 2,
-		"shapeless": true,
-		"name": "greenwich norm body repair",
-		"output": {
-			"type": "item",
-			"code": "fagreenwich:platelegs-noble-steel"
-		}
-	}
+    {
+        "ingredientPattern":  "AL,P_",
+        "recipeGroup":  2,
+        "ingredients":  {
+                            "A":  {
+                                      "type":  "item",
+                                      "code":  "fagreenwich:platehead-armet-*",
+                                      "name":  "metal",
+                                      "allowedVariants":  [
+                                                              "iron",
+                                                              "meteoriciron"
+                                                          ]
+                                  },
+                            "P":  {
+                                      "type":  "item",
+                                      "code":  "game:metalplate-*",
+                                      "name":  "metal",
+                                      "allowedVariants":  [
+                                                              "iron",
+                                                              "meteoriciron"
+                                                          ]
+                                  },
+                            "L":  {
+                                      "type":  "item",
+                                      "code":  "game:leather-normal-plain"
+                                  }
+                        },
+        "copyAttributesFrom":  "A",
+        "averageDurability":  false,
+        "width":  2,
+        "height":  2,
+        "shapeless":  true,
+        "name":  "Greenwich Iron or Meteoric Armet Repair",
+        "output":  {
+                       "type":  "item",
+                       "code":  "fagreenwich:platehead-armet-{metal}"
+                   }
+    },
+    {
+        "ingredientPattern":  "AL,P_",
+        "recipeGroup":  2,
+        "ingredients":  {
+                            "A":  {
+                                      "type":  "item",
+                                      "code":  "fagreenwich:platebody-noble-*",
+                                      "name":  "metal",
+                                      "allowedVariants":  [
+                                                              "iron",
+                                                              "meteoriciron"
+                                                          ]
+                                  },
+                            "P":  {
+                                      "type":  "item",
+                                      "code":  "game:metalplate-*",
+                                      "name":  "metal",
+                                      "allowedVariants":  [
+                                                              "iron",
+                                                              "meteoriciron"
+                                                          ]
+                                  },
+                            "L":  {
+                                      "type":  "item",
+                                      "code":  "game:leather-normal-plain"
+                                  }
+                        },
+        "copyAttributesFrom":  "A",
+        "averageDurability":  false,
+        "width":  2,
+        "height":  2,
+        "shapeless":  true,
+        "name":  "Greenwich Iron or Meteoric Platebody Repair",
+        "output":  {
+                       "type":  "item",
+                       "code":  "fagreenwich:platebody-noble-{metal}"
+                   }
+    },
+    {
+        "ingredientPattern":  "AL,P_",
+        "recipeGroup":  2,
+        "ingredients":  {
+                            "A":  {
+                                      "type":  "item",
+                                      "code":  "fagreenwich:platelegs-noble-*",
+                                      "name":  "metal",
+                                      "allowedVariants":  [
+                                                              "iron",
+                                                              "meteoriciron"
+                                                          ]
+                                  },
+                            "P":  {
+                                      "type":  "item",
+                                      "code":  "game:metalplate-*",
+                                      "name":  "metal",
+                                      "allowedVariants":  [
+                                                              "iron",
+                                                              "meteoriciron"
+                                                          ]
+                                  },
+                            "L":  {
+                                      "type":  "item",
+                                      "code":  "game:leather-normal-plain"
+                                  }
+                        },
+        "copyAttributesFrom":  "A",
+        "averageDurability":  false,
+        "width":  2,
+        "height":  2,
+        "shapeless":  true,
+        "name":  "Greenwich Iron or Meteoric Legplates Repair",
+        "output":  {
+                       "type":  "item",
+                       "code":  "fagreenwich:platelegs-noble-{metal}"
+                   }
+    },
+    {
+        "ingredientPattern":  "AL,P_",
+        "recipeGroup":  2,
+        "ingredients":  {
+                            "A":  {
+                                      "type":  "item",
+                                      "code":  "fagreenwich:platehead-armet-steel"
+                                  },
+                            "P":  {
+                                      "type":  "item",
+                                      "code":  "game:metalplate-steel"
+                                  },
+                            "L":  {
+                                      "type":  "item",
+                                      "code":  "game:leather-sturdy-plain"
+                                  }
+                        },
+        "copyAttributesFrom":  "A",
+        "averageDurability":  false,
+        "width":  2,
+        "height":  2,
+        "shapeless":  true,
+        "name":  "Greenwich Steel Armet Repair",
+        "output":  {
+                       "type":  "item",
+                       "code":  "fagreenwich:platehead-armet-steel"
+                   }
+    },
+    {
+        "ingredientPattern":  "AL,P_",
+        "recipeGroup":  2,
+        "ingredients":  {
+                            "A":  {
+                                      "type":  "item",
+                                      "code":  "fagreenwich:platebody-noble-steel"
+                                  },
+                            "P":  {
+                                      "type":  "item",
+                                      "code":  "game:metalplate-steel"
+                                  },
+                            "L":  {
+                                      "type":  "item",
+                                      "code":  "game:leather-sturdy-plain"
+                                  }
+                        },
+        "copyAttributesFrom":  "A",
+        "averageDurability":  false,
+        "width":  2,
+        "height":  2,
+        "shapeless":  true,
+        "name":  "Greenwich Steel Platebody Repair",
+        "output":  {
+                       "type":  "item",
+                       "code":  "fagreenwich:platebody-noble-steel"
+                   }
+    },
+    {
+        "ingredientPattern":  "AL,P_",
+        "recipeGroup":  2,
+        "ingredients":  {
+                            "A":  {
+                                      "type":  "item",
+                                      "code":  "fagreenwich:platelegs-noble-steel"
+                                  },
+                            "P":  {
+                                      "type":  "item",
+                                      "code":  "game:metalplate-steel"
+                                  },
+                            "L":  {
+                                      "type":  "item",
+                                      "code":  "game:leather-sturdy-plain"
+                                  }
+                        },
+        "copyAttributesFrom":  "A",
+        "averageDurability":  false,
+        "width":  2,
+        "height":  2,
+        "shapeless":  true,
+        "name":  "Greenwich Steel Legplates Repair",
+        "output":  {
+                       "type":  "item",
+                       "code":  "fagreenwich:platelegs-noble-steel"
+                   }
+    }
 ]

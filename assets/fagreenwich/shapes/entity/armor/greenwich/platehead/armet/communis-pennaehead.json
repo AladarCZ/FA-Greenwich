@@ -13,7 +13,7 @@
 		"colorhead": [64,64]
 	},
 	"textures": {
-		"basehead": "fagreenwich:armor/entity/greenwich/base/steel",
+		"basehead": "fagreenwich:armor/entity/greenwich/base/plate/noble/steel",
 		"striphead": "facore:armor/entity/trim/brass",
 		"colorhead": "facore:block/decorations/head/red"
 	},

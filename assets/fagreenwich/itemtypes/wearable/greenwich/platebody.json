@@ -26,7 +26,7 @@
 						{ "code": "colorbody", "states": ["none", "red", "rose", "green", "pine", "black", "blue", "navy", "brown", "white", "purple", "pink", "burgundy", "orange", "yellow", "gray", "plain"] }
 					],
 					"creativeinventory": {
-						"forgottenarmorybody": ["*"],
+						"greenwichfabody": ["*"],
 						"forgottenarmory": ["coverbody-none::stripbody-none::decorationbody-none::colorbody-none"]
 					},
 					"skipvariants": [
@@ -72,31 +72,31 @@
 					"textures": {
 						"coverbody-none::decorationbody-bear": {
 							"seraph": { "base": "game:block/transparent" },
-							"basebody": { "base": "fagreenwich:armor/entity/greenwich/base/plate/iron" },
+							"basebody": { "base": "fagreenwich:armor/entity/greenwich/base/plate/noble/iron" },
 							"stripbody": { "base": "facore:armor/entity/trim/{stripbody}" },
 							"colorbody": { "base": "facore:armor/entity/bear/{colorbody}" }
 						},
 						"coverbody-*::decorationbody-bear": {
 							"seraph": { "base": "game:block/transparent" },
-							"basebody": { "base": "fagreenwich:armor/entity/greenwich/cover/iron/plate/{coverbody}" },
+							"basebody": { "base": "fagreenwich:armor/entity/greenwich/cover/iron/plate/noble/{coverbody}" },
 							"stripbody": { "base": "facore:armor/entity/trim/{stripbody}" },
 							"colorbody": { "base": "facore:armor/entity/bear/{colorbody}" }
 						},
 						"coverbody-none": {
 							"seraph": { "base": "game:block/transparent" },
-							"basebody": { "base": "fagreenwich:armor/entity/greenwich/base/plate/iron" },
+							"basebody": { "base": "fagreenwich:armor/entity/greenwich/base/plate/noble/iron" },
 							"stripbody": { "base": "facore:armor/entity/trim/{stripbody}" },
 							"colorbody": { "base": "facore:block/decorations/body/{colorbody}" }
 						},
 						"coverbody-*": {
 							"seraph": { "base": "game:block/transparent" },
-							"basebody": { "base": "fagreenwich:armor/entity/greenwich/cover/iron/plate/{coverbody}" },
+							"basebody": { "base": "fagreenwich:armor/entity/greenwich/cover/iron/plate/noble/{coverbody}" },
 							"stripbody": { "base": "facore:armor/entity/trim/{stripbody}" },
 							"colorbody": { "base": "facore:block/decorations/body/{colorbody}" }
 						}
 					},
 					"shape": {
-						"*": { "base": "fagreenwich:entity/armor/greenwich/platebody/{decorationbody}body" }
+						"*": { "base": "fagreenwich:entity/armor/greenwich/platebody/noble/{decorationbody}body" }
 					},
 					"warmth": {
 						"decorationbody-bear::@colorbody-(black|brown)": 1,
@@ -176,7 +176,7 @@
 						{ "code": "colorbody", "states": ["none", "red", "rose", "green", "pine", "black", "blue", "navy", "brown", "white", "purple", "pink", "burgundy", "orange", "yellow", "gray", "plain"] }
 					],
 					"creativeinventory": {
-						"forgottenarmorybody": ["*"],
+						"greenwichfabody": ["*"],
 						"forgottenarmory": ["coverbody-none::stripbody-none::decorationbody-none::colorbody-none"]
 					},
 					"skipvariants": [
@@ -222,31 +222,31 @@
 					"textures": {
 						"coverbody-none::decorationbody-bear": {
 							"seraph": { "base": "game:block/transparent" },
-							"basebody": { "base": "fagreenwich:armor/entity/greenwich/base/plate/meteoriciron" },
+							"basebody": { "base": "fagreenwich:armor/entity/greenwich/base/plate/noble/meteoriciron" },
 							"stripbody": { "base": "facore:armor/entity/trim/{stripbody}" },
 							"colorbody": { "base": "facore:armor/entity/bear/{colorbody}" }
 						},
 						"coverbody-*::decorationbody-bear": {
 							"seraph": { "base": "game:block/transparent" },
-							"basebody": { "base": "fagreenwich:armor/entity/greenwich/cover/meteoriciron/plate/{coverbody}" },
+							"basebody": { "base": "fagreenwich:armor/entity/greenwich/cover/meteoriciron/plate/noble/{coverbody}" },
 							"stripbody": { "base": "facore:armor/entity/trim/{stripbody}" },
 							"colorbody": { "base": "facore:armor/entity/bear/{colorbody}" }
 						},
 						"coverbody-none": {
 							"seraph": { "base": "game:block/transparent" },
-							"basebody": { "base": "fagreenwich:armor/entity/greenwich/base/plate/meteoriciron" },
+							"basebody": { "base": "fagreenwich:armor/entity/greenwich/base/plate/noble/meteoriciron" },
 							"stripbody": { "base": "facore:armor/entity/trim/{stripbody}" },
 							"colorbody": { "base": "facore:block/decorations/body/{colorbody}" }
 						},
 						"coverbody-*": {
 							"seraph": { "base": "game:block/transparent" },
-							"basebody": { "base": "fagreenwich:armor/entity/greenwich/cover/meteoriciron/plate/{coverbody}" },
+							"basebody": { "base": "fagreenwich:armor/entity/greenwich/cover/meteoriciron/plate/noble/{coverbody}" },
 							"stripbody": { "base": "facore:armor/entity/trim/{stripbody}" },
 							"colorbody": { "base": "facore:block/decorations/body/{colorbody}" }
 						}
 					},
 					"shape": {
-						"*": { "base": "fagreenwich:entity/armor/greenwich/platebody/{decorationbody}body" }
+						"*": { "base": "fagreenwich:entity/armor/greenwich/platebody/noble/{decorationbody}body" }
 					},
 					"warmth": {
 						"decorationbody-bear::@colorbody-(black|brown)": 1,
@@ -326,7 +326,7 @@
 						{ "code": "colorbody", "states": ["none", "red", "rose", "green", "pine", "black", "blue", "navy", "brown", "white", "purple", "pink", "burgundy", "orange", "yellow", "gray", "plain"] }
 					],
 					"creativeinventory": {
-						"forgottenarmorybody": ["*"],
+						"greenwichfabody": ["*"],
 						"forgottenarmory": ["coverbody-none::stripbody-none::decorationbody-none::colorbody-none"]
 					},
 					"skipvariants": [
@@ -372,31 +372,31 @@
 					"textures": {
 						"coverbody-none::decorationbody-bear": {
 							"seraph": { "base": "game:block/transparent" },
-							"basebody": { "base": "fagreenwich:armor/entity/greenwich/base/plate/steel" },
+							"basebody": { "base": "fagreenwich:armor/entity/greenwich/base/plate/noble/steel" },
 							"stripbody": { "base": "facore:armor/entity/trim/{stripbody}" },
 							"colorbody": { "base": "facore:armor/entity/bear/{colorbody}" }
 						},
 						"coverbody-*::decorationbody-bear": {
 							"seraph": { "base": "game:block/transparent" },
-							"basebody": { "base": "fagreenwich:armor/entity/greenwich/cover/steel/plate/{coverbody}" },
+							"basebody": { "base": "fagreenwich:armor/entity/greenwich/cover/steel/plate/noble/{coverbody}" },
 							"stripbody": { "base": "facore:armor/entity/trim/{stripbody}" },
 							"colorbody": { "base": "facore:armor/entity/bear/{colorbody}" }
 						},
 						"coverbody-none": {
 							"seraph": { "base": "game:block/transparent" },
-							"basebody": { "base": "fagreenwich:armor/entity/greenwich/base/plate/steel" },
+							"basebody": { "base": "fagreenwich:armor/entity/greenwich/base/plate/noble/steel" },
 							"stripbody": { "base": "facore:armor/entity/trim/{stripbody}" },
 							"colorbody": { "base": "facore:block/decorations/body/{colorbody}" }
 						},
 						"coverbody-*": {
 							"seraph": { "base": "game:block/transparent" },
-							"basebody": { "base": "fagreenwich:armor/entity/greenwich/cover/steel/plate/{coverbody}" },
+							"basebody": { "base": "fagreenwich:armor/entity/greenwich/cover/steel/plate/noble/{coverbody}" },
 							"stripbody": { "base": "facore:armor/entity/trim/{stripbody}" },
 							"colorbody": { "base": "facore:block/decorations/body/{colorbody}" }
 						}
 					},
 					"shape": {
-						"*": { "base": "fagreenwich:entity/armor/greenwich/platebody/{decorationbody}body" }
+						"*": { "base": "fagreenwich:entity/armor/greenwich/platebody/noble/{decorationbody}body" }
 					},
 					"warmth": {
 						"decorationbody-bear::@colorbody-(black|brown)": 1,

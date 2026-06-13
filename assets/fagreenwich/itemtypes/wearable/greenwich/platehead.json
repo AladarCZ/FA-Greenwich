@@ -33,7 +33,7 @@
 						{ "code": "colorhead", "states": ["none", "red", "rose", "green", "pine", "black", "blue", "navy", "brown", "white", "purple", "pink", "burgundy", "orange", "yellow", "gray", "plain"] }
 					],
 					"creativeinventory": {
-						"forgottenarmoryheads": ["*"],
+						"greenwichfaheads": ["*"],
 						"forgottenarmory": ["coverhead-none::striphead-none::decorationhead-none::colorhead-none"]
 					},
 					"skipvariants": [
@@ -81,31 +81,31 @@
 					"textures": {
 						"coverhead-none::decorationhead-bear": {
 							"seraph": { "base": "game:block/transparent" },
-							"basehead": { "base": "fagreenwich:armor/entity/greenwich/base/plate/iron" },
+							"basehead": { "base": "fagreenwich:armor/entity/greenwich/base/plate/noble/iron" },
 							"striphead": { "base": "facore:armor/entity/trim/{striphead}" },
 							"colorhead": { "base": "facore:armor/entity/bear/{colorhead}" }
 						},
 						"coverhead-*::decorationhead-bear": {
 							"seraph": { "base": "game:block/transparent" },
-							"basehead": { "base": "fagreenwich:armor/entity/greenwich/cover/iron/plate/{coverhead}" },
+							"basehead": { "base": "fagreenwich:armor/entity/greenwich/cover/iron/plate/noble/{coverhead}" },
 							"striphead": { "base": "facore:armor/entity/trim/{striphead}" },
 							"colorhead": { "base": "facore:armor/entity/bear/{colorhead}" }
 						},
 						"coverhead-none": {
 							"seraph": { "base": "game:block/transparent" },
-							"basehead": { "base": "fagreenwich:armor/entity/greenwich/base/plate/iron" },
+							"basehead": { "base": "fagreenwich:armor/entity/greenwich/base/plate/noble/iron" },
 							"striphead": { "base": "facore:armor/entity/trim/{striphead}" },
 							"colorhead": { "base": "facore:block/decorations/head/{colorhead}" }
 						},
 						"coverhead-*": {
 							"seraph": { "base": "game:block/transparent" },
-							"basehead": { "base": "fagreenwich:armor/entity/greenwich/cover/iron/plate/{coverhead}" },
+							"basehead": { "base": "fagreenwich:armor/entity/greenwich/cover/iron/plate/noble/{coverhead}" },
 							"striphead": { "base": "facore:armor/entity/trim/{striphead}" },
 							"colorhead": { "base": "facore:block/decorations/head/{colorhead}" }
 						}
 					},
 					"shape": {
-						"*": { "base": "fagreenwich:entity/armor/greenwich/armet/{decorationhead}head" }
+						"*": { "base": "fagreenwich:entity/armor/greenwich/platehead/armet/{decorationhead}head" }
 					},
 					"shapeIgnoreElements": {
 						"*": ["hidehat", "Hood", "hoodupperover", "Hair tile upper part", "ponytailhigh", "ponytaillow", "Hair", "hair-uncovered", "hidefacialhair", "sidehigh", "sidelow", "bangs"]
@@ -189,7 +189,7 @@
 						{ "code": "colorhead", "states": ["none", "red", "rose", "green", "pine", "black", "blue", "navy", "brown", "white", "purple", "pink", "burgundy", "orange", "yellow", "gray", "plain"] }
 					],
 					"creativeinventory": {
-						"forgottenarmoryheads": ["*"],
+						"greenwichfaheads": ["*"],
 						"forgottenarmory": ["coverhead-none::striphead-none::decorationhead-none::colorhead-none"]
 					},
 					"skipvariants": [
@@ -237,31 +237,31 @@
 					"textures": {
 						"coverhead-none::decorationhead-bear": {
 							"seraph": { "base": "game:block/transparent" },
-							"basehead": { "base": "fagreenwich:armor/entity/greenwich/base/plate/meteoriciron" },
+							"basehead": { "base": "fagreenwich:armor/entity/greenwich/base/plate/noble/meteoriciron" },
 							"striphead": { "base": "facore:armor/entity/trim/{striphead}" },
 							"colorhead": { "base": "facore:armor/entity/bear/{colorhead}" }
 						},
 						"coverhead-*::decorationhead-bear": {
 							"seraph": { "base": "game:block/transparent" },
-							"basehead": { "base": "fagreenwich:armor/entity/greenwich/cover/meteoriciron/plate/{coverhead}" },
+							"basehead": { "base": "fagreenwich:armor/entity/greenwich/cover/meteoriciron/plate/noble/{coverhead}" },
 							"striphead": { "base": "facore:armor/entity/trim/{striphead}" },
 							"colorhead": { "base": "facore:armor/entity/bear/{colorhead}" }
 						},
 						"coverhead-none": {
 							"seraph": { "base": "game:block/transparent" },
-							"basehead": { "base": "fagreenwich:armor/entity/greenwich/base/plate/meteoriciron" },
+							"basehead": { "base": "fagreenwich:armor/entity/greenwich/base/plate/noble/meteoriciron" },
 							"striphead": { "base": "facore:armor/entity/trim/{striphead}" },
 							"colorhead": { "base": "facore:block/decorations/head/{colorhead}" }
 						},
 						"coverhead-*": {
 							"seraph": { "base": "game:block/transparent" },
-							"basehead": { "base": "fagreenwich:armor/entity/greenwich/cover/meteoriciron/plate/{coverhead}" },
+							"basehead": { "base": "fagreenwich:armor/entity/greenwich/cover/meteoriciron/plate/noble/{coverhead}" },
 							"striphead": { "base": "facore:armor/entity/trim/{striphead}" },
 							"colorhead": { "base": "facore:block/decorations/head/{colorhead}" }
 						}
 					},
 					"shape": {
-						"*": { "base": "fagreenwich:entity/armor/greenwich/armet/{decorationhead}head" }
+						"*": { "base": "fagreenwich:entity/armor/greenwich/platehead/armet/{decorationhead}head" }
 					},
 					"shapeIgnoreElements": {
 						"*": ["hidehat", "Hood", "hoodupperover", "Hair tile upper part", "ponytailhigh", "ponytaillow", "Hair", "hair-uncovered", "hidefacialhair", "sidehigh", "sidelow", "bangs"]
@@ -345,7 +345,7 @@
 						{ "code": "colorhead", "states": ["none", "red", "rose", "green", "pine", "black", "blue", "navy", "brown", "white", "purple", "pink", "burgundy", "orange", "yellow", "gray", "plain"] }
 					],
 					"creativeinventory": {
-						"forgottenarmoryheads": ["*"],
+						"greenwichfaheads": ["*"],
 						"forgottenarmory": ["coverhead-none::striphead-none::decorationhead-none::colorhead-none"]
 					},
 					"skipvariants": [
@@ -393,31 +393,31 @@
 					"textures": {
 						"coverhead-none::decorationhead-bear": {
 							"seraph": { "base": "game:block/transparent" },
-							"basehead": { "base": "fagreenwich:armor/entity/greenwich/base/plate/steel" },
+							"basehead": { "base": "fagreenwich:armor/entity/greenwich/base/plate/noble/steel" },
 							"striphead": { "base": "facore:armor/entity/trim/{striphead}" },
 							"colorhead": { "base": "facore:armor/entity/bear/{colorhead}" }
 						},
 						"coverhead-*::decorationhead-bear": {
 							"seraph": { "base": "game:block/transparent" },
-							"basehead": { "base": "fagreenwich:armor/entity/greenwich/cover/steel/plate/{coverhead}" },
+							"basehead": { "base": "fagreenwich:armor/entity/greenwich/cover/steel/plate/noble/{coverhead}" },
 							"striphead": { "base": "facore:armor/entity/trim/{striphead}" },
 							"colorhead": { "base": "facore:armor/entity/bear/{colorhead}" }
 						},
 						"coverhead-none": {
 							"seraph": { "base": "game:block/transparent" },
-							"basehead": { "base": "fagreenwich:armor/entity/greenwich/base/plate/steel" },
+							"basehead": { "base": "fagreenwich:armor/entity/greenwich/base/plate/noble/steel" },
 							"striphead": { "base": "facore:armor/entity/trim/{striphead}" },
 							"colorhead": { "base": "facore:block/decorations/head/{colorhead}" }
 						},
 						"coverhead-*": {
 							"seraph": { "base": "game:block/transparent" },
-							"basehead": { "base": "fagreenwich:armor/entity/greenwich/cover/steel/plate/{coverhead}" },
+							"basehead": { "base": "fagreenwich:armor/entity/greenwich/cover/steel/plate/noble/{coverhead}" },
 							"striphead": { "base": "facore:armor/entity/trim/{striphead}" },
 							"colorhead": { "base": "facore:block/decorations/head/{colorhead}" }
 						}
 					},
 					"shape": {
-						"*": { "base": "fagreenwich:entity/armor/greenwich/armet/{decorationhead}head" }
+						"*": { "base": "fagreenwich:entity/armor/greenwich/platehead/armet/{decorationhead}head" }
 					},
 					"shapeIgnoreElements": {
 						"*": ["hidehat", "Hood", "hoodupperover", "Hair tile upper part", "ponytailhigh", "ponytaillow", "Hair", "hair-uncovered", "hidefacialhair", "sidehigh", "sidelow", "bangs"]

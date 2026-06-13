@@ -4,5 +4,9 @@
   "name": "Forgotten Armory Greenwich",
   "authors": ["AladarCZ"],
   "description": "Mod adding multiple iron and beyond plate armor variations inspired by Greenwich style",
-  "version": "2.0.0"
+  "version": "2.0.0",
+  "dependencies": {
+    "facore": "1.0.0",
+    "attributerenderinglibrary": "3.2.0"
+  }
 }
