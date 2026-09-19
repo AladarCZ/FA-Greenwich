@@ -1,0 +1,22 @@
+{
+	"fagreenwich:chronicles-greenwich-title": "格林威治志",
+	"fagreenwich:chronicles-greenwich-text": "<strong>盔甲部件</strong><br>• 闭面盔<br>• 贵族胸甲<br>• 贵族板甲护腿<br><br><strong>镀层与镶边——铁制及陨铁盔甲</strong><br>• <a href=\"handbook://item-ingot-bismuth\">铋</a><br>• <a href=\"handbook://item-ingot-brass\">黄铜</a><br>• <a href=\"handbook://item-ingot-copper\">铜</a><br>• <a href=\"handbook://item-ingot-gold\">金</a><br>• <a href=\"handbook://item-ingot-lead\">铅</a><br>• <a href=\"handbook://item-ingot-silver\">银</a><br><br><strong>镀层与镶边——钢制盔甲</strong><br>• <a href=\"handbook://item-ingot-bismuth\">铋</a><br>• <a href=\"handbook://item-ingot-bismuthbronze\">铋青铜</a><br>• <a href=\"handbook://item-ingot-blackbronze\">黑青铜</a><br>• <a href=\"handbook://item-ingot-brass\">黄铜</a><br>• <a href=\"handbook://item-ingot-copper\">铜</a><br>• <a href=\"handbook://item-ingot-cupronickel\">白铜</a><br>• <a href=\"handbook://item-ingot-electrum\">琥珀金</a><br>• <a href=\"handbook://item-ingot-gold\">金</a><br>• <a href=\"handbook://item-ingot-lead\">铅</a><br>• <a href=\"handbook://item-ingot-meteoriciron\">陨铁</a><br>• <a href=\"handbook://item-ingot-silver\">银</a><br>• <a href=\"handbook://item-ingot-tinbronze\">锡青铜</a><br>• <a href=\"handbook://item-ingot-uranium\">铀</a><br>• <a href=\"handbook://item-ingot-zinc\">锌</a><br><br>整体镀层与镶边、铆钉使用相同的可用金属列表。<br><br><strong>各部位饰件</strong><br><strong>闭面盔</strong><br>• <a href=\"handbook://item-facore:ornaments-communis-pennae\">普通翼饰（Communis Pennae）</a><br>• <a href=\"handbook://item-facore:ornaments-communis-pluma\">普通羽饰（Communis Pluma）</a><br>• <a href=\"handbook://item-facore:ornaments-communis-crista\">普通冠饰（Communis Crista）</a><br>• <a href=\"handbook://item-facore:ornaments-communis-cauda\">普通翎饰（Communis Cauda）</a><br>• <a href=\"handbook://item-facore:ornaments-communis-pinna\">普通羽簇饰（Communis Pinna）</a><br>• <a href=\"handbook://item-facore:ornaments-communis-transversa\">普通横冠饰（Communis Transversa）</a><br>• <a href=\"handbook://item-facore:ornaments-regalis-crista\">皇家冠饰（Regalis Crista）</a><br>• <a href=\"handbook://item-facore:ornaments-metallicus-laurea\">金属月桂冠（Metallicus Laurea） (仅限原色)</a><br>• 熊皮<br>• 狼皮<br><br><strong>贵族胸甲</strong><br>• <a href=\"handbook://item-facore:brackets-insignia\">徽饰（Insignia）</a><br>• <a href=\"handbook://item-facore:brackets-mantellum\">披肩（Mantellum）</a><br>• 熊皮<br>• 狼皮<br><br><strong>贵族板甲护腿</strong><br>• <a href=\"handbook://item-facore:fasteners-lacinia\">垂布（Lacinia）</a><br>• 熊皮<br>• 狼皮<br><br><strong>羽饰、徽饰、披肩与垂布的颜色</strong><br>• 原色<br>• 红色、玫瑰色、粉色或酒红色<br>• 绿色或松绿色<br>• 蓝色或藏青色<br>• 黑色、灰色、白色或棕色<br>• 紫色、橙色或黄色<br><br><strong>熊皮与狼皮颜色</strong><br>• 黑色<br>• 棕色<br>• 白色<br><br><strong>通过指令获取盔甲</strong><br>此指令仅限创造模式使用：<br><strong>/fac greenwich_plate &lt;style&gt; &lt;piece&gt; &lt;metal&gt; [cover] [trim] [decoration] [color]</strong><br><br>将参数<strong>&lt;style&gt;</strong>设为<strong>armet</strong>（头盔），或<strong>noble</strong>（胸甲和护腿）。将参数<strong>&lt;piece&gt;</strong>设为<strong>head</strong>、<strong>body</strong>、<strong>legs</strong>或<strong>all</strong>；“all”会给予所选款式的全部部件。将参数<strong>&lt;metal&gt;</strong>设为<strong>iron</strong>、<strong>meteoriciron</strong>或<strong>steel</strong>。<br><br>其余参数可选，但必须按此顺序填写。将<strong>[cover]</strong>设为基础金属允许使用的镀层金属，将<strong>[trim]</strong>设为可用镶边金属，将<strong>[decoration]</strong>设为上述对应部位的饰件，将<strong>[color]</strong>设为列出的饰件颜色。若需填写后面的参数，可用<strong>none</strong>跳过镀层、镶边、饰件或颜色。",
+	"game:tabname-greenwichfaheads": "格林威治头盔",
+	"game:tabname-greenwichfabody": "格林威治胸甲",
+	"game:tabname-greenwichfalegs": "格林威治护腿",
+
+	"fagreenwich:item-fa-greenwich-schematic": "格林威治盔甲图纸",
+	"fagreenwich:item-fa-greenwich-rolled-schematic": "卷起的格林威治盔甲图纸",
+
+	"fagreenwich:item-platehead-armet-iron": "格林威治铁制闭面盔",
+	"fagreenwich:item-platehead-armet-meteoriciron": "格林威治陨铁闭面盔",
+	"fagreenwich:item-platehead-armet-steel": "格林威治钢制闭面盔",
+
+	"fagreenwich:item-platebody-noble-iron": "格林威治铁制贵族板甲",
+	"fagreenwich:item-platebody-noble-meteoriciron": "格林威治陨铁贵族板甲",
+	"fagreenwich:item-platebody-noble-steel": "格林威治钢制贵族板甲",
+
+	"fagreenwich:item-platelegs-noble-iron": "格林威治铁制贵族板甲护腿",
+	"fagreenwich:item-platelegs-noble-meteoriciron": "格林威治陨铁贵族板甲护腿",
+	"fagreenwich:item-platelegs-noble-steel": "格林威治钢制贵族板甲护腿"
+}
